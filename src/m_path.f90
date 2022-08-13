@@ -9,20 +9,20 @@ module m_path
 !             The extension from string holds the path of the file or directory
 !             Both forward and backward separator slashes are managed seamlessly
 !
-! License   : This file is part of XFunit.
+! License   : This file is part of Fommons.
 !
-!             XFunit is free software: you can redistribute it and/or modify
+!             Fommons is free software: you can redistribute it and/or modify
 !             it under the terms of the GNU Lesser General Public License as
 !             published by the Free Software Foundation, either version 3 of
 !             the License, or (at your option) any later version.
 !
-!             XFunit is distributed in the hope that it will be useful,
+!             Fommons is distributed in the hope that it will be useful,
 !             but WITHOUT ANY WARRANTY; without even the implied warranty of
 !             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 !             See the GNU Lesser General Public License for more details.
 !
 !             You should have received a copy of the GNU Lesser General Public
-!             License along with XFunit.  
+!             License along with Fommons.  
 !             If not, see <http://www.gnu.org/licenses/>.
 !------------------------------------------------------------------------------
 
@@ -848,8 +848,8 @@ elemental function path_normalise_character_static( path ) result(res)
 ! Reconstruct the path from the tokens (protect from no tokens)
   ntoken = count(tokenlist /= '')
   if( ntoken > 0 ) then
-!    allocate( packed_tokenlist, source=pack( tokenlist, tokenlist /= '' ) )
-    call local%join( tokenlist, path_unix_slash )
+    allocate( packed_tokenlist, source=pack( tokenlist, tokenlist /= '' ) )
+    call local%join( packed_tokenlist, path_unix_slash )
   else
     local = ''
   end if

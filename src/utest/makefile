@@ -28,10 +28,10 @@ OBJDIR := Debug
 MODDIR := Debug
 LIBDIR := Debug
 BINDIR := Debug
-IMODDIR := ../../xfunit/$(MODDIR) ../../utilities/$(MODDIR)
+IMODDIR := ../$(MODDIR) ../../../xfunit/src/$(MODDIR)
 
 # Libraries
-LIBS = ../../xfunit/$(MODDIR)/libxfunit.a ../../utilities/$(MODDIR)/libxfunit_utilities.a
+LIBS = ../../../xfunit/src/$(MODDIR)/libxfunit.a ../$(MODDIR)/libfommons.a
 
 # Option selection for Intel Fortran (ifort)
 ifeq ($(findstring ifort, $(F90COMP)), ifort)
@@ -87,4 +87,4 @@ clean:
 
 # Test target
 test:
-	echo $(SRCS_MAIN_F90)
+	echo $(IMODDIR)

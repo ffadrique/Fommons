@@ -43,10 +43,10 @@
 	<Files>
 		<Filter Name="Header Files" Filter="fi;fd"/>
 		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
-		<File RelativePath="..\..\LICENSE.md"/>
+		<File RelativePath="..\LICENSE"/>
 		<File RelativePath="makefile"/>
 		<File RelativePath="makefile.deps"/>
-		<File RelativePath="..\..\README.md"/></Filter>
+		<File RelativePath="..\README.md"/></Filter>
 		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
 		<File RelativePath="m_file_handler.f90"/>
 		<File RelativePath="m_iso8601_date.f90"/>

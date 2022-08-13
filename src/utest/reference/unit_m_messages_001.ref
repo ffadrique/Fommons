@@ -1,0 +1,6 @@
+*** ERROR unit_m_messages::unit_m_messages_test_001 (000300) : Message error 300
+*** ERROR unit_m_messages::unit_m_messages_test_001 (000200) : error 200
+*** ERROR unit_m_messages::unit_m_messages_test_001 (000100) : Message 100
+*** WARNING unit_m_messages::unit_m_messages_test_001 (000300) : Message Warning 300
+*** WARNING unit_m_messages::unit_m_messages_test_001 (000200) : Message Warning 200
+*** WARNING unit_m_messages::unit_m_messages_test_001 (000100) : Message Warning 100

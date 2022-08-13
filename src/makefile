@@ -2,22 +2,22 @@
 # Project   : Atlantis
 # Author    : Fran Martinez Fadrique
 # Language  : make
-# Synopsis  : Makefile for XFunit library build
+# Synopsis  : Makefile for Fommons library build
 
-# License   : This file is part of XFunit.
+# License   : This file is part of Fommons.
 #
-#             XFunit is free software: you can redistribute it and/or modify
+#             Fommons is free software: you can redistribute it and/or modify
 #             it under the terms of the GNU Lesser General Public License as
 #             published by the Free Software Foundation, either version 3 of
 #             the License, or (at your option) any later version.
 #
-#             XFunit is distributed in the hope that it will be useful,
+#             Fommons is distributed in the hope that it will be useful,
 #             but WITHOUT ANY WARRANTY; without even the implied warranty of
 #             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 #             See the GNU Lesser General Public License for more details.
 #
 #             You should have received a copy of the GNU Lesser General Public
-#             License along with XFunit.  
+#             License along with Fommons.  
 #             If not, see <http://www.gnu.org/licenses/>.
 
 # Master configuration key through the compiler command
@@ -29,8 +29,8 @@ OBJDIR := Debug
 MODDIR := Debug
 LIBDIR := Debug
 
-# XFunit library
-LIBS = $(LIBDIR)/libxfunit_utilities.a
+# Fommons library
+LIBS = $(LIBDIR)/libfommons.a
 
 # Option selection for Intel Fortran (ifort)
 ifeq ($(findstring ifort, $(F90COMP)), ifort)

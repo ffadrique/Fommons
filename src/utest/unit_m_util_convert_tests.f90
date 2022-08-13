@@ -6,6 +6,22 @@ module unit_m_util_convert_tests
 ! Author    : Fran Martinez Fadrique
 ! Language  : Object Oriented Fortran 2018
 ! Synopsis  : Unit tests for m_util_convert
+!
+! License   : This file is part of Fommons.
+!
+!             Fommons is free software: you can redistribute it and/or modify
+!             it under the terms of the GNU Lesser General Public License as
+!             published by the Free Software Foundation, either version 3 of
+!             the License, or (at your option) any later version.
+!
+!             Fommons is distributed in the hope that it will be useful,
+!             but WITHOUT ANY WARRANTY; without even the implied warranty of
+!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+!             See the GNU Lesser General Public License for more details.
+!
+!             You should have received a copy of the GNU Lesser General Public
+!             License along with Fommons.  
+!             If not, see <http://www.gnu.org/licenses/>.
 !-------------------------------------------------------------------------------
 
 !---USE statements--------------------------------------------------------------
@@ -80,8 +96,8 @@ subroutine unit_m_util_convert_test_001( ut )
   integer :: i
 
 ! Generate inputs
-  dbl = (/ 1.000000_8, 0.025480_8, 0.352516_8, 0.666914_8, 0.963056_8 /)
-  real = (/ 1.000000_4, 0.025480_4, 0.352516_4, 0.666914_4, 0.963056_4 /)
+  dbl = [ 1.000000_8, 0.025480_8, 0.352516_8, 0.666914_8, 0.963056_8 ]
+  real = [ 1.000000_4, 0.025480_4, 0.352516_4, 0.666914_4, 0.963056_4 ]
   dcmp = cmplx( dbl, -dbl, kind=8 )
   dcmp(2) = conjg(dcmp(2))
   dcmp(4) = conjg(dcmp(4))
@@ -100,130 +116,130 @@ subroutine unit_m_util_convert_test_001( ut )
 
 ! Convert logical to character string
   chr = character( bool )
-  call ut%assert_equal( 'Logical(kind=4)', chr, (/ 'T', 'T', 'T', 'F', 'T' /) )
+  call ut%assert_equal( 'Logical(kind=4)', chr, [ 'T', 'T', 'T', 'F', 'T' ] )
   chr = character( bool2 )
-  call ut%assert_equal( 'Logical(kind=2)', chr, (/ 'T', 'F', 'T', 'T', 'T' /) )
+  call ut%assert_equal( 'Logical(kind=2)', chr, [ 'T', 'F', 'T', 'T', 'T' ] )
   chr = character( bool1 )
-  call ut%assert_equal( 'Logical(kind=1)', chr, (/ 'T', 'T', 'F', 'T', 'T' /) )
+  call ut%assert_equal( 'Logical(kind=1)', chr, [ 'T', 'T', 'F', 'T', 'T' ] )
   chr = character( bool, fmt='yesno' )
-  call ut%assert_equal( 'Logical yesno', chr, (/ 'yes', 'yes', 'yes', 'no ', 'yes' /) )
+  call ut%assert_equal( 'Logical yesno', chr, [ 'yes', 'yes', 'yes', 'no ', 'yes' ] )
   chr = character( bool, fmt='YESNO' )
-  call ut%assert_equal( 'Logical YESNO', chr, (/ 'YES', 'YES', 'YES', 'NO ', 'YES' /)  )
+  call ut%assert_equal( 'Logical YESNO', chr, [ 'YES', 'YES', 'YES', 'NO ', 'YES' ]  )
   chr = character( bool, fmt='yn' )
-  call ut%assert_equal( 'Logical yn', chr, (/ 'y', 'y', 'y', 'n', 'y' /) )
+  call ut%assert_equal( 'Logical yn', chr, [ 'y', 'y', 'y', 'n', 'y' ] )
   chr = character( bool, fmt='YN' )
-  call ut%assert_equal( 'Logical YN', chr, (/ 'Y', 'Y', 'Y', 'N', 'Y' /) )
+  call ut%assert_equal( 'Logical YN', chr, [ 'Y', 'Y', 'Y', 'N', 'Y' ] )
   chr = character( bool, fmt='truefalse' )
-  call ut%assert_equal( 'Logical truefalse', chr, (/ 'true ', 'true ', 'true ', 'false', 'true ' /) )
+  call ut%assert_equal( 'Logical truefalse', chr, [ 'true ', 'true ', 'true ', 'false', 'true ' ] )
   chr = character( bool, fmt='TRUEFALSE' )
-  call ut%assert_equal( 'Logical TRUEFALSE', chr, (/ 'TRUE ', 'TRUE ', 'TRUE ', 'FALSE', 'TRUE ' /) )
+  call ut%assert_equal( 'Logical TRUEFALSE', chr, [ 'TRUE ', 'TRUE ', 'TRUE ', 'FALSE', 'TRUE ' ] )
   chr = character( bool, fmt='tf' )
-  call ut%assert_equal( 'Logical tf', chr, (/ 't', 't', 't', 'f', 't' /) )
+  call ut%assert_equal( 'Logical tf', chr, [ 't', 't', 't', 'f', 't' ] )
   chr = character( bool, fmt='TF' )
-  call ut%assert_equal( 'Logical TF', chr, (/ 'T', 'T', 'T', 'F', 'T' /) )
+  call ut%assert_equal( 'Logical TF', chr, [ 'T', 'T', 'T', 'F', 'T' ] )
   chr = character( bool, fmt='01' )
-  call ut%assert_equal( 'Logical 01', chr, (/ '1', '1', '1', '0', '1' /) )
+  call ut%assert_equal( 'Logical 01', chr, [ '1', '1', '1', '0', '1' ] )
   chr = character( bool, fmt='any' )
-  call ut%assert_equal( 'Logical invalid format', chr, (/ 'T', 'T', 'T', 'F', 'T' /) )
+  call ut%assert_equal( 'Logical invalid format', chr, [ 'T', 'T', 'T', 'F', 'T' ] )
 
 ! Convert integer to character string
   chr = character( integ )
-  call ut%assert_equal( 'Integer(kind=4)', chr, (/ '1000', '25  ', '352 ', '666 ', '963 ' /) )
+  call ut%assert_equal( 'Integer(kind=4)', chr, [ '1000', '25  ', '352 ', '666 ', '963 ' ] )
   chr = character( integ2 )
-  call ut%assert_equal( 'Integer(kind=2)', chr, (/ '100', '2  ', '35 ', '66 ', '96 ' /) )
+  call ut%assert_equal( 'Integer(kind=2)', chr, [ '100', '2  ', '35 ', '66 ', '96 ' ] )
   chr = character( integ1 )
-  call ut%assert_equal( 'Integer(kind=1)', chr, (/ '10', '0 ', '3 ', '6 ', '9 ' /) )
+  call ut%assert_equal( 'Integer(kind=1)', chr, [ '10', '0 ', '3 ', '6 ', '9 ' ] )
 
 ! Convert integer to character string forcing '+' sign
   chr = character( integ, sp=.true. )
-  call ut%assert_equal( 'Integer(kind=4)', chr, (/ '+1000', '+25  ', '+352 ', '+666 ', '+963 ' /) )
+  call ut%assert_equal( 'Integer(kind=4)', chr, [ '+1000', '+25  ', '+352 ', '+666 ', '+963 ' ] )
   chr = character( integ2, sp=.true. )
-  call ut%assert_equal( 'Integer(kind=2)', chr, (/ '+100', '+2  ', '+35 ', '+66 ', '+96 ' /) )
+  call ut%assert_equal( 'Integer(kind=2)', chr, [ '+100', '+2  ', '+35 ', '+66 ', '+96 ' ] )
   chr = character( integ1, sp=.true. )
-  call ut%assert_equal( 'Integer(kind=1)', chr, (/ '+10', '+0 ', '+3 ', '+6 ', '+9 ' /) )
+  call ut%assert_equal( 'Integer(kind=1)', chr, [ '+10', '+0 ', '+3 ', '+6 ', '+9 ' ] )
 
 ! Convert integer to character string with format given
   chr = character( integ, fmt='(i7.7)' )
-  call ut%assert_equal( 'Integer(kind=4)', chr, (/ '0001000', '0000025', '0000352', '0000666', '0000963' /) )
+  call ut%assert_equal( 'Integer(kind=4)', chr, [ '0001000', '0000025', '0000352', '0000666', '0000963' ] )
   chr = character( integ2, fmt='(i7.7)' )
-  call ut%assert_equal( 'Integer(kind=2)', chr, (/ '0000100', '0000002', '0000035', '0000066', '0000096' /) )
+  call ut%assert_equal( 'Integer(kind=2)', chr, [ '0000100', '0000002', '0000035', '0000066', '0000096' ] )
   chr = character( integ1, fmt='(spi7.6)' )
-  call ut%assert_equal( 'Integer(kind=1)', chr, (/ '+000010', '+000000', '+000003', '+000006', '+000009' /) )
+  call ut%assert_equal( 'Integer(kind=1)', chr, [ '+000010', '+000000', '+000003', '+000006', '+000009' ] )
 
 ! Convert floating point numbers to character string
   chr = character( real )
-  call ut%assert_equal( 'Real(kind=4)', chr, (/ '1.000000      ', &
+  call ut%assert_equal( 'Real(kind=4)', chr, [ '1.000000      ', &
                                                 '0.2548000e-001', &
                                                 '0.3525160     ', &
                                                 '0.6669140     ', &
-                                                '0.9630560     ' /), ignorecase=.true. )
+                                                '0.9630560     ' ], ignorecase=.true. )
   chr = character( dbl )
-  call ut%assert_equal( 'Real(kind=8)', chr, (/ '1.00000000000000      ', &
+  call ut%assert_equal( 'Real(kind=8)', chr, [ '1.00000000000000      ', &
                                                 '0.254800000000000E-001', &
                                                 '0.352516000000000     ', &
                                                 '0.666914000000000     ', &
-                                                '0.963056000000000     ' /), ignorecase=.true. )
+                                                '0.963056000000000     ' ], ignorecase=.true. )
 
 ! Convert double to character string forcing + sign
   chr = character( real, sp=.true. )
-  call ut%assert_equal( 'Real(kind=4)', chr, (/ '+1.000000      ', &
+  call ut%assert_equal( 'Real(kind=4)', chr, [ '+1.000000      ', &
                                                 '+0.2548000e-001', &
                                                 '+0.3525160     ', &
                                                 '+0.6669140     ', &
-                                                '+0.9630560     ' /), ignorecase=.true. )
+                                                '+0.9630560     ' ], ignorecase=.true. )
   chr = character( dbl, sp=.true. )
-  call ut%assert_equal( 'Real(kind=8)', chr, (/ '+1.00000000000000      ', &
+  call ut%assert_equal( 'Real(kind=8)', chr, [ '+1.00000000000000      ', &
                                                 '+0.254800000000000E-001', &
                                                 '+0.352516000000000     ', &
                                                 '+0.666914000000000     ', &
-                                                '+0.963056000000000     ' /), ignorecase=.true. )
+                                                '+0.963056000000000     ' ], ignorecase=.true. )
 
 ! Convert double to character string with format given
   chr = character( real, fmt='(f20.3)' )
-  call ut%assert_equal( 'Real(kind=4)', chr, (/ '               1.000', &
+  call ut%assert_equal( 'Real(kind=4)', chr, [ '               1.000', &
                                                 '               0.025', &
                                                 '               0.353', &
                                                 '               0.667', &
-                                                '               0.963' /) )
+                                                '               0.963' ] )
   chr = character( dbl, fmt='(f20.3)' )
-  call ut%assert_equal( 'Real(kind=8)', chr, (/ '               1.000', &
+  call ut%assert_equal( 'Real(kind=8)', chr, [ '               1.000', &
                                                 '               0.025', &
                                                 '               0.353', &
                                                 '               0.667', &
-                                                '               0.963' /) )
+                                                '               0.963' ] )
 
 ! Convert complex to character string
   chr = character( cmp )
   call ut%assert_equal( 'Complex(kind=4)', chr, &
-                        (/ '1.000000-i1.000000            ', &
+                        [ '1.000000-i1.000000            ', &
                            '0.2548000E-001+i0.2548000E-001', &
                            '0.3525160-i0.3525160          ', &
                            '0.6669140+i0.6669140          ', &
-                           '0.9630560-i0.9630560          ' /), &
+                           '0.9630560-i0.9630560          ' ], &
                         ignorecase=.true. )
   chr = character( dcmp )
   call ut%assert_equal( 'Complex(kind=8)', chr, &
-                        (/ '1.00000000000000-i1.00000000000000            ', &
+                        [ '1.00000000000000-i1.00000000000000            ', &
                            '0.254800000000000E-001+i0.254800000000000E-001', &
                            '0.352516000000000-i0.352516000000000          ', &
                            '0.666914000000000+i0.666914000000000          ', &
-                           '0.963056000000000-i0.963056000000000          ' /), &
+                           '0.963056000000000-i0.963056000000000          ' ], &
                         ignorecase=.true. )
   chr = character( cmp, 'j' )
   call ut%assert_equal( 'Complex (kind=4,j symbol)', chr, &
-                        (/ '1.000000-j1.000000            ', &
+                        [ '1.000000-j1.000000            ', &
                            '0.2548000E-001+j0.2548000E-001', &
                            '0.3525160-j0.3525160          ', &
                            '0.6669140+j0.6669140          ', &
-                           '0.9630560-j0.9630560          ' /), &
+                           '0.9630560-j0.9630560          ' ], &
                         ignorecase=.true. )
   chr = character( dcmp, 'j' )
   call ut%assert_equal( 'Complex (kind=8,j symbol)', chr, &
-                        (/ '1.00000000000000-j1.00000000000000            ', &
+                        [ '1.00000000000000-j1.00000000000000            ', &
                            '0.254800000000000E-001+j0.254800000000000E-001', &
                            '0.352516000000000-j0.352516000000000          ', &
                            '0.666914000000000+j0.666914000000000          ', &
-                           '0.963056000000000-j0.963056000000000          ' /), &
+                           '0.963056000000000-j0.963056000000000          ' ], &
                         ignorecase=.true. )
 
 end subroutine unit_m_util_convert_test_001
@@ -374,7 +390,7 @@ subroutine unit_m_util_convert_test_003( ut )
   call ut%assert_equal( 'Char to buffer (trimmed)', ibuffer(:len_trim(cbuffer)), check(:len_trim(cbuffer)) )
 
 ! Convert buffer to characters
-  ibuffer = (/ int(z'61'), int(z'62'), int(z'63'), int(z'64'), int(z'65'), int(z'20'), int(z'20') /)
+  ibuffer = [ int(z'61'), int(z'62'), int(z'63'), int(z'64'), int(z'65'), int(z'20'), int(z'20') ]
   cbuffer2 = bytes_to_character( ibuffer )
   call ut%assert_equal( 'Buffer to char', cbuffer2, cbuffer )
 
@@ -405,12 +421,12 @@ subroutine unit_m_util_convert_test_004( ut )
   call ut%assert_equal( 'Hex to buffer', buffer, check )
 
 ! Convert buffer to hexadecimal
-  buffer = (/ int(z'6A'), int(z'6B'), int(z'6F'), int(z'64'), int(z'65'), int(z'20'), int(z'20') /)
+  buffer = [ int(z'6A'), int(z'6B'), int(z'6F'), int(z'64'), int(z'65'), int(z'20'), int(z'20') ]
   hbuffer2 = bytes_to_hex( buffer )
   call ut%assert_equal( 'Buffer to hex', hbuffer2, hbuffer )
 
 ! Convert buffer to hexadecimal (lowercase)
-  buffer = (/ int(z'6A'), int(z'6B'), int(z'6F'), int(z'64'), int(z'65'), int(z'20'), int(z'20') /)
+  buffer = [ int(z'6A'), int(z'6B'), int(z'6F'), int(z'64'), int(z'65'), int(z'20'), int(z'20') ]
   hbuffer2 = bytes_to_hex( buffer, .true. )
   call ut%assert_equal( 'Buffer to hex (lowercase)', hbuffer2, lowercase(hbuffer) )
 
@@ -438,7 +454,7 @@ subroutine unit_m_util_convert_test_005( ut )
   integer(kind=1), dimension(32) :: blist
 
 ! Convert byte buffer to list of bits
-  buffer0 = (/ int(z'a4'), int(z'86'), int(z'0F'), int(z'01') /)
+  buffer0 = [ int(z'a4',1), int(z'86',1), int(z'0F',1), int(z'01',1) ]
   blist = bytes_to_bits_list(buffer0)
   call ut%assert_equal( 'Buffer to bits list', &
                         blist, &
@@ -517,20 +533,20 @@ subroutine unit_m_util_convert_test_008( ut )
   character(len=:), allocatable, dimension(:) :: tokens0, tokens1, tokens2, tokens
 
 ! Initialise
-  allocate( tokens0(4), source=(/ 'ccsds', 'mois ', 'navwg', 'opm  ' /) )
-  allocate( tokens1(10), source=(/ '                  ', 'home              ', &
+  allocate( tokens0(4), source=[ 'ccsds', 'mois ', 'navwg', 'opm  ' ] )
+  allocate( tokens1(10), source=[ '                  ', 'home              ', &
                                    'user              ', 'documents         ', &
                                    'atlantis          ', 'src               ', &
                                    'ccsds             ', 'utest             ', &
-                                   'data              ', 'test_mandatory.dat' /) )
-  allocate( tokens2(16), source=(/ '                  ', 'home              ', &
+                                   'data              ', 'test_mandatory.dat' ] )
+  allocate( tokens2(16), source=[ '                  ', 'home              ', &
                                    '                  ', '                  ', &
                                    '                  ', 'user              ', &
                                    'documents         ', 'atlantis          ', &
                                    '                  ', 'src               ', &
                                    'ccsds             ', '                  ', &
                                    '                  ', 'utest             ', &
-                                   'data              ', 'test_mandatory.dat' /) )
+                                   'data              ', 'test_mandatory.dat' ] )
 
 ! Split
   s = char0
@@ -544,11 +560,11 @@ subroutine unit_m_util_convert_test_008( ut )
 ! Split
   s = char1
   call split( s, '/', tokens )
-  call ut%assert_equal( 'Split (/)', tokens, tokens1 )
+  call ut%assert_equal( 'Split [)', tokens, tokens1 )
   
 ! Join
   t = join( tokens, '/' )
-  call ut%assert_equal( 'Join (/)', t, s )
+  call ut%assert_equal( 'Join [)', t, s )
 
 ! Simple split with multiple separators flag
   s = char0
@@ -558,17 +574,17 @@ subroutine unit_m_util_convert_test_008( ut )
 ! Simple split with multiple separators flag
   s = char1
   call split( s, '/', tokens, .true. )
-  call ut%assert_equal( 'Split (/, mutliple flag)', tokens, tokens1 )
+  call ut%assert_equal( 'Split [, mutliple flag)', tokens, tokens1 )
   
 ! Simple split with actual mutltiple separators
   s = char2
   call split( s, '/', tokens )
-  call ut%assert_equal( 'Split (///)', tokens, tokens2 )
+  call ut%assert_equal( 'Split [/]', tokens, tokens2 )
   
 ! Simple split with actual mutltiple separators
   s = char2
   call split( s, '/', tokens, .true. )
-  call ut%assert_equal( 'Split (///, multiple flag)', tokens, tokens1 )
+  call ut%assert_equal( 'Split [//, multiple flag)', tokens, tokens1 )
 
 end subroutine unit_m_util_convert_test_008
 
