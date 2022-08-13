@@ -4,12 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utest", "utest", "{89DDDCE0-F344-4B26-8A1C-97899AEFBE95}"
+	ProjectSection(SolutionItems) = preProject
+		utest\makefile = utest\makefile
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unit_test_driver", "..\unit_test_driver\unit_test_driver.csproj", "{587E0562-72B0-4944-A09E-AA91378A6EFA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{1C455CFF-A48B-435B-93E4-1F6118F3376C}"
 	ProjectSection(SolutionItems) = preProject
-		xfunit\utest\makefile = xfunit\utest\makefile
+		utest\makefile = utest\makefile
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "library", "library", "{5E2D3E0F-3BAB-463F-A9F1-745A90617C24}"
@@ -245,7 +248,7 @@ Global
 		{CB98DE4E-28F8-4983-91B9-D5C179E97364} = {11DF3D31-753D-403A-AB77-E1808D168FDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EC77C033-016B-4290-AD3B-D4D2CD892790}
 		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {EC77C033-016B-4290-AD3B-D4D2CD892790}
 	EndGlobalSection
 EndGlobal
