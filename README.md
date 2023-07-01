@@ -10,7 +10,7 @@ Fommons encompasses the following Fortran modules:
 - `m_msg`, `m_messages`: error handling
 - `m_path`: Management of path (file and directory) strings.
 - `m_util_convert`: Basic conversion amond different intrinsic data types.
-- `m_xml`, `m_xml`,`m_xml_attribute`,`m_xml_encoder`,`m_xml_writer`, `m_xml_writer_settings`: support for the generation of XML documents
+- `m_xml`, `m_xml_attribute`,`m_xml_encoder`,`m_xml_writer`, `m_xml_writer_settings`: support for the generation of XML documents
 
 ## Dependencies with XFunit
 
