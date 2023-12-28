@@ -16,6 +16,19 @@ namespace UnitTestDriver
 		{
 
 				[TestMethod]
+				public void unit_m_c_string()
+				{
+					// Initialise the test run
+					Initialise("unit_m_c_string");
+
+					// Execute the fortran test if required
+					if(OutOfDate) RunFortranTest();
+
+					// Assert the test completion
+					Assert.AreEqual(ProcessJxmlFile("m_c_string"), 0);
+				}
+
+				[TestMethod]
 				public void unit_m_file_handler()
 				{
 					// Initialise the test run

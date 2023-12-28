@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VisualStudioUserFile ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{7C46893E-1B68-4F7D-B113-A639C1B9AC93}">
 	<Configurations>
-		<Configuration Name="Debug|Win32"/>
-		<Configuration Name="Release|Win32"/>
-		<Configuration Name="Debug|x64"/>
-		<Configuration Name="Release|x64"/></Configurations></VisualStudioUserFile>
+		<Configuration Name="Debug|Win32">
+		</Configuration>
+		<Configuration Name="Release|Win32">
+		</Configuration>
+		<Configuration Name="Debug|x64">
+		</Configuration>
+		<Configuration Name="Release|x64">
+		</Configuration>
+	</Configurations></VisualStudioUserFile>
