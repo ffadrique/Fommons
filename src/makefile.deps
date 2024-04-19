@@ -13,3 +13,4 @@ $(OBJDIR)/m_iso8601_date_time.o: $(OBJDIR)/m_object.o $(OBJDIR)/m_iso8601_date.o
 $(OBJDIR)/m_iso8601_date.o: $(OBJDIR)/m_object.o
 $(OBJDIR)/m_iso8601_time.o: $(OBJDIR)/m_object.o
 $(OBJDIR)/m_path.o: $(OBJDIR)/m_string.o
+$(OBJDIR)/m_c_string.o: $(OBJDIR)/m_string.o
