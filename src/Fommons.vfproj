@@ -15,7 +15,7 @@
 			<Tool Name="VFPreBuildEventTool"/>
 			<Tool Name="VFPostBuildEventTool"/>
 		</Configuration>
-		<Configuration Name="Debug|x64" UseCompiler="ifortCompiler" ConfigurationType="typeStaticLibrary">
+		<Configuration Name="Debug|x64" UseCompiler="ifxCompiler" ConfigurationType="typeStaticLibrary">
 			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" DisableSpecificDiagnostics="5462" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
 			<Tool Name="VFLibrarianTool"/>
 			<Tool Name="VFResourceCompilerTool"/>
@@ -49,27 +49,32 @@
 	<Files>
 		<Filter Name="Header Files" Filter="fi;fd"/>
 		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe">
-		<File RelativePath="..\LICENSE"/>
-		<File RelativePath="makefile"/>
-		<File RelativePath="makefile.deps"/>
-		<File RelativePath="..\README.md"/></Filter>
+			<File RelativePath="..\LICENSE"/>
+			<File RelativePath="makefile"/>
+			<File RelativePath="makefile.deps"/>
+			<File RelativePath="..\README.md"/>
+		</Filter>
 		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
-		<File RelativePath=".\m_c_string.f90"/>
-		<File RelativePath="m_file_handler.f90"/>
-		<File RelativePath="m_iso8601_date.f90"/>
-		<File RelativePath="m_iso8601_date_time.f90"/>
-		<File RelativePath="m_iso8601_time.f90"/>
-		<File RelativePath="m_messages.f90"/>
-		<File RelativePath="m_msg.f90"/>
-		<File RelativePath="m_object.f90"/>
-		<File RelativePath="m_path.f90"/>
-		<File RelativePath="m_string.f90"/>
-		<File RelativePath="m_util_convert.f90"/>
-		<File RelativePath="m_xml.f90"/>
-		<File RelativePath="m_xml_attribute.f90"/>
-		<File RelativePath="m_xml_encoder.f90"/>
-		<File RelativePath="m_xml_writer.f90"/>
-		<File RelativePath="m_xml_writer_settings.f90"/></Filter>
+			<File RelativePath=".\m_c_string.f90">
+			</File>
+			<File RelativePath="m_file_handler.f90">
+			</File>
+			<File RelativePath="m_iso8601_date.f90">
+			</File>
+			<File RelativePath="m_iso8601_date_time.f90"/>
+			<File RelativePath="m_iso8601_time.f90"/>
+			<File RelativePath="m_messages.f90"/>
+			<File RelativePath="m_msg.f90"/>
+			<File RelativePath="m_object.f90"/>
+			<File RelativePath="m_path.f90"/>
+			<File RelativePath="m_string.f90"/>
+			<File RelativePath="m_util_convert.f90"/>
+			<File RelativePath="m_xml.f90"/>
+			<File RelativePath="m_xml_attribute.f90"/>
+			<File RelativePath="m_xml_encoder.f90"/>
+			<File RelativePath="m_xml_writer.f90"/>
+			<File RelativePath="m_xml_writer_settings.f90"/>
+		</Filter>
 	</Files>
 	<Globals/>
 </VisualStudioProject>
