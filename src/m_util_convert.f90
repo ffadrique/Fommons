@@ -49,9 +49,6 @@ module m_util_convert
 
 !---End of public/private declarations------------------------------------------
 
-  character(len=130), parameter, private :: sccs_info = &
-    '$Id: $'
-
 !---Declaration of module variables---------------------------------------------
 
 ! Offset to convert from uppercase to lowercase

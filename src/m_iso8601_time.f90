@@ -56,9 +56,6 @@ module m_iso8601_time
 
 !- End of Public/Private declarations -----------------------------------------
 
-  character(len=130), parameter, private :: sccs_info = &
-     '$Id: $'
-
 !- Start of module variable declarations --------------------------------------
 
 ! ISO8601 time zone format designators

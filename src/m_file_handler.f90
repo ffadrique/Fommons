@@ -46,9 +46,6 @@ module m_file_handler
 
 !- End of Public/Private declarations -----------------------------------------
 
-  character(len=130), parameter, private :: sccs_info = &
-     '$Id: $'
-
 !- Start of module variable declarations --------------------------------------
 
 ! Carriage control (EOL) symbols

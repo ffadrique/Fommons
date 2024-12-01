@@ -48,9 +48,6 @@ module m_xml_encoder
 
 !- End of Public/Private declarations -----------------------------------------
 
-  character(len=130), parameter, private :: sccs_info = &
-     '$Id: $'
-
 !- Start of module variable declarations --------------------------------------
 
 ! Encoding type

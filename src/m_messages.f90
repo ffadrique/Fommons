@@ -42,9 +42,6 @@ module m_messages
 
 !- End of Public/Private declarations -----------------------------------------
 
-  character(len=130), parameter, private :: sccs_info = &
-     '$Id: $'
-
 !- Start of module variable declarations --------------------------------------
 
 ! Default aray sizes

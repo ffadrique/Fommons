@@ -71,9 +71,6 @@ module m_iso8601_date_time
 
 !- End of Public/Private declarations -----------------------------------------
 
-  character(len=130), parameter, private :: sccs_info = &
-     '$Id: $'
-
 !- Start of module variable declarations --------------------------------------
 
 ! ISO8601 format designators

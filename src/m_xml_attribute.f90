@@ -46,13 +46,9 @@ module m_xml_attribute
 
 !- End of Public/Private declarations -----------------------------------------
 
-  character(len=130), parameter, private :: sccs_info = &
-     '$Id: $'
-
 !- Start of module variable declarations --------------------------------------
 
-
-! Attirbute type (associated to an XML tag)
+! Attribute type (associated to an XML tag)
   type, extends(t_object) :: t_xml_attribute
     private
 

@@ -27,9 +27,11 @@ module m_xml
 !---USE statements--------------------------------------------------------------
 
   use m_xml_attribute
+  use m_xml_reader
   use m_xml_writer
   use m_xml_writer_settings
   use m_xml_encoder
+  use m_xml_locator
 
 !---End of use statements-------------------------------------------------------
 
