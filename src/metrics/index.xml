@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fmx.xsl"?>
+<fmxroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <context>
+        <time>2025-03-09T18:18:31</time>
+        <version>1.0.0.1</version>
+        <path>Fommons</path>
+        <project>Fommons</project>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <statistics>
+        <lines>
+            <source percent="42.91">5052</source>
+            <comments percent="26.22">3087</comments>
+            <empty percent="30.87">3635</empty>
+            <total>11774</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>29</maximum>
+            <average>2.04</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>6</maximum>
+            <average>1.47</average>
+        </nesting>
+        <libraries>1</libraries>
+    </statistics>
+    <directories>
+        <directory name="src">
+            <statistics>
+                <lines>
+                    <source percent="42.91">5052</source>
+                    <comments percent="26.22">3087</comments>
+                    <empty percent="30.87">3635</empty>
+                    <total>11774</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>29</maximum>
+                    <average>2.04</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>6</maximum>
+                    <average>1.47</average>
+                </nesting>
+                <modules>16</modules>
+            </statistics>
+        </directory>
+    </directories>
+</fmxroot>

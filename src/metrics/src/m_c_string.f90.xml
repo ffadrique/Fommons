@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_c_string.f90">
+    <context>
+        <time>2025-03-09T18:18:31</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Fommons</project>
+        <name>m_c_string.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_c_string" type="module">
+            <main>
+                <lines>
+                    <source percent="33.75">27</source>
+                    <comments percent="41.25">33</comments>
+                    <empty percent="25.00">20</empty>
+                    <total>80</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="c_string_from_array" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="37.93">11</source>
+                            <comments percent="24.14">7</comments>
+                            <empty percent="37.93">11</empty>
+                            <total>29</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="c_string_from_array_selected" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="37.14">13</source>
+                            <comments percent="25.71">9</comments>
+                            <empty percent="37.14">13</empty>
+                            <total>35</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="c_string_from_c_array" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="39.13">9</source>
+                            <comments percent="26.09">6</comments>
+                            <empty percent="34.78">8</empty>
+                            <total>23</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="c_string_from_c_character" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="39.13">9</source>
+                            <comments percent="26.09">6</comments>
+                            <empty percent="34.78">8</empty>
+                            <total>23</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="c_string_from_character" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="c_string_from_character_selected" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="c_string_from_empty" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="35.71">5</source>
+                            <comments percent="28.57">4</comments>
+                            <empty percent="35.71">5</empty>
+                            <total>14</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="c_string_from_string" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="c_string_from_string_selected" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">7</source>
+                            <comments percent="28.57">6</comments>
+                            <empty percent="38.10">8</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="c_string_to_c" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="46.67">14</source>
+                            <comments percent="23.33">7</comments>
+                            <empty percent="30.00">9</empty>
+                            <total>30</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="36.60">112</source>
+                    <comments percent="30.07">92</comments>
+                    <empty percent="33.33">102</empty>
+                    <total>306</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>1.90</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>1.70</average>
+                </nesting>
+                <methods>10</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="36.60">112</source>
+            <comments percent="30.07">92</comments>
+            <empty percent="33.33">102</empty>
+            <total>306</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>3</maximum>
+            <average>1.90</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>3</maximum>
+            <average>1.70</average>
+        </nesting>
+        <methods>10</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_c_string</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!-------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2025, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : Conversion from fortran character to C null teminated strings</line>
+        <line t="C" i="9" b="0" n="0">!</line>
+        <line t="C" i="10" b="0" n="0">! License   : This file is part of Fommons.</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">!             Fommons is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="13" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="14" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="15" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="16" b="0" n="0">!</line>
+        <line t="C" i="17" b="0" n="0">!             Fommons is distributed in the hope that it will be useful,</line>
+        <line t="C" i="18" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="19" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="20" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="21" b="0" n="0">!</line>
+        <line t="C" i="22" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="23" b="0" n="0">!             License along with Fommons.  </line>
+        <line t="C" i="24" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="25" b="0" n="0">!-------------------------------------------------------------------------------</line>
+        <line t="C" i="26" b="0" n="0"></line>
+        <line t="C" i="27" b="0" n="0">!---USE statements--------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="X" i="29" b="0" n="0">  use, intrinsic :: iso_c_binding</line>
+        <line t="X" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  use m_string</line>
+        <line t="X" i="32" b="0" n="0"></line>
+        <line t="C" i="33" b="0" n="0">!---End of use statements-------------------------------------------------------</line>
+        <line t="C" i="34" b="0" n="0"></line>
+        <line t="X" i="35" b="0" n="0">  implicit none</line>
+        <line t="X" i="36" b="0" n="0"></line>
+        <line t="C" i="37" b="0" n="0">!---Public/Private declarations-------------------------------------------------</line>
+        <line t="C" i="38" b="0" n="0"></line>
+        <line t="X" i="39" b="0" n="0">  private</line>
+        <line t="X" i="40" b="0" n="0"></line>
+        <line t="X" i="41" b="0" n="0">  public t_c_string</line>
+        <line t="X" i="42" b="0" n="0">  public c_string</line>
+        <line t="X" i="43" b="0" n="0"></line>
+        <line t="C" i="44" b="0" n="0">!---End of public/private declarations------------------------------------------</line>
+        <line t="C" i="45" b="0" n="0"></line>
+        <line t="C" i="46" b="0" n="0">!---Declaration of module variables---------------------------------------------</line>
+        <line t="C" i="47" b="0" n="0"></line>
+        <line t="C" i="48" b="0" n="0">! String type that supports conversion to/from C representation (null terminated)</line>
+        <line t="T" i="49" b="0" n="0">  type, extends(t_string) :: t_c_string</line>
+        <line t="X" i="50" b="0" n="0">    private</line>
+        <line t="X" i="51" b="0" n="0"></line>
+        <line t="X" i="52" b="0" n="0">    contains</line>
+        <line t="X" i="53" b="0" n="0"></line>
+        <line t="C" i="54" b="0" n="0">!     Interface conversion to C</line>
+        <line t="X" i="55" b="0" n="0">      procedure :: to_c =&gt; c_string_to_c</line>
+        <line t="X" i="56" b="0" n="0"></line>
+        <line t="C" i="57" b="0" n="0">!     Interface conversion from C</line>
+        <line t="X" i="58" b="0" n="0">      generic :: from_c =&gt; c_string_from_c_character, &amp;</line>
+        <line t="X" i="59" b="0" n="0">                           c_string_from_c_array</line>
+        <line t="X" i="60" b="0" n="0">      procedure, private :: c_string_from_c_character</line>
+        <line t="X" i="61" b="0" n="0">      procedure, private :: c_string_from_c_array</line>
+        <line t="X" i="62" b="0" n="0"></line>
+        <line t="T" i="63" b="0" n="0">  end type t_c_string</line>
+        <line t="T" i="64" b="0" n="0"></line>
+        <line t="C" i="65" b="0" n="0">! Constructor interface</line>
+        <line t="X" i="66" b="0" n="0">  interface c_string</line>
+        <line t="X" i="67" b="0" n="0">    module procedure c_string_from_empty</line>
+        <line t="X" i="68" b="0" n="0">    module procedure c_string_from_character</line>
+        <line t="X" i="69" b="0" n="0">    module procedure c_string_from_character_selected</line>
+        <line t="X" i="70" b="0" n="0">    module procedure c_string_from_array</line>
+        <line t="X" i="71" b="0" n="0">    module procedure c_string_from_array_selected</line>
+        <line t="X" i="72" b="0" n="0">    module procedure c_string_from_string</line>
+        <line t="X" i="73" b="0" n="0">    module procedure c_string_from_string_selected</line>
+        <line t="X" i="74" b="0" n="0">  end interface c_string</line>
+        <line t="X" i="75" b="0" n="0"></line>
+        <line t="C" i="76" b="0" n="0">!---End of declaration of module variables--------------------------------------</line>
+        <line t="C" i="77" b="0" n="0"></line>
+        <line t="X" i="78" b="0" n="0">contains</line>
+        <line t="X" i="79" b="0" n="0"></line>
+        <line t="C" i="80" b="0" n="0">! Constructor for empty string of given size</line>
+        <line k="c_string_from_empty" t="F" i="81" b="1" n="1">elemental function c_string_from_empty( n ) result(this)</line>
+        <line t="F" i="82" b="1" n="1"></line>
+        <line t="C" i="83" b="1" n="1">! The string size in bytes</line>
+        <line t="X" i="84" b="1" n="1">  integer, intent(in) :: n</line>
+        <line t="X" i="85" b="1" n="1"></line>
+        <line t="C" i="86" b="1" n="1">! The string</line>
+        <line t="X" i="87" b="1" n="1">  type(t_c_string) :: this</line>
+        <line t="X" i="88" b="1" n="1"></line>
+        <line t="C" i="89" b="1" n="1">! Return the string</line>
+        <line t="X" i="90" b="1" n="1">  this = string(n)</line>
+        <line t="X" i="91" b="1" n="1"></line>
+        <line t="EF" i="92" b="1" n="1">end function c_string_from_empty</line>
+        <line t="EF" i="93" b="1" n="1"></line>
+        <line t="EF" i="94" b="1" n="1"></line>
+        <line t="C" i="95" b="1" n="1">! Constructor from character</line>
+        <line k="c_string_from_character" t="F" i="96" b="1" n="1">elemental function c_string_from_character( c ) result(this)</line>
+        <line t="F" i="97" b="1" n="1"></line>
+        <line t="C" i="98" b="1" n="1">! The character string to use as initialisation (optional)</line>
+        <line t="X" i="99" b="1" n="1">  character(len=*), optional, intent(in) :: c</line>
+        <line t="X" i="100" b="1" n="1"></line>
+        <line t="C" i="101" b="1" n="1">! The string</line>
+        <line t="X" i="102" b="1" n="1">  type(t_string) :: this</line>
+        <line t="X" i="103" b="1" n="1"></line>
+        <line t="C" i="104" b="1" n="1">! Return the string</line>
+        <line t="X" i="105" b="1" n="1">  this = string(c)</line>
+        <line t="X" i="106" b="1" n="1"></line>
+        <line t="EF" i="107" b="1" n="1">end function c_string_from_character</line>
+        <line t="EF" i="108" b="1" n="1"></line>
+        <line t="EF" i="109" b="1" n="1"></line>
+        <line t="C" i="110" b="1" n="1">! Constructor from part of character</line>
+        <line k="c_string_from_character_selected" t="F" i="111" b="1" n="1">elemental function c_string_from_character_selected( c, start, end ) result(this)</line>
+        <line t="F" i="112" b="1" n="1"></line>
+        <line t="C" i="113" b="1" n="1">! The character string to use as initialisation</line>
+        <line t="X" i="114" b="1" n="1">  character(len=*), intent(in) :: c</line>
+        <line t="X" i="115" b="1" n="1"></line>
+        <line t="C" i="116" b="1" n="1">! The first character to select</line>
+        <line t="X" i="117" b="1" n="1">  integer, intent(in) :: start</line>
+        <line t="X" i="118" b="1" n="1"></line>
+        <line t="C" i="119" b="1" n="1">! The last character to select (defaults to last)</line>
+        <line t="X" i="120" b="1" n="1">  integer, optional, intent(in) :: end</line>
+        <line t="X" i="121" b="1" n="1"></line>
+        <line t="C" i="122" b="1" n="1">! The string</line>
+        <line t="X" i="123" b="1" n="1">  type(t_string) :: this</line>
+        <line t="X" i="124" b="1" n="1"></line>
+        <line t="C" i="125" b="1" n="1">! Return the string</line>
+        <line t="X" i="126" b="1" n="1">  this = string( c, start, end )</line>
+        <line t="X" i="127" b="1" n="1"></line>
+        <line t="EF" i="128" b="1" n="1">end function c_string_from_character_selected</line>
+        <line t="EF" i="129" b="1" n="1"></line>
+        <line t="EF" i="130" b="1" n="1"></line>
+        <line t="C" i="131" b="1" n="1">! Constructor from character array</line>
+        <line k="c_string_from_array" t="F" i="132" b="1" n="1">pure function c_string_from_array( c ) result(this)</line>
+        <line t="F" i="133" b="1" n="1"></line>
+        <line t="C" i="134" b="1" n="1">! The character string to use as initialisation</line>
+        <line t="X" i="135" b="1" n="1">  character, dimension(:), intent(in) :: c</line>
+        <line t="X" i="136" b="1" n="1"></line>
+        <line t="C" i="137" b="1" n="1">! The string</line>
+        <line t="X" i="138" b="1" n="1">  type(t_string) :: this</line>
+        <line t="X" i="139" b="1" n="1"></line>
+        <line t="C" i="140" b="1" n="1">! Local variables</line>
+        <line t="X" i="141" b="1" n="1">  integer :: idx</line>
+        <line t="X" i="142" b="1" n="1"></line>
+        <line t="C" i="143" b="1" n="1">! Check if the input is a null terminated string</line>
+        <line t="X" i="144" b="1" n="1">  idx = minloc( ichar(c), 1)</line>
+        <line t="X" i="145" b="2" n="2">  if( c(idx) == c_null_char ) then</line>
+        <line t="X" i="146" b="2" n="2"></line>
+        <line t="C" i="147" b="2" n="2">!   Build skipping the null character</line>
+        <line t="X" i="148" b="2" n="2">    this = string(c(:idx-1))</line>
+        <line t="X" i="149" b="2" n="2"></line>
+        <line t="X" i="150" b="3" n="2">  else</line>
+        <line t="X" i="151" b="3" n="2"></line>
+        <line t="C" i="152" b="3" n="2">!   Build using the whole input array</line>
+        <line t="X" i="153" b="3" n="2">    this = string(c)</line>
+        <line t="X" i="154" b="3" n="2"></line>
+        <line t="X" i="155" b="3" n="1">  end if</line>
+        <line t="X" i="156" b="3" n="1"></line>
+        <line t="EF" i="157" b="3" n="1">end function c_string_from_array</line>
+        <line t="EF" i="158" b="1" n="1"></line>
+        <line t="EF" i="159" b="1" n="1"></line>
+        <line t="C" i="160" b="1" n="1">! Constructor from part of character array</line>
+        <line k="c_string_from_array_selected" t="F" i="161" b="1" n="1">pure function c_string_from_array_selected( c, start, end ) result(this)</line>
+        <line t="F" i="162" b="1" n="1"></line>
+        <line t="C" i="163" b="1" n="1">! The character string to use as initialisation (optional)</line>
+        <line t="X" i="164" b="1" n="1">  character, dimension(:), intent(in) :: c</line>
+        <line t="X" i="165" b="1" n="1"></line>
+        <line t="C" i="166" b="1" n="1">! The first character to select</line>
+        <line t="X" i="167" b="1" n="1">  integer, intent(in) :: start</line>
+        <line t="X" i="168" b="1" n="1"></line>
+        <line t="C" i="169" b="1" n="1">! The last character to select (defaults to last)</line>
+        <line t="X" i="170" b="1" n="1">  integer, optional, intent(in) :: end</line>
+        <line t="X" i="171" b="1" n="1"></line>
+        <line t="C" i="172" b="1" n="1">! The string</line>
+        <line t="X" i="173" b="1" n="1">  type(t_string) :: this</line>
+        <line t="X" i="174" b="1" n="1"></line>
+        <line t="C" i="175" b="1" n="1">! Local variables</line>
+        <line t="X" i="176" b="1" n="1">  integer :: idx</line>
+        <line t="X" i="177" b="1" n="1"></line>
+        <line t="C" i="178" b="1" n="1">! Check if the input is a null terminated string</line>
+        <line t="X" i="179" b="1" n="1">  idx = minloc( ichar(c), 1)</line>
+        <line t="X" i="180" b="2" n="2">  if( c(idx) == c_null_char ) then</line>
+        <line t="X" i="181" b="2" n="2"></line>
+        <line t="C" i="182" b="2" n="2">!   Build skipping the null character</line>
+        <line t="X" i="183" b="2" n="2">    this = string( c(:idx-1), start, end )</line>
+        <line t="X" i="184" b="2" n="2"></line>
+        <line t="X" i="185" b="3" n="2">  else</line>
+        <line t="X" i="186" b="3" n="2"></line>
+        <line t="C" i="187" b="3" n="2">!   Build using the whole input string</line>
+        <line t="X" i="188" b="3" n="2">    this = string( c, start, end )</line>
+        <line t="X" i="189" b="3" n="2"></line>
+        <line t="X" i="190" b="3" n="1">  end if</line>
+        <line t="X" i="191" b="3" n="1"></line>
+        <line t="EF" i="192" b="3" n="1">end function c_string_from_array_selected</line>
+        <line t="EF" i="193" b="1" n="1"></line>
+        <line t="EF" i="194" b="1" n="1"></line>
+        <line t="C" i="195" b="1" n="1">! Constructor from string</line>
+        <line k="c_string_from_string" t="F" i="196" b="1" n="1">elemental function c_string_from_string( s ) result(this)</line>
+        <line t="F" i="197" b="1" n="1"></line>
+        <line t="C" i="198" b="1" n="1">! The character string to use as initialisation (optional)</line>
+        <line t="X" i="199" b="1" n="1">  type(t_string), intent(in) :: s</line>
+        <line t="X" i="200" b="1" n="1"></line>
+        <line t="C" i="201" b="1" n="1">! The string</line>
+        <line t="X" i="202" b="1" n="1">  type(t_string) :: this</line>
+        <line t="X" i="203" b="1" n="1"></line>
+        <line t="C" i="204" b="1" n="1">! Return the string</line>
+        <line t="X" i="205" b="1" n="1">  this = s</line>
+        <line t="X" i="206" b="1" n="1"></line>
+        <line t="EF" i="207" b="1" n="1">end function c_string_from_string</line>
+        <line t="EF" i="208" b="1" n="1"></line>
+        <line t="EF" i="209" b="1" n="1"></line>
+        <line t="C" i="210" b="1" n="1">! Constructor from part of string</line>
+        <line k="c_string_from_string_selected" t="F" i="211" b="1" n="1">elemental function c_string_from_string_selected( s0, start, end ) result(this)</line>
+        <line t="F" i="212" b="1" n="1"></line>
+        <line t="C" i="213" b="1" n="1">! The character string to use as initialisation (optional)</line>
+        <line t="X" i="214" b="1" n="1">  class(t_string), intent(in) :: s0</line>
+        <line t="X" i="215" b="1" n="1"></line>
+        <line t="C" i="216" b="1" n="1">! The first character to select</line>
+        <line t="X" i="217" b="1" n="1">  integer, intent(in) :: start</line>
+        <line t="X" i="218" b="1" n="1"></line>
+        <line t="C" i="219" b="1" n="1">! The last character to select (defaults to last)</line>
+        <line t="X" i="220" b="1" n="1">  integer, optional, intent(in) :: end</line>
+        <line t="X" i="221" b="1" n="1"></line>
+        <line t="C" i="222" b="1" n="1">! The string</line>
+        <line t="X" i="223" b="1" n="1">  type(t_string) :: this</line>
+        <line t="X" i="224" b="1" n="1"></line>
+        <line t="C" i="225" b="1" n="1">! Return the string</line>
+        <line t="X" i="226" b="1" n="1">  this = string( s0, start, end )</line>
+        <line t="X" i="227" b="1" n="1"></line>
+        <line t="EF" i="228" b="1" n="1">end function c_string_from_string_selected</line>
+        <line t="EF" i="229" b="1" n="1"></line>
+        <line t="EF" i="230" b="1" n="1"></line>
+        <line t="C" i="231" b="1" n="1">! Initialise using a C formatted string given as character array</line>
+        <line k="c_string_from_c_array" t="S" i="232" b="1" n="1">pure subroutine c_string_from_c_array( this, cstr )</line>
+        <line t="S" i="233" b="1" n="1"></line>
+        <line t="C" i="234" b="1" n="1">! The calling object</line>
+        <line t="X" i="235" b="1" n="1">  class(t_c_string), intent(inout) :: this</line>
+        <line t="X" i="236" b="1" n="1"></line>
+        <line t="C" i="237" b="1" n="1">! The C formatted character string</line>
+        <line t="X" i="238" b="1" n="1">  character(c_char), dimension(:), intent(in) :: cstr</line>
+        <line t="X" i="239" b="1" n="1"></line>
+        <line t="C" i="240" b="1" n="1">! Local variables</line>
+        <line t="X" i="241" b="1" n="1">  integer :: i</line>
+        <line t="X" i="242" b="1" n="1"></line>
+        <line t="C" i="243" b="1" n="1">! Look for the null terminator</line>
+        <line t="X" i="244" b="2" n="2">  do i = 1, size(cstr)</line>
+        <line t="X" i="245" b="3" n="3">    if( cstr(i) == c_null_char ) exit</line>
+        <line t="X" i="246" b="3" n="2">  end do</line>
+        <line t="X" i="247" b="3" n="2"></line>
+        <line t="C" i="248" b="3" n="2">! Assign the output string</line>
+        <line t="X" i="249" b="3" n="2">  this = string( cstr(:i-1) )</line>
+        <line t="X" i="250" b="3" n="2"></line>
+        <line t="ES" i="251" b="3" n="2">end subroutine c_string_from_c_array</line>
+        <line t="ES" i="252" b="1" n="2"></line>
+        <line t="ES" i="253" b="1" n="2"></line>
+        <line t="C" i="254" b="1" n="2">! Initialise from C formatted string given as C formatted character string</line>
+        <line k="c_string_from_c_character" t="S" i="255" b="1" n="1">pure subroutine c_string_from_c_character( this, cstr )</line>
+        <line t="S" i="256" b="1" n="1"></line>
+        <line t="C" i="257" b="1" n="1">! The calling object</line>
+        <line t="X" i="258" b="1" n="1">  class(t_c_string), intent(inout) :: this</line>
+        <line t="X" i="259" b="1" n="1"></line>
+        <line t="C" i="260" b="1" n="1">! The C formatted character string</line>
+        <line t="X" i="261" b="1" n="1">  character(len=*,kind=c_char), intent(in) :: cstr</line>
+        <line t="X" i="262" b="1" n="1"></line>
+        <line t="C" i="263" b="1" n="1">! Local variables</line>
+        <line t="X" i="264" b="1" n="1">  integer :: i</line>
+        <line t="X" i="265" b="1" n="1"></line>
+        <line t="C" i="266" b="1" n="1">! Look for the null terminator</line>
+        <line t="X" i="267" b="2" n="2">  do i = 1, len(cstr)</line>
+        <line t="X" i="268" b="3" n="3">    if( cstr(i:i) == c_null_char ) exit</line>
+        <line t="X" i="269" b="3" n="2">  end do</line>
+        <line t="X" i="270" b="3" n="2"></line>
+        <line t="C" i="271" b="3" n="2">! Assign the output string</line>
+        <line t="X" i="272" b="3" n="2">  this = string( cstr(:i-1) )</line>
+        <line t="X" i="273" b="3" n="2"></line>
+        <line t="ES" i="274" b="3" n="2">end subroutine c_string_from_c_character</line>
+        <line t="ES" i="275" b="1" n="2"></line>
+        <line t="ES" i="276" b="1" n="2"></line>
+        <line t="C" i="277" b="1" n="2">! Return a C formatted array</line>
+        <line k="c_string_to_c" t="F" i="278" b="1" n="1">pure function c_string_to_c( this, chars ) result(cstr)</line>
+        <line t="F" i="279" b="1" n="1"></line>
+        <line t="C" i="280" b="1" n="1">! The calling object</line>
+        <line t="X" i="281" b="1" n="1">  class(t_c_string), intent(in) :: this</line>
+        <line t="X" i="282" b="1" n="1"></line>
+        <line t="C" i="283" b="1" n="1">! The number of characters to include (optional, defaults to len_trim(this))</line>
+        <line t="X" i="284" b="1" n="1">  integer, optional, intent(in) :: chars</line>
+        <line t="X" i="285" b="1" n="1"></line>
+        <line t="C" i="286" b="1" n="1">! The resulting C formatted string</line>
+        <line t="X" i="287" b="1" n="1">  character(c_char), dimension(:), allocatable :: cstr</line>
+        <line t="X" i="288" b="1" n="1"></line>
+        <line t="C" i="289" b="1" n="1">! Local variables</line>
+        <line t="X" i="290" b="1" n="1">  integer :: i</line>
+        <line t="X" i="291" b="1" n="1"></line>
+        <line t="C" i="292" b="1" n="1">! Compute the length to process</line>
+        <line t="X" i="293" b="1" n="1">  i = this%len()</line>
+        <line t="X" i="294" b="2" n="2">  if( present(chars) ) then</line>
+        <line t="X" i="295" b="2" n="2">    i = min( i, chars )</line>
+        <line t="X" i="296" b="2" n="1">  end if</line>
+        <line t="X" i="297" b="2" n="1"></line>
+        <line t="C" i="298" b="2" n="1">! Generate the C formatted string</line>
+        <line t="X" i="299" b="2" n="1">  allocate(cstr(i+1))</line>
+        <line t="X" i="300" b="2" n="1">  cstr = ''</line>
+        <line t="X" i="301" b="2" n="1">  cstr(:i) = transfer( this%character(), cstr(:i) )</line>
+        <line t="X" i="302" b="2" n="1">  cstr(i+1) = c_null_char</line>
+        <line t="X" i="303" b="2" n="1"></line>
+        <line t="EF" i="304" b="2" n="1">end function c_string_to_c</line>
+        <line t="EF" i="305" b="1" n="1"></line>
+        <line t="M" i="306" b="1" n="1">end module m_c_string</line>
+        <line t="M" i="307" b="1" n="1"></line>
+    </code>
+</fmx>

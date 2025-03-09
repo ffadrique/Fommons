@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_xml.f90">
+    <context>
+        <time>2025-03-09T18:18:31</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Fommons</project>
+        <name>m_xml.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_xml" type="module">
+            <main>
+                <lines>
+                    <source percent="20.51">8</source>
+                    <comments percent="64.10">25</comments>
+                    <empty percent="15.38">6</empty>
+                    <total>39</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods />
+            <statistics>
+                <lines>
+                    <source percent="20.51">8</source>
+                    <comments percent="64.10">25</comments>
+                    <empty percent="15.38">6</empty>
+                    <total>39</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="20.51">8</source>
+            <comments percent="64.10">25</comments>
+            <empty percent="15.38">6</empty>
+            <total>39</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>1</maximum>
+            <average>1.00</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>1</maximum>
+            <average>1.00</average>
+        </nesting>
+        <methods>0</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_xml</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!-------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2025, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : XML stream parsing and handling (generic module interface)</line>
+        <line t="C" i="9" b="0" n="0">!</line>
+        <line t="C" i="10" b="0" n="0">! License   : This file is part of Fommons.</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">!             Fommons is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="13" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="14" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="15" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="16" b="0" n="0">!</line>
+        <line t="C" i="17" b="0" n="0">!             Fommons is distributed in the hope that it will be useful,</line>
+        <line t="C" i="18" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="19" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="20" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="21" b="0" n="0">!</line>
+        <line t="C" i="22" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="23" b="0" n="0">!             License along with Fommons.  </line>
+        <line t="C" i="24" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="25" b="0" n="0">!-------------------------------------------------------------------------------</line>
+        <line t="C" i="26" b="0" n="0"></line>
+        <line t="C" i="27" b="0" n="0">!---USE statements--------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="X" i="29" b="0" n="0">  use m_xml_attribute</line>
+        <line t="X" i="30" b="0" n="0">  use m_xml_reader</line>
+        <line t="X" i="31" b="0" n="0">  use m_xml_writer</line>
+        <line t="X" i="32" b="0" n="0">  use m_xml_writer_settings</line>
+        <line t="X" i="33" b="0" n="0">  use m_xml_encoder</line>
+        <line t="X" i="34" b="0" n="0">  use m_xml_locator</line>
+        <line t="X" i="35" b="0" n="0"></line>
+        <line t="C" i="36" b="0" n="0">!---End of use statements-------------------------------------------------------</line>
+        <line t="C" i="37" b="0" n="0"></line>
+        <line t="M" i="38" b="0" n="0">end module m_xml</line>
+        <line t="M" i="39" b="0" n="0"></line>
+    </code>
+</fmx>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fmx.xsl"?>
+<logger xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LogEntry source="m_msg.f90" lineno="84">
+    <source>      procedure :: get_module =&gt; msg_module_get</source>
+    <text>Doubtfull matching</text>
+  </LogEntry>
+  <LogEntry source="m_msg.f90" lineno="85">
+    <source>      procedure :: set_module =&gt; msg_module_set</source>
+    <text>Doubtfull matching</text>
+  </LogEntry>
+  <LogEntry source="m_xml_encoder.f90" lineno="92">
+    <source>      integer :: type = xml_encode_name</source>
+    <text>Doubtfull matching</text>
+  </LogEntry>
+</logger>

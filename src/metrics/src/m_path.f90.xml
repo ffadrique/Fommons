@@ -1,0 +1,1737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_path.f90">
+    <context>
+        <time>2025-03-09T18:18:31</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Fommons</project>
+        <name>m_path.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_path" type="module">
+            <main>
+                <lines>
+                    <source percent="46.33">82</source>
+                    <comments percent="31.64">56</comments>
+                    <empty percent="22.03">39</empty>
+                    <total>177</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="path_array_character" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">6</source>
+                            <comments percent="27.78">5</comments>
+                            <empty percent="38.89">7</empty>
+                            <total>18</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_array_string" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">6</source>
+                            <comments percent="27.78">5</comments>
+                            <empty percent="38.89">7</empty>
+                            <total>18</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_change_extension_character_method" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="29.41">5</source>
+                            <comments percent="35.29">6</comments>
+                            <empty percent="35.29">6</empty>
+                            <total>17</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_change_extension_character_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="53.49">23</source>
+                            <comments percent="23.26">10</comments>
+                            <empty percent="23.26">10</empty>
+                            <total>43</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>5</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_change_extension_string_method" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="29.41">5</source>
+                            <comments percent="35.29">6</comments>
+                            <empty percent="35.29">6</empty>
+                            <total>17</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_change_extension_string_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="30.00">6</source>
+                            <comments percent="35.00">7</comments>
+                            <empty percent="35.00">7</empty>
+                            <total>20</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_character" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">6</source>
+                            <comments percent="27.78">5</comments>
+                            <empty percent="38.89">7</empty>
+                            <total>18</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_default" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="36.36">4</source>
+                            <comments percent="27.27">3</comments>
+                            <empty percent="36.36">4</empty>
+                            <total>11</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_directory_character_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="48.15">13</source>
+                            <comments percent="22.22">6</comments>
+                            <empty percent="29.63">8</empty>
+                            <total>27</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_directory_method" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_directory_string_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_exists_character_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_exists_method" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_exists_string_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_extension_character_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="46.67">14</source>
+                            <comments percent="23.33">7</comments>
+                            <empty percent="30.00">9</empty>
+                            <total>30</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_extension_method" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_extension_string_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_file_name_character_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="48.15">13</source>
+                            <comments percent="22.22">6</comments>
+                            <empty percent="29.63">8</empty>
+                            <total>27</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_file_name_method" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_file_name_string_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_has_extension_character_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="36.00">9</source>
+                            <comments percent="28.00">7</comments>
+                            <empty percent="36.00">9</empty>
+                            <total>25</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_has_extension_method" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_has_extension_string_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_is_absolute_character_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="39.13">9</source>
+                            <comments percent="26.09">6</comments>
+                            <empty percent="34.78">8</empty>
+                            <total>23</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_is_absolute_method" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_is_absolute_string_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_name_character_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="46.67">14</source>
+                            <comments percent="23.33">7</comments>
+                            <empty percent="30.00">9</empty>
+                            <total>30</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_name_method" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_name_string_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_normalise_character_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="47.37">45</source>
+                            <comments percent="24.21">23</comments>
+                            <empty percent="28.42">27</empty>
+                            <total>95</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>13</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>4</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_normalise_method" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">4</source>
+                            <comments percent="25.00">3</comments>
+                            <empty percent="41.67">5</empty>
+                            <total>12</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_normalise_string_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_string" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_temp_file_name" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="58.97">23</source>
+                            <comments percent="17.95">7</comments>
+                            <empty percent="23.08">9</empty>
+                            <total>39</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_temp_path_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="42.86">9</source>
+                            <comments percent="23.81">5</comments>
+                            <empty percent="33.33">7</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="path_to_string" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="41.15">386</source>
+                    <comments percent="26.87">252</comments>
+                    <empty percent="31.98">300</empty>
+                    <total>938</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>13</maximum>
+                    <average>1.72</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>1.25</average>
+                </nesting>
+                <methods>36</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="41.15">386</source>
+            <comments percent="26.87">252</comments>
+            <empty percent="31.98">300</empty>
+            <total>938</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>13</maximum>
+            <average>1.72</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>4</maximum>
+            <average>1.25</average>
+        </nesting>
+        <methods>36</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_path</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2025, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : Module for the implementation of path management</line>
+        <line t="C" i="9" b="0" n="0">!             The extension from string holds the path of the file or directory</line>
+        <line t="C" i="10" b="0" n="0">!             Both forward and backward separator slashes are managed seamlessly</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">! License   : This file is part of Fommons.</line>
+        <line t="C" i="13" b="0" n="0">!</line>
+        <line t="C" i="14" b="0" n="0">!             Fommons is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="15" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="16" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="17" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="18" b="0" n="0">!</line>
+        <line t="C" i="19" b="0" n="0">!             Fommons is distributed in the hope that it will be useful,</line>
+        <line t="C" i="20" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="21" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="22" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="23" b="0" n="0">!</line>
+        <line t="C" i="24" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="25" b="0" n="0">!             License along with Fommons.  </line>
+        <line t="C" i="26" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="27" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="C" i="29" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  use m_string</line>
+        <line t="X" i="32" b="0" n="0"></line>
+        <line t="C" i="33" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="34" b="0" n="0"></line>
+        <line t="X" i="35" b="0" n="0">  implicit none</line>
+        <line t="X" i="36" b="0" n="0"></line>
+        <line t="C" i="37" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="38" b="0" n="0"></line>
+        <line t="X" i="39" b="0" n="0">  private</line>
+        <line t="X" i="40" b="0" n="0">  public t_path, path</line>
+        <line t="X" i="41" b="0" n="0">  public path_unix_slash, path_windows_slash</line>
+        <line t="X" i="42" b="0" n="0"></line>
+        <line t="X" i="43" b="0" n="0">  public path_directory, path_file_name, path_name, path_is_absolute</line>
+        <line t="X" i="44" b="0" n="0">  public path_extension, path_change_extension, path_has_extension</line>
+        <line t="X" i="45" b="0" n="0">  public path_exists, path_normalise</line>
+        <line t="X" i="46" b="0" n="0">  public path_temp_path, path_temp_file_name</line>
+        <line t="X" i="47" b="0" n="0"></line>
+        <line t="C" i="48" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="49" b="0" n="0"></line>
+        <line t="C" i="50" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="51" b="0" n="0"></line>
+        <line t="C" i="52" b="0" n="0">! Path separation symbols</line>
+        <line t="X" i="53" b="0" n="0">  character, parameter :: path_unix_slash = '/'</line>
+        <line t="X" i="54" b="0" n="0">  character, parameter :: path_windows_slash = '\'</line>
+        <line t="X" i="55" b="0" n="0">  character, parameter :: dot = '.'</line>
+        <line t="X" i="56" b="0" n="0">  character, parameter :: colon = ':'</line>
+        <line t="X" i="57" b="0" n="0"></line>
+        <line t="C" i="58" b="0" n="0">! The path class</line>
+        <line t="C" i="59" b="0" n="0">! The extension from string holds the path of the file or directory</line>
+        <line t="T" i="60" b="0" n="0">  type, extends(t_string) :: t_path</line>
+        <line t="X" i="61" b="0" n="0">    private</line>
+        <line t="X" i="62" b="0" n="0"></line>
+        <line t="X" i="63" b="0" n="0">    contains</line>
+        <line t="X" i="64" b="0" n="0"></line>
+        <line t="C" i="65" b="0" n="0">!     Directroy of the file path in the path (no trailing path separator)</line>
+        <line t="X" i="66" b="0" n="0">      procedure :: directory =&gt; path_directory_method</line>
+        <line t="X" i="67" b="0" n="0"></line>
+        <line t="C" i="68" b="0" n="0">!     File name of the file path in the path (with extension)</line>
+        <line t="X" i="69" b="0" n="0">      procedure :: file_name =&gt; path_file_name_method</line>
+        <line t="X" i="70" b="0" n="0"></line>
+        <line t="C" i="71" b="0" n="0">!     File name of the file path in the path (without extension)</line>
+        <line t="X" i="72" b="0" n="0">      procedure :: name =&gt; path_name_method</line>
+        <line t="X" i="73" b="0" n="0"></line>
+        <line t="C" i="74" b="0" n="0">!     Check if the path is an absolute path representation</line>
+        <line t="X" i="75" b="0" n="0">      procedure :: is_absolute =&gt; path_is_absolute_method</line>
+        <line t="X" i="76" b="0" n="0"></line>
+        <line t="C" i="77" b="0" n="0">!     File extension of the file in the path</line>
+        <line t="X" i="78" b="0" n="0">      procedure :: extension =&gt; path_extension_method</line>
+        <line t="X" i="79" b="0" n="0"></line>
+        <line t="C" i="80" b="0" n="0">!     Determines whether a path includes a file name extension</line>
+        <line t="X" i="81" b="0" n="0">      procedure :: has_extension =&gt; path_has_extension_method</line>
+        <line t="X" i="82" b="0" n="0"></line>
+        <line t="C" i="83" b="0" n="0">!     Change file extension of the file in the path</line>
+        <line t="X" i="84" b="0" n="0">      generic :: change_extension =&gt; path_change_extension_string_method, &amp;</line>
+        <line t="X" i="85" b="0" n="0">                                     path_change_extension_character_method</line>
+        <line t="X" i="86" b="0" n="0">      procedure, private :: path_change_extension_string_method</line>
+        <line t="X" i="87" b="0" n="0">      procedure, private :: path_change_extension_character_method</line>
+        <line t="X" i="88" b="0" n="0"></line>
+        <line t="C" i="89" b="0" n="0">!     Check if path exists</line>
+        <line t="X" i="90" b="0" n="0">      procedure :: exists =&gt; path_exists_method</line>
+        <line t="X" i="91" b="0" n="0"></line>
+        <line t="C" i="92" b="0" n="0">!     Normalise the path</line>
+        <line t="X" i="93" b="0" n="0">      procedure :: normalise =&gt; path_normalise_method</line>
+        <line t="X" i="94" b="0" n="0"></line>
+        <line t="C" i="95" b="0" n="0">!     Return the path as a string</line>
+        <line t="X" i="96" b="0" n="0">      procedure :: to_string =&gt; path_to_string</line>
+        <line t="X" i="97" b="0" n="0"></line>
+        <line t="T" i="98" b="0" n="0">  end type t_path</line>
+        <line t="T" i="99" b="0" n="0"></line>
+        <line t="C" i="100" b="0" n="0">! Constructor interface</line>
+        <line t="X" i="101" b="0" n="0">  interface path</line>
+        <line t="X" i="102" b="0" n="0">    module procedure path_default</line>
+        <line t="X" i="103" b="0" n="0">    module procedure path_character</line>
+        <line t="X" i="104" b="0" n="0">    module procedure path_string</line>
+        <line t="X" i="105" b="0" n="0">    module procedure path_array_character</line>
+        <line t="X" i="106" b="0" n="0">    module procedure path_array_string</line>
+        <line t="X" i="107" b="0" n="0">  end interface path</line>
+        <line t="X" i="108" b="0" n="0"></line>
+        <line t="C" i="109" b="0" n="0">! Static interface for path exists</line>
+        <line t="X" i="110" b="0" n="0">  interface path_exists</line>
+        <line t="X" i="111" b="0" n="0">    module procedure path_exists_string_static</line>
+        <line t="X" i="112" b="0" n="0">    module procedure path_exists_character_static</line>
+        <line t="X" i="113" b="0" n="0">  end interface path_exists</line>
+        <line t="X" i="114" b="0" n="0"></line>
+        <line t="C" i="115" b="0" n="0">! Static interface for directory extrraction</line>
+        <line t="X" i="116" b="0" n="0">  interface path_directory</line>
+        <line t="X" i="117" b="0" n="0">    module procedure path_directory_string_static</line>
+        <line t="X" i="118" b="0" n="0">    module procedure path_directory_character_static</line>
+        <line t="X" i="119" b="0" n="0">  end interface path_directory</line>
+        <line t="X" i="120" b="0" n="0"></line>
+        <line t="C" i="121" b="0" n="0">! Static interface for file name (with extension)</line>
+        <line t="X" i="122" b="0" n="0">  interface path_file_name</line>
+        <line t="X" i="123" b="0" n="0">    module procedure path_file_name_string_static</line>
+        <line t="X" i="124" b="0" n="0">    module procedure path_file_name_character_static</line>
+        <line t="X" i="125" b="0" n="0">  end interface path_file_name</line>
+        <line t="X" i="126" b="0" n="0"></line>
+        <line t="C" i="127" b="0" n="0">! Static interface for name (without extension)</line>
+        <line t="X" i="128" b="0" n="0">  interface path_name</line>
+        <line t="X" i="129" b="0" n="0">    module procedure path_name_string_static</line>
+        <line t="X" i="130" b="0" n="0">    module procedure path_name_character_static</line>
+        <line t="X" i="131" b="0" n="0">  end interface path_name</line>
+        <line t="X" i="132" b="0" n="0"></line>
+        <line t="C" i="133" b="0" n="0">! Static interface to check absolute path representation</line>
+        <line t="X" i="134" b="0" n="0">  interface path_is_absolute</line>
+        <line t="X" i="135" b="0" n="0">    module procedure path_is_absolute_string_static</line>
+        <line t="X" i="136" b="0" n="0">    module procedure path_is_absolute_character_static</line>
+        <line t="X" i="137" b="0" n="0">  end interface path_is_absolute</line>
+        <line t="X" i="138" b="0" n="0"></line>
+        <line t="C" i="139" b="0" n="0">! Static interface for extension</line>
+        <line t="X" i="140" b="0" n="0">  interface path_extension</line>
+        <line t="X" i="141" b="0" n="0">    module procedure path_extension_string_static</line>
+        <line t="X" i="142" b="0" n="0">    module procedure path_extension_character_static</line>
+        <line t="X" i="143" b="0" n="0">  end interface path_extension</line>
+        <line t="X" i="144" b="0" n="0"></line>
+        <line t="C" i="145" b="0" n="0">! Determines whether a path includes a file name extension</line>
+        <line t="X" i="146" b="0" n="0">  interface path_has_extension</line>
+        <line t="X" i="147" b="0" n="0">    module procedure path_has_extension_string_static</line>
+        <line t="X" i="148" b="0" n="0">    module procedure path_has_extension_character_static</line>
+        <line t="X" i="149" b="0" n="0">  end interface path_has_extension</line>
+        <line t="X" i="150" b="0" n="0"></line>
+        <line t="C" i="151" b="0" n="0">! Static interface for change extension</line>
+        <line t="X" i="152" b="0" n="0">  interface path_change_extension</line>
+        <line t="X" i="153" b="0" n="0">    module procedure path_change_extension_string_static</line>
+        <line t="X" i="154" b="0" n="0">    module procedure path_change_extension_character_static</line>
+        <line t="X" i="155" b="0" n="0">  end interface path_change_extension</line>
+        <line t="X" i="156" b="0" n="0"></line>
+        <line t="C" i="157" b="0" n="0">! Static interface for normalise</line>
+        <line t="X" i="158" b="0" n="0">  interface path_normalise</line>
+        <line t="X" i="159" b="0" n="0">    module procedure path_normalise_string_static</line>
+        <line t="X" i="160" b="0" n="0">    module procedure path_normalise_character_static</line>
+        <line t="X" i="161" b="0" n="0">  end interface path_normalise</line>
+        <line t="X" i="162" b="0" n="0"></line>
+        <line t="C" i="163" b="0" n="0">! Static interface for temp_path</line>
+        <line t="X" i="164" b="0" n="0">  interface path_temp_path</line>
+        <line t="X" i="165" b="0" n="0">    module procedure path_temp_path_static</line>
+        <line t="X" i="166" b="0" n="0">  end interface path_temp_path</line>
+        <line t="X" i="167" b="0" n="0"></line>
+        <line t="C" i="168" b="0" n="0">! Static interface for temp_path</line>
+        <line t="X" i="169" b="0" n="0">  interface path_temp_file_name</line>
+        <line t="X" i="170" b="0" n="0">    module procedure path_temp_file_name</line>
+        <line t="X" i="171" b="0" n="0">  end interface path_temp_file_name</line>
+        <line t="X" i="172" b="0" n="0"></line>
+        <line t="C" i="173" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="174" b="0" n="0"></line>
+        <line t="X" i="175" b="0" n="0">contains</line>
+        <line t="X" i="176" b="0" n="0"></line>
+        <line t="C" i="177" b="0" n="0">! Constructor</line>
+        <line k="path_default" t="F" i="178" b="1" n="1">elemental function path_default() result(res)</line>
+        <line t="F" i="179" b="1" n="1"></line>
+        <line t="C" i="180" b="1" n="1">! The path</line>
+        <line t="X" i="181" b="1" n="1">  type(t_path) :: res</line>
+        <line t="X" i="182" b="1" n="1"></line>
+        <line t="C" i="183" b="1" n="1">! Default to current (.)</line>
+        <line t="X" i="184" b="1" n="1">  res = dot</line>
+        <line t="X" i="185" b="1" n="1"></line>
+        <line t="EF" i="186" b="1" n="1">end function path_default</line>
+        <line t="EF" i="187" b="1" n="1"></line>
+        <line t="EF" i="188" b="1" n="1"></line>
+        <line t="C" i="189" b="1" n="1">! Constructor from character</line>
+        <line k="path_character" t="F" i="190" b="1" n="1">elemental function path_character( path ) result(res)</line>
+        <line t="F" i="191" b="1" n="1"></line>
+        <line t="C" i="192" b="1" n="1">! The file name</line>
+        <line t="X" i="193" b="1" n="1">  character(len=*), intent(in) :: path</line>
+        <line t="X" i="194" b="1" n="1"></line>
+        <line t="C" i="195" b="1" n="1">! The path</line>
+        <line t="X" i="196" b="1" n="1">  type(t_path) :: res</line>
+        <line t="X" i="197" b="1" n="1"></line>
+        <line t="C" i="198" b="1" n="1">! Initialise result</line>
+        <line t="X" i="199" b="1" n="1">  res%t_string = string(trim(path))</line>
+        <line t="X" i="200" b="1" n="1"></line>
+        <line t="C" i="201" b="1" n="1">! Normalise the path</line>
+        <line t="X" i="202" b="1" n="1">  call res%normalise()</line>
+        <line t="X" i="203" b="1" n="1"></line>
+        <line t="EF" i="204" b="1" n="1">end function path_character</line>
+        <line t="EF" i="205" b="1" n="1"></line>
+        <line t="EF" i="206" b="1" n="1"></line>
+        <line t="C" i="207" b="1" n="1">! Constructor from string</line>
+        <line k="path_string" t="F" i="208" b="1" n="1">elemental function path_string( path ) result(res)</line>
+        <line t="F" i="209" b="1" n="1"></line>
+        <line t="C" i="210" b="1" n="1">! The file name (polymorphic allows passing also t_path)</line>
+        <line t="X" i="211" b="1" n="1">  class(t_string), intent(in) :: path</line>
+        <line t="X" i="212" b="1" n="1"></line>
+        <line t="C" i="213" b="1" n="1">! The path</line>
+        <line t="X" i="214" b="1" n="1">  type(t_path) :: res</line>
+        <line t="X" i="215" b="1" n="1"></line>
+        <line t="C" i="216" b="1" n="1">! Invoke the character interface</line>
+        <line t="X" i="217" b="1" n="1">  res = path_character( path%character() )</line>
+        <line t="X" i="218" b="1" n="1"></line>
+        <line t="EF" i="219" b="1" n="1">end function path_string</line>
+        <line t="EF" i="220" b="1" n="1"></line>
+        <line t="EF" i="221" b="1" n="1"></line>
+        <line t="C" i="222" b="1" n="1">! Constructor from array of strings</line>
+        <line k="path_array_character" t="F" i="223" b="1" n="1">pure function path_array_character( tokens ) result(res)</line>
+        <line t="F" i="224" b="1" n="1"></line>
+        <line t="C" i="225" b="1" n="1">! The array of strings</line>
+        <line t="X" i="226" b="1" n="1">  character(len=*), dimension(:), intent(in) :: tokens</line>
+        <line t="X" i="227" b="1" n="1"></line>
+        <line t="C" i="228" b="1" n="1">! The path</line>
+        <line t="X" i="229" b="1" n="1">  type(t_path) :: res</line>
+        <line t="X" i="230" b="1" n="1"></line>
+        <line t="C" i="231" b="1" n="1">! Local variables</line>
+        <line t="X" i="232" b="1" n="1">  integer :: i</line>
+        <line t="X" i="233" b="1" n="1"></line>
+        <line t="C" i="234" b="1" n="1">! Use the string interface</line>
+        <line t="X" i="235" b="1" n="1">  res = path( [ (string(trim(tokens(i))), i = 1, size(tokens) ) ] )</line>
+        <line t="X" i="236" b="1" n="1"></line>
+        <line t="EF" i="237" b="1" n="1">end function path_array_character</line>
+        <line t="EF" i="238" b="1" n="1"></line>
+        <line t="EF" i="239" b="1" n="1"></line>
+        <line t="C" i="240" b="1" n="1">! Constructor from array of strings</line>
+        <line k="path_array_string" t="F" i="241" b="1" n="1">pure function path_array_string( tokens ) result(res)</line>
+        <line t="F" i="242" b="1" n="1"></line>
+        <line t="C" i="243" b="1" n="1">! The array of strings (polymorphic allows passing also t_path)</line>
+        <line t="X" i="244" b="1" n="1">  class(t_string), dimension(:), intent(in) :: tokens</line>
+        <line t="X" i="245" b="1" n="1"></line>
+        <line t="C" i="246" b="1" n="1">! The path</line>
+        <line t="X" i="247" b="1" n="1">  type(t_path) :: res</line>
+        <line t="X" i="248" b="1" n="1"></line>
+        <line t="C" i="249" b="1" n="1">! Join the array of strings</line>
+        <line t="X" i="250" b="1" n="1">  call res%join( tokens, path_unix_slash )</line>
+        <line t="X" i="251" b="1" n="1"></line>
+        <line t="C" i="252" b="1" n="1">! Normalise the path</line>
+        <line t="X" i="253" b="1" n="1">  call res%normalise()</line>
+        <line t="X" i="254" b="1" n="1"></line>
+        <line t="EF" i="255" b="1" n="1">end function path_array_string</line>
+        <line t="EF" i="256" b="1" n="1"></line>
+        <line t="EF" i="257" b="1" n="1"></line>
+        <line t="C" i="258" b="1" n="1">! Check if file in handler exists</line>
+        <line k="path_exists_method" t="F" i="259" b="1" n="1">function path_exists_method( this ) result(res)</line>
+        <line t="F" i="260" b="1" n="1"></line>
+        <line t="C" i="261" b="1" n="1">! The path</line>
+        <line t="X" i="262" b="1" n="1">  class(t_path), intent(in) :: this</line>
+        <line t="X" i="263" b="1" n="1"></line>
+        <line t="C" i="264" b="1" n="1">! The status flag</line>
+        <line t="X" i="265" b="1" n="1">  logical :: res</line>
+        <line t="X" i="266" b="1" n="1"></line>
+        <line t="C" i="267" b="1" n="1">! Call the static method</line>
+        <line t="X" i="268" b="1" n="1">  res = path_exists( this%t_string )</line>
+        <line t="X" i="269" b="1" n="1"></line>
+        <line t="EF" i="270" b="1" n="1">end function path_exists_method</line>
+        <line t="EF" i="271" b="1" n="1"></line>
+        <line t="EF" i="272" b="1" n="1"></line>
+        <line t="C" i="273" b="1" n="1">! Check if file in handler exists (string interface)</line>
+        <line k="path_exists_string_static" t="F" i="274" b="1" n="1">function path_exists_string_static( path ) result(res)</line>
+        <line t="F" i="275" b="1" n="1"></line>
+        <line t="C" i="276" b="1" n="1">! The path</line>
+        <line t="X" i="277" b="1" n="1">  type(t_string), intent(in) :: path</line>
+        <line t="X" i="278" b="1" n="1"></line>
+        <line t="C" i="279" b="1" n="1">! The status flag</line>
+        <line t="X" i="280" b="1" n="1">  logical :: res</line>
+        <line t="X" i="281" b="1" n="1"></line>
+        <line t="C" i="282" b="1" n="1">! Call the character interface</line>
+        <line t="X" i="283" b="1" n="1">  res = path_exists( path%character() )</line>
+        <line t="X" i="284" b="1" n="1"></line>
+        <line t="EF" i="285" b="1" n="1">end function path_exists_string_static</line>
+        <line t="EF" i="286" b="1" n="1"></line>
+        <line t="EF" i="287" b="1" n="1"></line>
+        <line t="C" i="288" b="1" n="1">! Check if file in handler exists (character interface)</line>
+        <line k="path_exists_character_static" t="F" i="289" b="1" n="1">function path_exists_character_static( path ) result(res)</line>
+        <line t="F" i="290" b="1" n="1"></line>
+        <line t="C" i="291" b="1" n="1">! The path</line>
+        <line t="X" i="292" b="1" n="1">  character(len=*), intent(in) :: path</line>
+        <line t="X" i="293" b="1" n="1"></line>
+        <line t="C" i="294" b="1" n="1">! The status flag</line>
+        <line t="X" i="295" b="1" n="1">  logical :: res</line>
+        <line t="X" i="296" b="1" n="1"></line>
+        <line t="C" i="297" b="1" n="1">! Check if the file exists</line>
+        <line t="X" i="298" b="1" n="1">  inquire( file=trim(path), exist=res )</line>
+        <line t="X" i="299" b="1" n="1"></line>
+        <line t="EF" i="300" b="1" n="1">end function path_exists_character_static</line>
+        <line t="EF" i="301" b="1" n="1"></line>
+        <line t="EF" i="302" b="1" n="1"></line>
+        <line t="C" i="303" b="1" n="1">! Get the directroy (folder of file)</line>
+        <line k="path_directory_method" t="F" i="304" b="1" n="1">elemental function path_directory_method( this ) result(res)</line>
+        <line t="F" i="305" b="1" n="1"></line>
+        <line t="C" i="306" b="1" n="1">! The path</line>
+        <line t="X" i="307" b="1" n="1">  class(t_path), intent(in) :: this</line>
+        <line t="X" i="308" b="1" n="1"></line>
+        <line t="C" i="309" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="310" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="311" b="1" n="1"></line>
+        <line t="C" i="312" b="1" n="1">! Call the static function</line>
+        <line t="X" i="313" b="1" n="1">  res = path_directory( this%t_string )</line>
+        <line t="X" i="314" b="1" n="1"></line>
+        <line t="EF" i="315" b="1" n="1">end function path_directory_method</line>
+        <line t="EF" i="316" b="1" n="1"></line>
+        <line t="EF" i="317" b="1" n="1"></line>
+        <line t="C" i="318" b="1" n="1">! Get the directroy (folder of file; string interface)</line>
+        <line k="path_directory_string_static" t="F" i="319" b="1" n="1">elemental function path_directory_string_static( path ) result(res)</line>
+        <line t="F" i="320" b="1" n="1"></line>
+        <line t="C" i="321" b="1" n="1">! The path</line>
+        <line t="X" i="322" b="1" n="1">  type(t_string), intent(in) :: path</line>
+        <line t="X" i="323" b="1" n="1"></line>
+        <line t="C" i="324" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="325" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="326" b="1" n="1"></line>
+        <line t="C" i="327" b="1" n="1">! Call the character interface</line>
+        <line t="X" i="328" b="1" n="1">  res = string( path_directory( path%character() ) )</line>
+        <line t="X" i="329" b="1" n="1"></line>
+        <line t="EF" i="330" b="1" n="1">end function path_directory_string_static</line>
+        <line t="EF" i="331" b="1" n="1"></line>
+        <line t="EF" i="332" b="1" n="1"></line>
+        <line t="C" i="333" b="1" n="1">! Get the directroy (folder of file; character interface)</line>
+        <line k="path_directory_character_static" t="F" i="334" b="1" n="1">elemental function path_directory_character_static( path ) result(res)</line>
+        <line t="F" i="335" b="1" n="1"></line>
+        <line t="C" i="336" b="1" n="1">! The path</line>
+        <line t="X" i="337" b="1" n="1">  character(len=*), intent(in) :: path</line>
+        <line t="X" i="338" b="1" n="1"></line>
+        <line t="C" i="339" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="340" b="1" n="1">  character(len=len(path)) :: res</line>
+        <line t="X" i="341" b="1" n="1"></line>
+        <line t="C" i="342" b="1" n="1">! Local variables</line>
+        <line t="X" i="343" b="1" n="1">  integer :: islash</line>
+        <line t="X" i="344" b="1" n="1"></line>
+        <line t="C" i="345" b="1" n="1">! Locate the last slash in the full path</line>
+        <line t="X" i="346" b="1" n="1">  islash = max( index( path, path_unix_slash, back=.true. ), &amp;</line>
+        <line t="X" i="347" b="1" n="1">                index( path, path_windows_slash, back=.true. ) )</line>
+        <line t="X" i="348" b="1" n="1"></line>
+        <line t="C" i="349" b="1" n="1">! Set the path</line>
+        <line t="X" i="350" b="1" n="2">  select case( islash )</line>
+        <line t="X" i="351" b="2" n="2">    case(0)</line>
+        <line t="X" i="352" b="2" n="2">      res = ''</line>
+        <line t="X" i="353" b="3" n="2">    case default</line>
+        <line t="X" i="354" b="3" n="2">      res = path(:islash-1)</line>
+        <line t="X" i="355" b="3" n="1">  end select</line>
+        <line t="X" i="356" b="3" n="1"></line>
+        <line t="EF" i="357" b="3" n="1">end function path_directory_character_static</line>
+        <line t="EF" i="358" b="1" n="1"></line>
+        <line t="EF" i="359" b="1" n="1"></line>
+        <line t="C" i="360" b="1" n="1">! Get the file name (includes extension)</line>
+        <line k="path_file_name_method" t="F" i="361" b="1" n="1">elemental function path_file_name_method( this ) result(res)</line>
+        <line t="F" i="362" b="1" n="1"></line>
+        <line t="C" i="363" b="1" n="1">! The path</line>
+        <line t="X" i="364" b="1" n="1">  class(t_path), intent(in) :: this</line>
+        <line t="X" i="365" b="1" n="1"></line>
+        <line t="C" i="366" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="367" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="368" b="1" n="1"></line>
+        <line t="C" i="369" b="1" n="1">! Call the static function</line>
+        <line t="X" i="370" b="1" n="1">  res = path_file_name( this%t_string )</line>
+        <line t="X" i="371" b="1" n="1"></line>
+        <line t="EF" i="372" b="1" n="1">end function path_file_name_method</line>
+        <line t="EF" i="373" b="1" n="1"></line>
+        <line t="EF" i="374" b="1" n="1"></line>
+        <line t="C" i="375" b="1" n="1">! Get the file name (includes extension; string interface)</line>
+        <line k="path_file_name_string_static" t="F" i="376" b="1" n="1">elemental function path_file_name_string_static( path ) result(res)</line>
+        <line t="F" i="377" b="1" n="1"></line>
+        <line t="C" i="378" b="1" n="1">! The path</line>
+        <line t="X" i="379" b="1" n="1">  type(t_string), intent(in) :: path</line>
+        <line t="X" i="380" b="1" n="1"></line>
+        <line t="C" i="381" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="382" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="383" b="1" n="1"></line>
+        <line t="C" i="384" b="1" n="1">! Call the character interface</line>
+        <line t="X" i="385" b="1" n="1">  res = string( path_file_name( path%character() ) )</line>
+        <line t="X" i="386" b="1" n="1"></line>
+        <line t="EF" i="387" b="1" n="1">end function path_file_name_string_static</line>
+        <line t="EF" i="388" b="1" n="1"></line>
+        <line t="EF" i="389" b="1" n="1"></line>
+        <line t="C" i="390" b="1" n="1">! Get the file name (includes extension; character interface)</line>
+        <line k="path_file_name_character_static" t="F" i="391" b="1" n="1">elemental function path_file_name_character_static( path ) result(res)</line>
+        <line t="F" i="392" b="1" n="1"></line>
+        <line t="C" i="393" b="1" n="1">! The path</line>
+        <line t="X" i="394" b="1" n="1">  character(len=*), intent(in) :: path</line>
+        <line t="X" i="395" b="1" n="1"></line>
+        <line t="C" i="396" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="397" b="1" n="1">  character(len=len(path)) :: res</line>
+        <line t="X" i="398" b="1" n="1"></line>
+        <line t="C" i="399" b="1" n="1">! Local variables</line>
+        <line t="X" i="400" b="1" n="1">  integer :: islash</line>
+        <line t="X" i="401" b="1" n="1"></line>
+        <line t="C" i="402" b="1" n="1">! Locate the last slash in the full path</line>
+        <line t="X" i="403" b="1" n="1">  islash = max( index( path, path_unix_slash, back=.true. ), &amp;</line>
+        <line t="X" i="404" b="1" n="1">                index( path, path_windows_slash, back=.true. ) )</line>
+        <line t="X" i="405" b="1" n="1"></line>
+        <line t="C" i="406" b="1" n="1">! Set the path</line>
+        <line t="X" i="407" b="1" n="2">  select case( islash )</line>
+        <line t="X" i="408" b="2" n="2">    case(0)</line>
+        <line t="X" i="409" b="2" n="2">      res = path</line>
+        <line t="X" i="410" b="3" n="2">    case default</line>
+        <line t="X" i="411" b="3" n="2">      res = path(islash+1:)</line>
+        <line t="X" i="412" b="3" n="1">  end select</line>
+        <line t="X" i="413" b="3" n="1"></line>
+        <line t="EF" i="414" b="3" n="1">end function path_file_name_character_static</line>
+        <line t="EF" i="415" b="1" n="1"></line>
+        <line t="EF" i="416" b="1" n="1"></line>
+        <line t="C" i="417" b="1" n="1">! Get the file name (without extension)</line>
+        <line k="path_name_method" t="F" i="418" b="1" n="1">elemental function path_name_method( this ) result(res)</line>
+        <line t="F" i="419" b="1" n="1"></line>
+        <line t="C" i="420" b="1" n="1">! The path</line>
+        <line t="X" i="421" b="1" n="1">  class(t_path), intent(in) :: this</line>
+        <line t="X" i="422" b="1" n="1"></line>
+        <line t="C" i="423" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="424" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="425" b="1" n="1"></line>
+        <line t="C" i="426" b="1" n="1">! Call the static function</line>
+        <line t="X" i="427" b="1" n="1">  res = path_name( this%t_string )</line>
+        <line t="X" i="428" b="1" n="1"></line>
+        <line t="EF" i="429" b="1" n="1">end function path_name_method</line>
+        <line t="EF" i="430" b="1" n="1"></line>
+        <line t="EF" i="431" b="1" n="1"></line>
+        <line t="C" i="432" b="1" n="1">! Get the file name (without extension; string interface)</line>
+        <line k="path_name_string_static" t="F" i="433" b="1" n="1">elemental function path_name_string_static( path ) result(res)</line>
+        <line t="F" i="434" b="1" n="1"></line>
+        <line t="C" i="435" b="1" n="1">! The path</line>
+        <line t="X" i="436" b="1" n="1">  type(t_string), intent(in) :: path</line>
+        <line t="X" i="437" b="1" n="1"></line>
+        <line t="C" i="438" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="439" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="440" b="1" n="1"></line>
+        <line t="C" i="441" b="1" n="1">! Call the character interface</line>
+        <line t="X" i="442" b="1" n="1">  res = path_name( path%character() )</line>
+        <line t="X" i="443" b="1" n="1"></line>
+        <line t="EF" i="444" b="1" n="1">end function path_name_string_static</line>
+        <line t="EF" i="445" b="1" n="1"></line>
+        <line t="EF" i="446" b="1" n="1"></line>
+        <line t="C" i="447" b="1" n="1">! Get the file name (without extension; character interface)</line>
+        <line k="path_name_character_static" t="F" i="448" b="1" n="1">elemental function path_name_character_static( path ) result(res)</line>
+        <line t="F" i="449" b="1" n="1"></line>
+        <line t="C" i="450" b="1" n="1">! The path</line>
+        <line t="X" i="451" b="1" n="1">  character(len=*), intent(in) :: path</line>
+        <line t="X" i="452" b="1" n="1"></line>
+        <line t="C" i="453" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="454" b="1" n="1">  character(len=len(path)) :: res</line>
+        <line t="X" i="455" b="1" n="1"></line>
+        <line t="C" i="456" b="1" n="1">! Local variables</line>
+        <line t="X" i="457" b="1" n="1">  integer :: idot</line>
+        <line t="X" i="458" b="1" n="1">  character(len=:), allocatable :: local</line>
+        <line t="X" i="459" b="1" n="1"></line>
+        <line t="C" i="460" b="1" n="1">! Initialise local variables</line>
+        <line t="X" i="461" b="1" n="1">  local = path_file_name( path )</line>
+        <line t="X" i="462" b="1" n="1"></line>
+        <line t="C" i="463" b="1" n="1">! Look for the last dot in the file name</line>
+        <line t="X" i="464" b="1" n="1">  idot = index( local, dot, back=.true. )</line>
+        <line t="X" i="465" b="1" n="1"></line>
+        <line t="C" i="466" b="1" n="1">! Set the rootname</line>
+        <line t="X" i="467" b="1" n="2">  select case( idot )</line>
+        <line t="X" i="468" b="2" n="2">    case(0)</line>
+        <line t="X" i="469" b="2" n="2">      res = local</line>
+        <line t="X" i="470" b="3" n="2">    case default</line>
+        <line t="X" i="471" b="3" n="2">      res = local(:idot-1)</line>
+        <line t="X" i="472" b="3" n="1">  end select</line>
+        <line t="X" i="473" b="3" n="1"></line>
+        <line t="EF" i="474" b="3" n="1">end function path_name_character_static</line>
+        <line t="EF" i="475" b="1" n="1"></line>
+        <line t="EF" i="476" b="1" n="1"></line>
+        <line t="C" i="477" b="1" n="1">! Check if path is an absolute path representation</line>
+        <line k="path_is_absolute_method" t="F" i="478" b="1" n="1">elemental function path_is_absolute_method( this ) result(res)</line>
+        <line t="F" i="479" b="1" n="1"></line>
+        <line t="C" i="480" b="1" n="1">! The path</line>
+        <line t="X" i="481" b="1" n="1">  class(t_path), intent(in) :: this</line>
+        <line t="X" i="482" b="1" n="1"></line>
+        <line t="C" i="483" b="1" n="1">! The absolute path flag</line>
+        <line t="X" i="484" b="1" n="1">  logical :: res</line>
+        <line t="X" i="485" b="1" n="1"></line>
+        <line t="C" i="486" b="1" n="1">! Call the static function</line>
+        <line t="X" i="487" b="1" n="1">  res = path_is_absolute( this%t_string )</line>
+        <line t="X" i="488" b="1" n="1"></line>
+        <line t="EF" i="489" b="1" n="1">end function path_is_absolute_method</line>
+        <line t="EF" i="490" b="1" n="1"></line>
+        <line t="EF" i="491" b="1" n="1"></line>
+        <line t="C" i="492" b="1" n="1">! Check if path is an absolute path representation (string interface)</line>
+        <line k="path_is_absolute_string_static" t="F" i="493" b="1" n="1">elemental function path_is_absolute_string_static( path ) result(res)</line>
+        <line t="F" i="494" b="1" n="1"></line>
+        <line t="C" i="495" b="1" n="1">! The path</line>
+        <line t="X" i="496" b="1" n="1">  type(t_string), intent(in) :: path</line>
+        <line t="X" i="497" b="1" n="1"></line>
+        <line t="C" i="498" b="1" n="1">! The absolute path flag</line>
+        <line t="X" i="499" b="1" n="1">  logical :: res</line>
+        <line t="X" i="500" b="1" n="1"></line>
+        <line t="C" i="501" b="1" n="1">! Call the character interface</line>
+        <line t="X" i="502" b="1" n="1">  res = path_is_absolute( path%character() )</line>
+        <line t="X" i="503" b="1" n="1"></line>
+        <line t="EF" i="504" b="1" n="1">end function path_is_absolute_string_static</line>
+        <line t="EF" i="505" b="1" n="1"></line>
+        <line t="EF" i="506" b="1" n="1"></line>
+        <line t="C" i="507" b="1" n="1">! Check if path is an absolute path representation (character interface)</line>
+        <line k="path_is_absolute_character_static" t="F" i="508" b="1" n="1">elemental function path_is_absolute_character_static( path ) result(res)</line>
+        <line t="F" i="509" b="1" n="1"></line>
+        <line t="C" i="510" b="1" n="1">! The path</line>
+        <line t="X" i="511" b="1" n="1">  character(len=*), intent(in) :: path</line>
+        <line t="X" i="512" b="1" n="1"></line>
+        <line t="C" i="513" b="1" n="1">! The absolute path flag</line>
+        <line t="X" i="514" b="1" n="1">  logical :: res</line>
+        <line t="X" i="515" b="1" n="1"></line>
+        <line t="C" i="516" b="1" n="1">! Local variables</line>
+        <line t="X" i="517" b="1" n="1">  character(len=2) :: root</line>
+        <line t="X" i="518" b="1" n="1"></line>
+        <line t="C" i="519" b="1" n="1">! Initialise root</line>
+        <line t="X" i="520" b="1" n="1">  root = path(1:2)</line>
+        <line t="X" i="521" b="1" n="1"></line>
+        <line t="C" i="522" b="1" n="1">! Check the condition for absolute path</line>
+        <line t="X" i="523" b="1" n="1">  res = ( root(1:1) == path_windows_slash ) .or. &amp;</line>
+        <line t="X" i="524" b="1" n="1">        ( root(1:1) == path_unix_slash ) .or. &amp;</line>
+        <line t="X" i="525" b="1" n="1">        ( root(2:2) == colon )</line>
+        <line t="X" i="526" b="1" n="1"></line>
+        <line t="EF" i="527" b="1" n="1">end function path_is_absolute_character_static</line>
+        <line t="EF" i="528" b="1" n="1"></line>
+        <line t="EF" i="529" b="1" n="1"></line>
+        <line t="C" i="530" b="1" n="1">! Get the file extension</line>
+        <line k="path_extension_method" t="F" i="531" b="1" n="1">elemental function path_extension_method( this ) result(res)</line>
+        <line t="F" i="532" b="1" n="1"></line>
+        <line t="C" i="533" b="1" n="1">! The path</line>
+        <line t="X" i="534" b="1" n="1">  class(t_path), intent(in) :: this</line>
+        <line t="X" i="535" b="1" n="1"></line>
+        <line t="C" i="536" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="537" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="538" b="1" n="1"></line>
+        <line t="C" i="539" b="1" n="1">! Call the static function</line>
+        <line t="X" i="540" b="1" n="1">  res = path_extension( this%t_string )</line>
+        <line t="X" i="541" b="1" n="1"></line>
+        <line t="EF" i="542" b="1" n="1">end function path_extension_method</line>
+        <line t="EF" i="543" b="1" n="1"></line>
+        <line t="EF" i="544" b="1" n="1"></line>
+        <line t="C" i="545" b="1" n="1">! Get the file extension (string interface)</line>
+        <line k="path_extension_string_static" t="F" i="546" b="1" n="1">elemental function path_extension_string_static( path ) result(res)</line>
+        <line t="F" i="547" b="1" n="1"></line>
+        <line t="C" i="548" b="1" n="1">! The path</line>
+        <line t="X" i="549" b="1" n="1">  type(t_string), intent(in) :: path</line>
+        <line t="X" i="550" b="1" n="1"></line>
+        <line t="C" i="551" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="552" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="553" b="1" n="1"></line>
+        <line t="C" i="554" b="1" n="1">! Call the character interface</line>
+        <line t="X" i="555" b="1" n="1">  res = string( path_extension( path%character() ) )</line>
+        <line t="X" i="556" b="1" n="1"></line>
+        <line t="EF" i="557" b="1" n="1">end function path_extension_string_static</line>
+        <line t="EF" i="558" b="1" n="1"></line>
+        <line t="EF" i="559" b="1" n="1"></line>
+        <line t="C" i="560" b="1" n="1">! Get the file extension (character interface)</line>
+        <line k="path_extension_character_static" t="F" i="561" b="1" n="1">elemental function path_extension_character_static( path ) result(res)</line>
+        <line t="F" i="562" b="1" n="1"></line>
+        <line t="C" i="563" b="1" n="1">! The path</line>
+        <line t="X" i="564" b="1" n="1">  character(len=*), intent(in) :: path</line>
+        <line t="X" i="565" b="1" n="1"></line>
+        <line t="C" i="566" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="567" b="1" n="1">  character(len=len(path)) :: res</line>
+        <line t="X" i="568" b="1" n="1"></line>
+        <line t="C" i="569" b="1" n="1">! Local variables</line>
+        <line t="X" i="570" b="1" n="1">  integer :: idot</line>
+        <line t="X" i="571" b="1" n="1">  character(len=:), allocatable :: local</line>
+        <line t="X" i="572" b="1" n="1"></line>
+        <line t="C" i="573" b="1" n="1">! Initialise local variables</line>
+        <line t="X" i="574" b="1" n="1">  local = path_file_name( path )</line>
+        <line t="X" i="575" b="1" n="1"></line>
+        <line t="C" i="576" b="1" n="1">! Look for the last dot in the file name</line>
+        <line t="X" i="577" b="1" n="1">  idot = index( local, dot, back=.true. )</line>
+        <line t="X" i="578" b="1" n="1"></line>
+        <line t="C" i="579" b="1" n="1">! Set the extension</line>
+        <line t="X" i="580" b="1" n="2">  select case( idot )</line>
+        <line t="X" i="581" b="2" n="2">    case(0)</line>
+        <line t="X" i="582" b="2" n="2">      res = ''</line>
+        <line t="X" i="583" b="3" n="2">    case default</line>
+        <line t="X" i="584" b="3" n="2">      res = local(idot+1:)</line>
+        <line t="X" i="585" b="3" n="1">  end select</line>
+        <line t="X" i="586" b="3" n="1"></line>
+        <line t="EF" i="587" b="3" n="1">end function path_extension_character_static</line>
+        <line t="EF" i="588" b="1" n="1"></line>
+        <line t="EF" i="589" b="1" n="1"></line>
+        <line t="C" i="590" b="1" n="1">! Determines whether a path includes a file name extension</line>
+        <line k="path_has_extension_method" t="F" i="591" b="1" n="1">elemental function path_has_extension_method( this ) result(res)</line>
+        <line t="F" i="592" b="1" n="1"></line>
+        <line t="C" i="593" b="1" n="1">! The path</line>
+        <line t="X" i="594" b="1" n="1">  class(t_path), intent(in) :: this</line>
+        <line t="X" i="595" b="1" n="1"></line>
+        <line t="C" i="596" b="1" n="1">! Has extension flag)</line>
+        <line t="X" i="597" b="1" n="1">  logical :: res</line>
+        <line t="X" i="598" b="1" n="1"></line>
+        <line t="C" i="599" b="1" n="1">! Call the static function</line>
+        <line t="X" i="600" b="1" n="1">  res = path_has_extension( this%t_string )</line>
+        <line t="X" i="601" b="1" n="1"></line>
+        <line t="EF" i="602" b="1" n="1">end function path_has_extension_method</line>
+        <line t="EF" i="603" b="1" n="1"></line>
+        <line t="EF" i="604" b="1" n="1"></line>
+        <line t="C" i="605" b="1" n="1">! Determines whether a path includes a file name extension (string interface)</line>
+        <line k="path_has_extension_string_static" t="F" i="606" b="1" n="1">elemental function path_has_extension_string_static( path ) result(res)</line>
+        <line t="F" i="607" b="1" n="1"></line>
+        <line t="C" i="608" b="1" n="1">! The path</line>
+        <line t="X" i="609" b="1" n="1">  type(t_string), intent(in) :: path</line>
+        <line t="X" i="610" b="1" n="1"></line>
+        <line t="C" i="611" b="1" n="1">! Has extension flag)</line>
+        <line t="X" i="612" b="1" n="1">  logical :: res</line>
+        <line t="X" i="613" b="1" n="1"></line>
+        <line t="C" i="614" b="1" n="1">! Call the character interface</line>
+        <line t="X" i="615" b="1" n="1">  res = path_has_extension( path%character() )</line>
+        <line t="X" i="616" b="1" n="1"></line>
+        <line t="EF" i="617" b="1" n="1">end function path_has_extension_string_static</line>
+        <line t="EF" i="618" b="1" n="1"></line>
+        <line t="EF" i="619" b="1" n="1"></line>
+        <line t="C" i="620" b="1" n="1">! Determines whether a path includes a file name extension (character interface)</line>
+        <line k="path_has_extension_character_static" t="F" i="621" b="1" n="1">elemental function path_has_extension_character_static( path ) result(res)</line>
+        <line t="F" i="622" b="1" n="1"></line>
+        <line t="C" i="623" b="1" n="1">! The path</line>
+        <line t="X" i="624" b="1" n="1">  character(len=*), intent(in) :: path</line>
+        <line t="X" i="625" b="1" n="1"></line>
+        <line t="C" i="626" b="1" n="1">! Has extension flag)</line>
+        <line t="X" i="627" b="1" n="1">  logical :: res</line>
+        <line t="X" i="628" b="1" n="1"></line>
+        <line t="C" i="629" b="1" n="1">! Local variables</line>
+        <line t="X" i="630" b="1" n="1">  integer :: idot</line>
+        <line t="X" i="631" b="1" n="1">  type(t_string) :: local</line>
+        <line t="X" i="632" b="1" n="1"></line>
+        <line t="C" i="633" b="1" n="1">! Initialise local variables</line>
+        <line t="X" i="634" b="1" n="1">  local = path_file_name( path )</line>
+        <line t="X" i="635" b="1" n="1"></line>
+        <line t="C" i="636" b="1" n="1">! Look for the last dot in the file name</line>
+        <line t="X" i="637" b="1" n="1">  idot = local%index( dot, back=.true. )</line>
+        <line t="X" i="638" b="1" n="1"></line>
+        <line t="C" i="639" b="1" n="1">! Check the extension presence</line>
+        <line t="X" i="640" b="1" n="1">  res = ( idot &gt; 0 )</line>
+        <line t="X" i="641" b="1" n="1"></line>
+        <line t="EF" i="642" b="1" n="1">end function path_has_extension_character_static</line>
+        <line t="EF" i="643" b="1" n="1"></line>
+        <line t="EF" i="644" b="1" n="1"></line>
+        <line t="C" i="645" b="1" n="1">! Change path extension (string interface)</line>
+        <line t="C" i="646" b="1" n="1">! Takes the characters after the last dot provided in the nex extension.</line>
+        <line t="C" i="647" b="1" n="1">! If there are more than one dot, all leading characters prior to the vey last dot are ignored</line>
+        <line k="path_change_extension_string_method" t="S" i="648" b="1" n="1">elemental subroutine path_change_extension_string_method( this, extension )</line>
+        <line t="S" i="649" b="1" n="1"></line>
+        <line t="C" i="650" b="1" n="1">! The path</line>
+        <line t="X" i="651" b="1" n="1">  class(t_path), intent(inout) :: this</line>
+        <line t="X" i="652" b="1" n="1"></line>
+        <line t="C" i="653" b="1" n="1">! The new extension</line>
+        <line t="X" i="654" b="1" n="1">  type(t_string), intent(in) :: extension</line>
+        <line t="X" i="655" b="1" n="1"></line>
+        <line t="C" i="656" b="1" n="1">! Call the static function</line>
+        <line t="X" i="657" b="1" n="1">  this%t_string = path_change_extension( this%t_string, extension )</line>
+        <line t="X" i="658" b="1" n="1"></line>
+        <line t="ES" i="659" b="1" n="1">end subroutine path_change_extension_string_method</line>
+        <line t="ES" i="660" b="1" n="1"></line>
+        <line t="ES" i="661" b="1" n="1"></line>
+        <line t="C" i="662" b="1" n="1">! Change path extension (character interface)</line>
+        <line t="C" i="663" b="1" n="1">! Takes the characters after the last dot provided in the nex extension.</line>
+        <line t="C" i="664" b="1" n="1">! If there are more than one dot, all leading characters prior to the vey last dot are ignored</line>
+        <line k="path_change_extension_character_method" t="S" i="665" b="1" n="1">elemental subroutine path_change_extension_character_method( this, extension )</line>
+        <line t="S" i="666" b="1" n="1"></line>
+        <line t="C" i="667" b="1" n="1">! The path</line>
+        <line t="X" i="668" b="1" n="1">  class(t_path), intent(inout) :: this</line>
+        <line t="X" i="669" b="1" n="1"></line>
+        <line t="C" i="670" b="1" n="1">! The new extension</line>
+        <line t="X" i="671" b="1" n="1">  character(len=*), intent(in) :: extension</line>
+        <line t="X" i="672" b="1" n="1"></line>
+        <line t="C" i="673" b="1" n="1">! Call the static function</line>
+        <line t="X" i="674" b="1" n="1">  this%t_string = path_change_extension( this%t_string, string(extension) )</line>
+        <line t="X" i="675" b="1" n="1"></line>
+        <line t="ES" i="676" b="1" n="1">end subroutine path_change_extension_character_method</line>
+        <line t="ES" i="677" b="1" n="1"></line>
+        <line t="ES" i="678" b="1" n="1"></line>
+        <line t="C" i="679" b="1" n="1">! Change path extension (string interface)</line>
+        <line t="C" i="680" b="1" n="1">! Takes the characters after the last dot provided in the nex extension.</line>
+        <line t="C" i="681" b="1" n="1">! If there are more than one dot, all leading characters prior to the vey last dot are ignored</line>
+        <line k="path_change_extension_string_static" t="F" i="682" b="1" n="1">elemental function path_change_extension_string_static( path, extension ) result(res)</line>
+        <line t="F" i="683" b="1" n="1"></line>
+        <line t="C" i="684" b="1" n="1">! The path</line>
+        <line t="X" i="685" b="1" n="1">  type(t_string), intent(in) :: path</line>
+        <line t="X" i="686" b="1" n="1"></line>
+        <line t="C" i="687" b="1" n="1">! The new extension</line>
+        <line t="X" i="688" b="1" n="1">  type(t_string), intent(in) :: extension</line>
+        <line t="X" i="689" b="1" n="1"></line>
+        <line t="C" i="690" b="1" n="1">! The path with the modified extension)</line>
+        <line t="X" i="691" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="692" b="1" n="1"></line>
+        <line t="C" i="693" b="1" n="1">! Call the character interface</line>
+        <line t="X" i="694" b="1" n="1">  res = path_change_extension( path%character(), extension%character() )</line>
+        <line t="X" i="695" b="1" n="1"></line>
+        <line t="EF" i="696" b="1" n="1">end function path_change_extension_string_static</line>
+        <line t="EF" i="697" b="1" n="1"></line>
+        <line t="EF" i="698" b="1" n="1"></line>
+        <line t="C" i="699" b="1" n="1">! Change path extension (character interface)</line>
+        <line t="C" i="700" b="1" n="1">! Takes the characters after the last dot provided in the nex extension.</line>
+        <line t="C" i="701" b="1" n="1">! If there are more than one dot, all leading characters prior to the vey last dot are ignored</line>
+        <line k="path_change_extension_character_static" t="F" i="702" b="1" n="1">elemental function path_change_extension_character_static( path, extension ) result(res)</line>
+        <line t="F" i="703" b="1" n="1"></line>
+        <line t="C" i="704" b="1" n="1">! The path</line>
+        <line t="X" i="705" b="1" n="1">  character(len=*), intent(in) :: path</line>
+        <line t="X" i="706" b="1" n="1"></line>
+        <line t="C" i="707" b="1" n="1">! The new extension</line>
+        <line t="X" i="708" b="1" n="1">  character(len=*), intent(in) :: extension</line>
+        <line t="X" i="709" b="1" n="1"></line>
+        <line t="C" i="710" b="1" n="1">! The path with the modified extension)</line>
+        <line t="X" i="711" b="1" n="1">  character(len=len(path)+len(extension)) :: res</line>
+        <line t="X" i="712" b="1" n="1"></line>
+        <line t="C" i="713" b="1" n="1">! Local variables</line>
+        <line t="X" i="714" b="1" n="1">  integer :: idot</line>
+        <line t="X" i="715" b="1" n="1">  character(len=:), allocatable :: ext, local</line>
+        <line t="X" i="716" b="1" n="1"></line>
+        <line t="C" i="717" b="1" n="1">! Check if the provided extension has a dot</line>
+        <line t="X" i="718" b="1" n="1">  idot = index( extension, dot, back=.true. )</line>
+        <line t="X" i="719" b="1" n="2">  select case( idot )</line>
+        <line t="X" i="720" b="2" n="2">    case(0)</line>
+        <line t="X" i="721" b="2" n="2">      ext = extension</line>
+        <line t="X" i="722" b="3" n="2">    case default</line>
+        <line t="X" i="723" b="3" n="2">      ext = extension(idot+1:)</line>
+        <line t="X" i="724" b="3" n="1">    end select</line>
+        <line t="X" i="725" b="3" n="1"></line>
+        <line t="C" i="726" b="3" n="1">! Look for the last dot in the path</line>
+        <line t="X" i="727" b="3" n="1">  local = path_file_name( path )</line>
+        <line t="X" i="728" b="3" n="1">  idot = index( local, dot, back=.true. )</line>
+        <line t="X" i="729" b="3" n="1"></line>
+        <line t="C" i="730" b="3" n="1">! Reconstruct the path with the new extension</line>
+        <line t="X" i="731" b="3" n="2">  select case( idot )</line>
+        <line t="X" i="732" b="4" n="2">    case(0)</line>
+        <line t="X" i="733" b="4" n="2">      res = trim(path) // dot // ext</line>
+        <line t="X" i="734" b="5" n="2">    case default</line>
+        <line t="X" i="735" b="5" n="2">      idot = index( path, dot, back=.true. )</line>
+        <line t="X" i="736" b="5" n="2">      res = path(:idot) // ext</line>
+        <line t="X" i="737" b="5" n="1">    end select</line>
+        <line t="X" i="738" b="5" n="1"></line>
+        <line t="EF" i="739" b="5" n="1">end function path_change_extension_character_static</line>
+        <line t="EF" i="740" b="1" n="1"></line>
+        <line t="EF" i="741" b="1" n="1"></line>
+        <line t="C" i="742" b="1" n="1">! Normalise a file path</line>
+        <line k="path_normalise_method" t="S" i="743" b="1" n="1">elemental subroutine path_normalise_method( this )</line>
+        <line t="S" i="744" b="1" n="1"></line>
+        <line t="C" i="745" b="1" n="1">! The path</line>
+        <line t="X" i="746" b="1" n="1">  class(t_path), intent(inout) :: this</line>
+        <line t="X" i="747" b="1" n="1"></line>
+        <line t="C" i="748" b="1" n="1">! Call the static function</line>
+        <line t="X" i="749" b="1" n="1">  this%t_string = path_normalise( this%t_string )</line>
+        <line t="X" i="750" b="1" n="1"></line>
+        <line t="ES" i="751" b="1" n="1">end subroutine path_normalise_method</line>
+        <line t="ES" i="752" b="1" n="1"></line>
+        <line t="ES" i="753" b="1" n="1"></line>
+        <line t="C" i="754" b="1" n="1">! Normalise a file path (string interface)</line>
+        <line k="path_normalise_string_static" t="F" i="755" b="1" n="1">elemental function path_normalise_string_static( path ) result(res)</line>
+        <line t="F" i="756" b="1" n="1"></line>
+        <line t="C" i="757" b="1" n="1">! The path</line>
+        <line t="X" i="758" b="1" n="1">  type(t_string), intent(in) :: path</line>
+        <line t="X" i="759" b="1" n="1"></line>
+        <line t="C" i="760" b="1" n="1">! The normalised path</line>
+        <line t="X" i="761" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="762" b="1" n="1"></line>
+        <line t="C" i="763" b="1" n="1">! Call the character interface</line>
+        <line t="X" i="764" b="1" n="1">  res = string( path_normalise( path%character() ) )</line>
+        <line t="X" i="765" b="1" n="1"></line>
+        <line t="EF" i="766" b="1" n="1">end function path_normalise_string_static</line>
+        <line t="EF" i="767" b="1" n="1"></line>
+        <line t="EF" i="768" b="1" n="1"></line>
+        <line t="C" i="769" b="1" n="1">! Normalise a file path (character interface)</line>
+        <line k="path_normalise_character_static" t="F" i="770" b="1" n="1">elemental function path_normalise_character_static( path ) result(res)</line>
+        <line t="F" i="771" b="1" n="1"></line>
+        <line t="C" i="772" b="1" n="1">! The path</line>
+        <line t="X" i="773" b="1" n="1">  character(len=*), intent(in) :: path</line>
+        <line t="X" i="774" b="1" n="1"></line>
+        <line t="C" i="775" b="1" n="1">! The normalised path</line>
+        <line t="X" i="776" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="777" b="1" n="1"></line>
+        <line t="C" i="778" b="1" n="1">! Local variables</line>
+        <line t="X" i="779" b="1" n="1">  type(t_string), dimension(:), allocatable :: tokenlist, packed_tokenlist</line>
+        <line t="X" i="780" b="1" n="1">  character(len=:), allocatable :: ctoken</line>
+        <line t="X" i="781" b="1" n="1">  integer :: ntoken</line>
+        <line t="X" i="782" b="1" n="1">  integer :: i, j</line>
+        <line t="X" i="783" b="1" n="1">  logical :: absolute</line>
+        <line t="X" i="784" b="1" n="1">  type(t_string) :: local</line>
+        <line t="X" i="785" b="1" n="1"></line>
+        <line t="C" i="786" b="1" n="1">! Initialise</line>
+        <line t="X" i="787" b="1" n="1">  local = string( adjustl(path) )</line>
+        <line t="X" i="788" b="1" n="1"></line>
+        <line t="C" i="789" b="1" n="1">! Normalise slashes to unix like slash</line>
+        <line t="X" i="790" b="1" n="1">  local = local%replace( path_windows_slash, path_unix_slash )</line>
+        <line t="X" i="791" b="1" n="1"></line>
+        <line t="C" i="792" b="1" n="1">! Check absolute path</line>
+        <line t="C" i="793" b="1" n="1">! This also works in Windows because if the start is x: then it would be considered as relative</line>
+        <line t="C" i="794" b="1" n="1">! and normalisation will take the x: as the first relative token</line>
+        <line t="X" i="795" b="1" n="1">  absolute = ( local%character(1,1) == path_unix_slash )</line>
+        <line t="X" i="796" b="1" n="1"></line>
+        <line t="C" i="797" b="1" n="1">! Tokenize the path</line>
+        <line t="X" i="798" b="1" n="1">  call local%split( path_unix_slash, tokenlist, .true. )</line>
+        <line t="X" i="799" b="1" n="1"></line>
+        <line t="C" i="800" b="1" n="1">! Look for the first token that is not '..' or '.'</line>
+        <line t="X" i="801" b="2" n="2">  do j = 1, size(tokenlist)</line>
+        <line t="X" i="802" b="2" n="2"></line>
+        <line t="C" i="803" b="2" n="2">!   Check the token</line>
+        <line t="X" i="804" b="2" n="2">    ctoken = tokenlist(j)%character()</line>
+        <line t="X" i="805" b="2" n="3">    select case( ctoken )</line>
+        <line t="X" i="806" b="2" n="3"></line>
+        <line t="C" i="807" b="2" n="3">!     Nullify self token; if not first token</line>
+        <line t="X" i="808" b="3" n="3">      case( '.' )</line>
+        <line t="X" i="809" b="4" n="4">        if( j /= 1 ) tokenlist(j) = ''</line>
+        <line t="X" i="810" b="4" n="4"></line>
+        <line t="C" i="811" b="4" n="4">!     Skip token reference to parent level</line>
+        <line t="X" i="812" b="5" n="4">      case( '..' )</line>
+        <line t="X" i="813" b="5" n="4"></line>
+        <line t="C" i="814" b="5" n="4">!     Default is a non '.' or '..' token; exit loop</line>
+        <line t="X" i="815" b="6" n="4">      case default</line>
+        <line t="X" i="816" b="6" n="4">        exit</line>
+        <line t="X" i="817" b="6" n="4"></line>
+        <line t="X" i="818" b="6" n="3">    end select</line>
+        <line t="X" i="819" b="6" n="3"></line>
+        <line t="X" i="820" b="6" n="2">  end do</line>
+        <line t="X" i="821" b="6" n="2"></line>
+        <line t="C" i="822" b="6" n="2">! Process the tokens</line>
+        <line t="X" i="823" b="7" n="3">  do i = j, size(tokenlist)</line>
+        <line t="X" i="824" b="7" n="3"></line>
+        <line t="C" i="825" b="7" n="3">!   Check for tokens requiring specific action</line>
+        <line t="X" i="826" b="7" n="4">    select case( tokenlist(i)%character() )</line>
+        <line t="X" i="827" b="7" n="4"></line>
+        <line t="C" i="828" b="7" n="4">!     Check for self token</line>
+        <line t="X" i="829" b="8" n="4">      case( '.' )</line>
+        <line t="X" i="830" b="8" n="4"></line>
+        <line t="C" i="831" b="8" n="4">!       Nullify current token</line>
+        <line t="X" i="832" b="8" n="4">        tokenlist(i) = ''</line>
+        <line t="X" i="833" b="8" n="4"></line>
+        <line t="C" i="834" b="8" n="4">!     Check for reference to parent level</line>
+        <line t="X" i="835" b="9" n="4">      case( '..' )</line>
+        <line t="X" i="836" b="9" n="4"></line>
+        <line t="C" i="837" b="9" n="4">!       Nullify the previous and current token</line>
+        <line t="X" i="838" b="9" n="4">        tokenlist(i-1) = ''</line>
+        <line t="X" i="839" b="9" n="4">        tokenlist(i) = ''</line>
+        <line t="X" i="840" b="9" n="4"></line>
+        <line t="X" i="841" b="9" n="3">    end select</line>
+        <line t="X" i="842" b="9" n="3"></line>
+        <line t="X" i="843" b="9" n="2">  end do</line>
+        <line t="X" i="844" b="9" n="2"></line>
+        <line t="C" i="845" b="9" n="2">! Reconstruct the path from the tokens (protect from no tokens)</line>
+        <line t="X" i="846" b="9" n="2">  ntoken = count(tokenlist /= '')</line>
+        <line t="X" i="847" b="10" n="3">  if( ntoken &gt; 0 ) then</line>
+        <line t="X" i="848" b="10" n="3">    allocate( packed_tokenlist, source=pack( tokenlist, tokenlist /= '' ) )</line>
+        <line t="X" i="849" b="10" n="3">    call local%join( packed_tokenlist, path_unix_slash )</line>
+        <line t="X" i="850" b="11" n="3">  else</line>
+        <line t="X" i="851" b="11" n="3">    local = ''</line>
+        <line t="X" i="852" b="11" n="2">  end if</line>
+        <line t="X" i="853" b="11" n="2"></line>
+        <line t="C" i="854" b="11" n="2">! Reconstruct the path including the absolute condition</line>
+        <line t="X" i="855" b="12" n="3">  if( absolute ) then</line>
+        <line t="X" i="856" b="12" n="3">    res = path_unix_slash // local%character()</line>
+        <line t="X" i="857" b="13" n="3">  else</line>
+        <line t="X" i="858" b="13" n="3">    res = local%character()</line>
+        <line t="X" i="859" b="13" n="2">  end if</line>
+        <line t="X" i="860" b="13" n="2"></line>
+        <line t="EF" i="861" b="13" n="2">end function path_normalise_character_static</line>
+        <line t="EF" i="862" b="1" n="2"></line>
+        <line t="EF" i="863" b="1" n="2"></line>
+        <line t="C" i="864" b="1" n="2">! Get the path of the system temporary folder (defined by env(TMP))</line>
+        <line k="path_temp_path_static" t="F" i="865" b="1" n="1">function path_temp_path_static() result(res)</line>
+        <line t="F" i="866" b="1" n="1"></line>
+        <line t="C" i="867" b="1" n="1">! System temporary path (empty if not defined)</line>
+        <line t="X" i="868" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="869" b="1" n="1"></line>
+        <line t="C" i="870" b="1" n="1">! Local variables</line>
+        <line t="X" i="871" b="1" n="1">  character(len=:), allocatable :: tmpenv</line>
+        <line t="X" i="872" b="1" n="1">  integer :: tmpenvlen</line>
+        <line t="X" i="873" b="1" n="1"></line>
+        <line t="C" i="874" b="1" n="1">! Get the value of the environment varialble TMP</line>
+        <line t="X" i="875" b="1" n="1">  call get_environment_variable( 'TMP', length=tmpenvlen )</line>
+        <line t="X" i="876" b="1" n="1">  allocate( character(len=tmpenvlen) :: tmpenv )</line>
+        <line t="X" i="877" b="1" n="1">  call get_environment_variable( 'TMP', value=tmpenv )</line>
+        <line t="X" i="878" b="1" n="1"></line>
+        <line t="C" i="879" b="1" n="1">! Return the path</line>
+        <line t="X" i="880" b="1" n="1">  res = string(tmpenv)</line>
+        <line t="X" i="881" b="1" n="1"></line>
+        <line t="EF" i="882" b="1" n="1">end function path_temp_path_static</line>
+        <line t="EF" i="883" b="1" n="1"></line>
+        <line t="EF" i="884" b="1" n="1"></line>
+        <line t="C" i="885" b="1" n="1">! Returns the full path of a unique named temporary file</line>
+        <line k="path_temp_file_name" t="F" i="886" b="1" n="1">function path_temp_file_name() result(res)</line>
+        <line t="F" i="887" b="1" n="1"></line>
+        <line t="C" i="888" b="1" n="1">! Full path to the temporary file</line>
+        <line t="X" i="889" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="890" b="1" n="1"></line>
+        <line t="C" i="891" b="1" n="1">! Local variables</line>
+        <line t="X" i="892" b="1" n="1">  type(t_string) :: tmppath</line>
+        <line t="X" i="893" b="1" n="1">  real, dimension(10) :: rands</line>
+        <line t="X" i="894" b="1" n="1">  character(len=size(rands)) :: tmpfilename</line>
+        <line t="X" i="895" b="1" n="1">  integer :: i</line>
+        <line t="X" i="896" b="1" n="1">  integer :: idx</line>
+        <line t="X" i="897" b="1" n="1">  logical, save :: first = .true.</line>
+        <line t="X" i="898" b="1" n="1"></line>
+        <line t="C" i="899" b="1" n="1">! Initialise the random number generator (only once to avoid same name if too fast consecutive calls)</line>
+        <line t="X" i="900" b="2" n="2">  if( first ) then</line>
+        <line t="X" i="901" b="2" n="2">    call random_seed()</line>
+        <line t="X" i="902" b="2" n="2">    first = .false.</line>
+        <line t="X" i="903" b="2" n="1">  end if</line>
+        <line t="X" i="904" b="2" n="1"></line>
+        <line t="C" i="905" b="2" n="1">! Get random number for the generation of the unique name (first must be a letter)</line>
+        <line t="X" i="906" b="2" n="1">  call random_number( rands(1) )</line>
+        <line t="X" i="907" b="2" n="1">  idx = int( 25 * rands(1) + 65, kind=4 )</line>
+        <line t="X" i="908" b="2" n="1">  tmpfilename(1:1) = char(idx)</line>
+        <line t="X" i="909" b="3" n="2">  do i = 2, size(rands)</line>
+        <line t="X" i="910" b="3" n="2">    call random_number( rands(i) )</line>
+        <line t="X" i="911" b="3" n="2">    idx = int( 25 * rands(i) + 65, kind=4 )</line>
+        <line t="X" i="912" b="3" n="2">    tmpfilename(i:i) = char(idx)</line>
+        <line t="X" i="913" b="3" n="1">  end do</line>
+        <line t="X" i="914" b="3" n="1"></line>
+        <line t="C" i="915" b="3" n="1">! Get the temporary path</line>
+        <line t="X" i="916" b="3" n="1">  tmppath = path_temp_path()</line>
+        <line t="X" i="917" b="3" n="1"></line>
+        <line t="C" i="918" b="3" n="1">! Get the full path for the temporary file name</line>
+        <line t="X" i="919" b="3" n="1">  call res%join( [ tmppath, string(tmpfilename//'.tmp') ], path_unix_slash )</line>
+        <line t="X" i="920" b="3" n="1"></line>
+        <line t="EF" i="921" b="3" n="1">end function path_temp_file_name</line>
+        <line t="EF" i="922" b="1" n="1"></line>
+        <line t="EF" i="923" b="1" n="1"></line>
+        <line t="C" i="924" b="1" n="1">! Get the full file path as a string</line>
+        <line k="path_to_string" t="F" i="925" b="1" n="1">elemental function path_to_string( this ) result(res)</line>
+        <line t="F" i="926" b="1" n="1"></line>
+        <line t="C" i="927" b="1" n="1">! The path</line>
+        <line t="X" i="928" b="1" n="1">  class(t_path), intent(in) :: this</line>
+        <line t="X" i="929" b="1" n="1"></line>
+        <line t="C" i="930" b="1" n="1">! The file path (without last slash)</line>
+        <line t="X" i="931" b="1" n="1">  type(t_string) :: res</line>
+        <line t="X" i="932" b="1" n="1"></line>
+        <line t="C" i="933" b="1" n="1">! Set the full file path</line>
+        <line t="X" i="934" b="1" n="1">  res = this%t_string</line>
+        <line t="X" i="935" b="1" n="1"></line>
+        <line t="EF" i="936" b="1" n="1">end function path_to_string</line>
+        <line t="EF" i="937" b="1" n="1"></line>
+        <line t="M" i="938" b="1" n="1">end module m_path</line>
+        <line t="M" i="939" b="1" n="1"></line>
+    </code>
+</fmx>

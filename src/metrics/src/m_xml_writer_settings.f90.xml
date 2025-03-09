@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_xml_writer_settings.f90">
+    <context>
+        <time>2025-03-09T18:18:31</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Fommons</project>
+        <name>m_xml_writer_settings.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_xml_writer_settings" type="module">
+            <main>
+                <lines>
+                    <source percent="35.16">32</source>
+                    <comments percent="39.56">36</comments>
+                    <empty percent="25.27">23</empty>
+                    <total>91</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="xml_writer_settings_general" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="50.00">25</source>
+                            <comments percent="24.00">12</comments>
+                            <empty percent="26.00">13</empty>
+                            <total>50</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>7</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="xml_writer_settings_get_indent" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="xml_writer_settings_get_indent_chars" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="xml_writer_settings_get_lines" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="xml_writer_settings_get_omit_xml_declaration" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="xml_writer_settings_get_xml_encoding" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="xml_writer_settings_set_indent" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="xml_writer_settings_set_indent_chars" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="xml_writer_settings_set_lines" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="xml_writer_settings_set_omit_xml_declaration" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="xml_writer_settings_set_xml_encoding" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="36.77">107</source>
+                    <comments percent="30.24">88</comments>
+                    <empty percent="32.99">96</empty>
+                    <total>291</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>7</maximum>
+                    <average>1.55</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>2</maximum>
+                    <average>1.09</average>
+                </nesting>
+                <methods>11</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="36.77">107</source>
+            <comments percent="30.24">88</comments>
+            <empty percent="32.99">96</empty>
+            <total>291</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>7</maximum>
+            <average>1.55</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>2</maximum>
+            <average>1.09</average>
+        </nesting>
+        <methods>11</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_xml_writer_settings</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">! -----------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2025, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : XML serialization settings</line>
+        <line t="C" i="9" b="0" n="0">!</line>
+        <line t="C" i="10" b="0" n="0">! License   : This file is part of Fommons.</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">!             Fommons is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="13" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="14" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="15" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="16" b="0" n="0">!</line>
+        <line t="C" i="17" b="0" n="0">!             Fommons is distributed in the hope that it will be useful,</line>
+        <line t="C" i="18" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="19" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="20" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="21" b="0" n="0">!</line>
+        <line t="C" i="22" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="23" b="0" n="0">!             License along with Fommons.  </line>
+        <line t="C" i="24" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="25" b="0" n="0">! -----------------------------------------------------------------------------</line>
+        <line t="C" i="26" b="0" n="0"></line>
+        <line t="C" i="27" b="0" n="0">! Dependencies ----------------------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="X" i="29" b="0" n="0">  use m_object</line>
+        <line t="X" i="30" b="0" n="0"></line>
+        <line t="X" i="31" b="0" n="0">  use m_xml_encoder</line>
+        <line t="X" i="32" b="0" n="0"></line>
+        <line t="X" i="33" b="0" n="0">  implicit none</line>
+        <line t="X" i="34" b="0" n="0"></line>
+        <line t="C" i="35" b="0" n="0">! Public/Private declarations -------------------------------------------------</line>
+        <line t="C" i="36" b="0" n="0"></line>
+        <line t="X" i="37" b="0" n="0">  private</line>
+        <line t="X" i="38" b="0" n="0">  public t_xml_writer_settings, xml_writer_settings</line>
+        <line t="X" i="39" b="0" n="0"></line>
+        <line t="X" i="40" b="0" n="0">  public xml_writer_settings_default_indent_chars</line>
+        <line t="X" i="41" b="0" n="0"></line>
+        <line t="C" i="42" b="0" n="0">! Module declarations ---------------------------------------------------------</line>
+        <line t="C" i="43" b="0" n="0"></line>
+        <line t="C" i="44" b="0" n="0">! Default intentation chars</line>
+        <line t="X" i="45" b="0" n="0">  character(len=*), parameter :: xml_writer_settings_default_indent_chars = '    '</line>
+        <line t="X" i="46" b="0" n="0"></line>
+        <line t="C" i="47" b="0" n="0">! XML serialization settings</line>
+        <line t="T" i="48" b="0" n="0">  type, extends(t_object) :: t_xml_writer_settings</line>
+        <line t="X" i="49" b="0" n="0">    private</line>
+        <line t="X" i="50" b="0" n="0"></line>
+        <line t="C" i="51" b="0" n="0">!     Flag to activate indentation</line>
+        <line t="X" i="52" b="0" n="0">      logical :: indent = .false.</line>
+        <line t="X" i="53" b="0" n="0"></line>
+        <line t="C" i="54" b="0" n="0">!     Characters used for indentation (for valid XML use valid blank characters only)</line>
+        <line t="X" i="55" b="0" n="0">      character(len=:), allocatable :: indent_chars</line>
+        <line t="X" i="56" b="0" n="0"></line>
+        <line t="C" i="57" b="0" n="0">!     Defines the method to encode reserved XML characters (default to name from xml_encoder enumeration)</line>
+        <line t="X" i="58" b="0" n="0">      integer :: xml_encoding = xml_encode_name</line>
+        <line t="X" i="59" b="0" n="0"></line>
+        <line t="C" i="60" b="0" n="0">!     Flag indicating whether to omit an XML declaration</line>
+        <line t="X" i="61" b="0" n="0">      logical :: omit_xml_declaration = .false.</line>
+        <line t="X" i="62" b="0" n="0"></line>
+        <line t="C" i="63" b="0" n="0">!     Generate individual records</line>
+        <line t="X" i="64" b="0" n="0">      logical :: lines = .true.</line>
+        <line t="X" i="65" b="0" n="0"></line>
+        <line t="X" i="66" b="0" n="0">    contains</line>
+        <line t="X" i="67" b="0" n="0"></line>
+        <line t="C" i="68" b="0" n="0">!     Getters/setters</line>
+        <line t="X" i="69" b="0" n="0">      procedure :: get_indent =&gt; xml_writer_settings_get_indent</line>
+        <line t="X" i="70" b="0" n="0">      procedure :: set_indent =&gt; xml_writer_settings_set_indent</line>
+        <line t="X" i="71" b="0" n="0">      procedure :: get_indent_chars =&gt; xml_writer_settings_get_indent_chars</line>
+        <line t="X" i="72" b="0" n="0">      procedure :: set_indent_chars =&gt; xml_writer_settings_set_indent_chars</line>
+        <line t="X" i="73" b="0" n="0">      procedure :: get_xml_encoding =&gt; xml_writer_settings_get_xml_encoding</line>
+        <line t="X" i="74" b="0" n="0">      procedure :: set_xml_encoding =&gt; xml_writer_settings_set_xml_encoding</line>
+        <line t="X" i="75" b="0" n="0">      procedure :: get_omit_xml_declaration =&gt; xml_writer_settings_get_omit_xml_declaration</line>
+        <line t="X" i="76" b="0" n="0">      procedure :: set_omit_xml_declaration =&gt; xml_writer_settings_set_omit_xml_declaration</line>
+        <line t="X" i="77" b="0" n="0">      procedure :: get_lines =&gt; xml_writer_settings_get_lines</line>
+        <line t="X" i="78" b="0" n="0">      procedure :: set_lines =&gt; xml_writer_settings_set_lines</line>
+        <line t="X" i="79" b="0" n="0"></line>
+        <line t="T" i="80" b="0" n="0">  end type t_xml_writer_settings</line>
+        <line t="T" i="81" b="0" n="0"></line>
+        <line t="C" i="82" b="0" n="0">! Constructor interface</line>
+        <line t="X" i="83" b="0" n="0">  interface xml_writer_settings</line>
+        <line t="X" i="84" b="0" n="0">    module procedure xml_writer_settings_general</line>
+        <line t="X" i="85" b="0" n="0">  end interface xml_writer_settings</line>
+        <line t="X" i="86" b="0" n="0"></line>
+        <line t="C" i="87" b="0" n="0">! Implementation --------------------------------------------------------------</line>
+        <line t="C" i="88" b="0" n="0"></line>
+        <line t="X" i="89" b="0" n="0">contains</line>
+        <line t="X" i="90" b="0" n="0"></line>
+        <line t="C" i="91" b="0" n="0">! General constructor</line>
+        <line k="xml_writer_settings_general" t="F" i="92" b="1" n="1">pure function xml_writer_settings_general( indent, indent_chars, xml_encoding, omit_xml_declaration, lines ) result(res)</line>
+        <line t="F" i="93" b="1" n="1"></line>
+        <line t="C" i="94" b="1" n="1">! Flag to activate indentation</line>
+        <line t="X" i="95" b="1" n="1">  logical, optional, intent(in) :: indent</line>
+        <line t="X" i="96" b="1" n="1"></line>
+        <line t="C" i="97" b="1" n="1">! Characters used for indentation (for valid XML use valid black characters only)</line>
+        <line t="X" i="98" b="1" n="1">  character(len=*), optional, intent(in) :: indent_chars</line>
+        <line t="X" i="99" b="1" n="1"></line>
+        <line t="C" i="100" b="1" n="1">! Defines the method to encode reserved XML characters (default to name)</line>
+        <line t="X" i="101" b="1" n="1">  integer, optional, intent(in) :: xml_encoding</line>
+        <line t="X" i="102" b="1" n="1"></line>
+        <line t="C" i="103" b="1" n="1">! Flag indicating whether to omit an XML declaration</line>
+        <line t="X" i="104" b="1" n="1">  logical, optional, intent(in) :: omit_xml_declaration</line>
+        <line t="X" i="105" b="1" n="1"></line>
+        <line t="C" i="106" b="1" n="1">! Flag to generate individual records</line>
+        <line t="X" i="107" b="1" n="1">  logical, optional, intent(in) :: lines</line>
+        <line t="X" i="108" b="1" n="1"></line>
+        <line t="C" i="109" b="1" n="1">! Returned object</line>
+        <line t="X" i="110" b="1" n="1">  type(t_xml_writer_settings) :: res</line>
+        <line t="X" i="111" b="1" n="1"></line>
+        <line t="C" i="112" b="1" n="1">! Flag to activate indentation</line>
+        <line t="X" i="113" b="2" n="2">  if( present(indent) ) then</line>
+        <line t="X" i="114" b="2" n="2">    res%indent = indent</line>
+        <line t="X" i="115" b="2" n="1">  end if</line>
+        <line t="X" i="116" b="2" n="1"></line>
+        <line t="C" i="117" b="2" n="1">! Characters used for indentation (for valid XML use valid black characters only)</line>
+        <line t="X" i="118" b="3" n="2">  if( present(indent_chars) ) then</line>
+        <line t="X" i="119" b="3" n="2">    res%indent_chars = indent_chars</line>
+        <line t="X" i="120" b="4" n="2">  else</line>
+        <line t="X" i="121" b="4" n="2">    res%indent_chars = xml_writer_settings_default_indent_chars</line>
+        <line t="X" i="122" b="4" n="1">  end if</line>
+        <line t="X" i="123" b="4" n="1"></line>
+        <line t="C" i="124" b="4" n="1">! Defines the method to encode reserved XML characters (default to name)</line>
+        <line t="X" i="125" b="5" n="2">  if( present(xml_encoding) ) then</line>
+        <line t="X" i="126" b="5" n="2">    res%xml_encoding = xml_encoding</line>
+        <line t="X" i="127" b="5" n="1">  end if</line>
+        <line t="X" i="128" b="5" n="1"></line>
+        <line t="C" i="129" b="5" n="1">! Flag indicating whether to omit an XML declaration</line>
+        <line t="X" i="130" b="6" n="2">  if( present(omit_xml_declaration) ) then</line>
+        <line t="X" i="131" b="6" n="2">    res%omit_xml_declaration = omit_xml_declaration</line>
+        <line t="X" i="132" b="6" n="1">  end if</line>
+        <line t="X" i="133" b="6" n="1"></line>
+        <line t="C" i="134" b="6" n="1">! Characters to use as line breaks during serialization</line>
+        <line t="X" i="135" b="7" n="2">  if( present(lines) ) then</line>
+        <line t="X" i="136" b="7" n="2">    res%lines = lines</line>
+        <line t="X" i="137" b="7" n="1">  end if</line>
+        <line t="X" i="138" b="7" n="1"></line>
+        <line t="EF" i="139" b="7" n="1">end function xml_writer_settings_general</line>
+        <line t="EF" i="140" b="1" n="1"></line>
+        <line t="EF" i="141" b="1" n="1"></line>
+        <line t="C" i="142" b="1" n="1">! Getter for indent</line>
+        <line k="xml_writer_settings_get_indent" t="F" i="143" b="1" n="1">pure function xml_writer_settings_get_indent( this ) result(res)</line>
+        <line t="F" i="144" b="1" n="1"></line>
+        <line t="C" i="145" b="1" n="1">! Calling object</line>
+        <line t="X" i="146" b="1" n="1">  class(t_xml_writer_settings), intent(in) :: this</line>
+        <line t="X" i="147" b="1" n="1"></line>
+        <line t="C" i="148" b="1" n="1">! Getter result</line>
+        <line t="X" i="149" b="1" n="1">  logical :: res</line>
+        <line t="X" i="150" b="1" n="1"></line>
+        <line t="C" i="151" b="1" n="1">! Return value</line>
+        <line t="X" i="152" b="1" n="1">  res = this%indent</line>
+        <line t="X" i="153" b="1" n="1"></line>
+        <line t="EF" i="154" b="1" n="1">end function xml_writer_settings_get_indent</line>
+        <line t="EF" i="155" b="1" n="1"></line>
+        <line t="EF" i="156" b="1" n="1"></line>
+        <line t="C" i="157" b="1" n="1">! Getter for indent_chars</line>
+        <line k="xml_writer_settings_get_indent_chars" t="F" i="158" b="1" n="1">pure function xml_writer_settings_get_indent_chars( this ) result(res)</line>
+        <line t="F" i="159" b="1" n="1"></line>
+        <line t="C" i="160" b="1" n="1">! Calling object</line>
+        <line t="X" i="161" b="1" n="1">  class(t_xml_writer_settings), intent(in) :: this</line>
+        <line t="X" i="162" b="1" n="1"></line>
+        <line t="C" i="163" b="1" n="1">! Getter result</line>
+        <line t="X" i="164" b="1" n="1">  character(len=:), allocatable :: res</line>
+        <line t="X" i="165" b="1" n="1"></line>
+        <line t="C" i="166" b="1" n="1">! Return value</line>
+        <line t="X" i="167" b="1" n="1">  res = this%indent_chars</line>
+        <line t="X" i="168" b="1" n="1"></line>
+        <line t="EF" i="169" b="1" n="1">end function xml_writer_settings_get_indent_chars</line>
+        <line t="EF" i="170" b="1" n="1"></line>
+        <line t="EF" i="171" b="1" n="1"></line>
+        <line t="C" i="172" b="1" n="1">! Getter for xml_encoding</line>
+        <line k="xml_writer_settings_get_xml_encoding" t="F" i="173" b="1" n="1">pure function xml_writer_settings_get_xml_encoding( this ) result(res)</line>
+        <line t="F" i="174" b="1" n="1"></line>
+        <line t="C" i="175" b="1" n="1">! Calling object</line>
+        <line t="X" i="176" b="1" n="1">  class(t_xml_writer_settings), intent(in) :: this</line>
+        <line t="X" i="177" b="1" n="1"></line>
+        <line t="C" i="178" b="1" n="1">! Getter result</line>
+        <line t="X" i="179" b="1" n="1">  integer :: res</line>
+        <line t="X" i="180" b="1" n="1"></line>
+        <line t="C" i="181" b="1" n="1">! Return value</line>
+        <line t="X" i="182" b="1" n="1">  res = this%xml_encoding</line>
+        <line t="X" i="183" b="1" n="1"></line>
+        <line t="EF" i="184" b="1" n="1">end function xml_writer_settings_get_xml_encoding</line>
+        <line t="EF" i="185" b="1" n="1"></line>
+        <line t="EF" i="186" b="1" n="1"></line>
+        <line t="C" i="187" b="1" n="1">! Getter for omit_xml_declaration</line>
+        <line k="xml_writer_settings_get_omit_xml_declaration" t="F" i="188" b="1" n="1">pure function xml_writer_settings_get_omit_xml_declaration( this ) result(res)</line>
+        <line t="F" i="189" b="1" n="1"></line>
+        <line t="C" i="190" b="1" n="1">! Calling object</line>
+        <line t="X" i="191" b="1" n="1">  class(t_xml_writer_settings), intent(in) :: this</line>
+        <line t="X" i="192" b="1" n="1"></line>
+        <line t="C" i="193" b="1" n="1">! Getter result</line>
+        <line t="X" i="194" b="1" n="1">  logical :: res</line>
+        <line t="X" i="195" b="1" n="1"></line>
+        <line t="C" i="196" b="1" n="1">! Return value</line>
+        <line t="X" i="197" b="1" n="1">  res = this%omit_xml_declaration</line>
+        <line t="X" i="198" b="1" n="1"></line>
+        <line t="EF" i="199" b="1" n="1">end function xml_writer_settings_get_omit_xml_declaration</line>
+        <line t="EF" i="200" b="1" n="1"></line>
+        <line t="EF" i="201" b="1" n="1"></line>
+        <line t="C" i="202" b="1" n="1">! Getter for newline_chars</line>
+        <line k="xml_writer_settings_get_lines" t="F" i="203" b="1" n="1">pure function xml_writer_settings_get_lines( this ) result(res)</line>
+        <line t="F" i="204" b="1" n="1"></line>
+        <line t="C" i="205" b="1" n="1">! Calling object</line>
+        <line t="X" i="206" b="1" n="1">  class(t_xml_writer_settings), intent(in) :: this</line>
+        <line t="X" i="207" b="1" n="1"></line>
+        <line t="C" i="208" b="1" n="1">! Getter result</line>
+        <line t="X" i="209" b="1" n="1">  logical :: res</line>
+        <line t="X" i="210" b="1" n="1"></line>
+        <line t="C" i="211" b="1" n="1">! Return value</line>
+        <line t="X" i="212" b="1" n="1">  res = this%lines</line>
+        <line t="X" i="213" b="1" n="1"></line>
+        <line t="EF" i="214" b="1" n="1">end function xml_writer_settings_get_lines</line>
+        <line t="EF" i="215" b="1" n="1"></line>
+        <line t="EF" i="216" b="1" n="1"></line>
+        <line t="C" i="217" b="1" n="1">! Setter for indent</line>
+        <line k="xml_writer_settings_set_indent" t="S" i="218" b="1" n="1">pure subroutine xml_writer_settings_set_indent( this, value )</line>
+        <line t="S" i="219" b="1" n="1"></line>
+        <line t="C" i="220" b="1" n="1">! Calling object</line>
+        <line t="X" i="221" b="1" n="1">  class(t_xml_writer_settings), intent(inout) :: this</line>
+        <line t="X" i="222" b="1" n="1"></line>
+        <line t="C" i="223" b="1" n="1">! Value to set</line>
+        <line t="X" i="224" b="1" n="1">  logical, intent(in) :: value</line>
+        <line t="X" i="225" b="1" n="1"></line>
+        <line t="C" i="226" b="1" n="1">! Set the value</line>
+        <line t="X" i="227" b="1" n="1">  this%indent = value</line>
+        <line t="X" i="228" b="1" n="1"></line>
+        <line t="ES" i="229" b="1" n="1">end subroutine xml_writer_settings_set_indent</line>
+        <line t="ES" i="230" b="1" n="1"></line>
+        <line t="ES" i="231" b="1" n="1"></line>
+        <line t="C" i="232" b="1" n="1">! Setter for indent_chars</line>
+        <line k="xml_writer_settings_set_indent_chars" t="S" i="233" b="1" n="1">pure subroutine xml_writer_settings_set_indent_chars( this, value )</line>
+        <line t="S" i="234" b="1" n="1"></line>
+        <line t="C" i="235" b="1" n="1">! Calling object</line>
+        <line t="X" i="236" b="1" n="1">  class(t_xml_writer_settings), intent(inout) :: this</line>
+        <line t="X" i="237" b="1" n="1"></line>
+        <line t="C" i="238" b="1" n="1">! Value to set</line>
+        <line t="X" i="239" b="1" n="1">  character(len=*), intent(in) :: value</line>
+        <line t="X" i="240" b="1" n="1"></line>
+        <line t="C" i="241" b="1" n="1">! Set the value</line>
+        <line t="X" i="242" b="1" n="1">  this%indent_chars = value</line>
+        <line t="X" i="243" b="1" n="1"></line>
+        <line t="ES" i="244" b="1" n="1">end subroutine xml_writer_settings_set_indent_chars</line>
+        <line t="ES" i="245" b="1" n="1"></line>
+        <line t="ES" i="246" b="1" n="1"></line>
+        <line t="C" i="247" b="1" n="1">! Setter for xml_encoding</line>
+        <line k="xml_writer_settings_set_xml_encoding" t="S" i="248" b="1" n="1">pure subroutine xml_writer_settings_set_xml_encoding( this, value )</line>
+        <line t="S" i="249" b="1" n="1"></line>
+        <line t="C" i="250" b="1" n="1">! Calling object</line>
+        <line t="X" i="251" b="1" n="1">  class(t_xml_writer_settings), intent(inout) :: this</line>
+        <line t="X" i="252" b="1" n="1"></line>
+        <line t="C" i="253" b="1" n="1">! Value to set</line>
+        <line t="X" i="254" b="1" n="1">  integer, intent(in) :: value</line>
+        <line t="X" i="255" b="1" n="1"></line>
+        <line t="C" i="256" b="1" n="1">! Set the value</line>
+        <line t="X" i="257" b="1" n="1">  this%xml_encoding = value</line>
+        <line t="X" i="258" b="1" n="1"></line>
+        <line t="ES" i="259" b="1" n="1">end subroutine xml_writer_settings_set_xml_encoding</line>
+        <line t="ES" i="260" b="1" n="1"></line>
+        <line t="ES" i="261" b="1" n="1"></line>
+        <line t="C" i="262" b="1" n="1">! Setter for omit_xml_declaration</line>
+        <line k="xml_writer_settings_set_omit_xml_declaration" t="S" i="263" b="1" n="1">pure subroutine xml_writer_settings_set_omit_xml_declaration( this, value )</line>
+        <line t="S" i="264" b="1" n="1"></line>
+        <line t="C" i="265" b="1" n="1">! Calling object</line>
+        <line t="X" i="266" b="1" n="1">  class(t_xml_writer_settings), intent(inout) :: this</line>
+        <line t="X" i="267" b="1" n="1"></line>
+        <line t="C" i="268" b="1" n="1">! Value to set</line>
+        <line t="X" i="269" b="1" n="1">  logical, intent(in) :: value</line>
+        <line t="X" i="270" b="1" n="1"></line>
+        <line t="C" i="271" b="1" n="1">! Set the value</line>
+        <line t="X" i="272" b="1" n="1">  this%omit_xml_declaration = value</line>
+        <line t="X" i="273" b="1" n="1"></line>
+        <line t="ES" i="274" b="1" n="1">end subroutine xml_writer_settings_set_omit_xml_declaration</line>
+        <line t="ES" i="275" b="1" n="1"></line>
+        <line t="ES" i="276" b="1" n="1"></line>
+        <line t="C" i="277" b="1" n="1">! Setter for newline_chars</line>
+        <line k="xml_writer_settings_set_lines" t="S" i="278" b="1" n="1">pure subroutine xml_writer_settings_set_lines( this, value )</line>
+        <line t="S" i="279" b="1" n="1"></line>
+        <line t="C" i="280" b="1" n="1">! Calling object</line>
+        <line t="X" i="281" b="1" n="1">  class(t_xml_writer_settings), intent(inout) :: this</line>
+        <line t="X" i="282" b="1" n="1"></line>
+        <line t="C" i="283" b="1" n="1">! Value to set</line>
+        <line t="X" i="284" b="1" n="1">  logical, intent(in) :: value</line>
+        <line t="X" i="285" b="1" n="1"></line>
+        <line t="C" i="286" b="1" n="1">! Set the value</line>
+        <line t="X" i="287" b="1" n="1">  this%lines = value</line>
+        <line t="X" i="288" b="1" n="1"></line>
+        <line t="ES" i="289" b="1" n="1">end subroutine xml_writer_settings_set_lines</line>
+        <line t="ES" i="290" b="1" n="1"></line>
+        <line t="M" i="291" b="1" n="1">end module m_xml_writer_settings</line>
+        <line t="M" i="292" b="1" n="1"></line>
+    </code>
+</fmx>

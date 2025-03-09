@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_messages.f90">
+    <context>
+        <time>2025-03-09T18:18:31</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Fommons</project>
+        <name>m_messages.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_messages" type="module">
+            <main>
+                <lines>
+                    <source percent="31.90">37</source>
+                    <comments percent="40.52">47</comments>
+                    <empty percent="27.59">32</empty>
+                    <total>116</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="dump_messages" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="34.48">10</source>
+                            <comments percent="27.59">8</comments>
+                            <empty percent="37.93">11</empty>
+                            <total>29</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_default" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">3</source>
+                            <comments percent="22.22">2</comments>
+                            <empty percent="44.44">4</empty>
+                            <total>9</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_dump_errors" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="41.18">7</source>
+                            <comments percent="23.53">4</comments>
+                            <empty percent="35.29">6</empty>
+                            <total>17</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_dump_warnings" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="41.18">7</source>
+                            <comments percent="23.53">4</comments>
+                            <empty percent="35.29">6</empty>
+                            <total>17</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_error" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="37.93">11</source>
+                            <comments percent="24.14">7</comments>
+                            <empty percent="37.93">11</empty>
+                            <total>29</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_error_raw" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="36.36">16</source>
+                            <comments percent="27.27">12</comments>
+                            <empty percent="36.36">16</empty>
+                            <total>44</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_get_errors" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_get_messages" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="34.78">8</source>
+                            <comments percent="26.09">6</comments>
+                            <empty percent="39.13">9</empty>
+                            <total>23</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_get_warnings" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_on_error" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="45.00">9</source>
+                            <comments percent="25.00">5</comments>
+                            <empty percent="30.00">6</empty>
+                            <total>20</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_reset_error" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="50.00">8</source>
+                            <comments percent="18.75">3</comments>
+                            <empty percent="31.25">5</empty>
+                            <total>16</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_reset_warning" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="46.67">7</source>
+                            <comments percent="20.00">3</comments>
+                            <empty percent="33.33">5</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="messages_warning" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="36.59">15</source>
+                            <comments percent="26.83">11</comments>
+                            <empty percent="36.59">15</empty>
+                            <total>41</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="36.45">148</source>
+                    <comments percent="29.56">120</comments>
+                    <empty percent="33.99">138</empty>
+                    <total>406</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>2.08</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>3</maximum>
+                    <average>2.00</average>
+                </nesting>
+                <methods>13</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="36.45">148</source>
+            <comments percent="29.56">120</comments>
+            <empty percent="33.99">138</empty>
+            <total>406</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>3</maximum>
+            <average>2.08</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>3</maximum>
+            <average>2.00</average>
+        </nesting>
+        <methods>13</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_messages</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2025, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="7" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="8" b="0" n="0">! Synopsis  : Message handling</line>
+        <line t="C" i="9" b="0" n="0">!</line>
+        <line t="C" i="10" b="0" n="0">! License   : This file is part of Fommons.</line>
+        <line t="C" i="11" b="0" n="0">!</line>
+        <line t="C" i="12" b="0" n="0">!             Fommons is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="13" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="14" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="15" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="16" b="0" n="0">!</line>
+        <line t="C" i="17" b="0" n="0">!             Fommons is distributed in the hope that it will be useful,</line>
+        <line t="C" i="18" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="19" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="20" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="21" b="0" n="0">!</line>
+        <line t="C" i="22" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="23" b="0" n="0">!             License along with Fommons.  </line>
+        <line t="C" i="24" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="25" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="26" b="0" n="0"></line>
+        <line t="C" i="27" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="28" b="0" n="0"></line>
+        <line t="X" i="29" b="0" n="0">  use m_object</line>
+        <line t="X" i="30" b="0" n="0">  use m_string</line>
+        <line t="X" i="31" b="0" n="0">  use m_msg</line>
+        <line t="X" i="32" b="0" n="0"></line>
+        <line t="C" i="33" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="34" b="0" n="0"></line>
+        <line t="X" i="35" b="0" n="0">  implicit none</line>
+        <line t="X" i="36" b="0" n="0"></line>
+        <line t="C" i="37" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="38" b="0" n="0"></line>
+        <line t="X" i="39" b="0" n="0">  private</line>
+        <line t="X" i="40" b="0" n="0">  public t_messages</line>
+        <line t="X" i="41" b="0" n="0">  public messages</line>
+        <line t="X" i="42" b="0" n="0"></line>
+        <line t="C" i="43" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="44" b="0" n="0"></line>
+        <line t="C" i="45" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="46" b="0" n="0"></line>
+        <line t="C" i="47" b="0" n="0">! Default aray sizes</line>
+        <line t="X" i="48" b="0" n="0">  integer, parameter :: messages_errors_size = 20</line>
+        <line t="X" i="49" b="0" n="0">  integer, parameter :: messages_warnings_size = 20</line>
+        <line t="X" i="50" b="0" n="0"></line>
+        <line t="C" i="51" b="0" n="0">! The list of messages</line>
+        <line t="T" i="52" b="0" n="0">  type, extends(t_object) :: t_messages</line>
+        <line t="X" i="53" b="0" n="0">    private</line>
+        <line t="X" i="54" b="0" n="0"></line>
+        <line t="C" i="55" b="0" n="0">!     Default unit to write messages to</line>
+        <line t="X" i="56" b="0" n="0">      integer :: unit = -1</line>
+        <line t="X" i="57" b="0" n="0"></line>
+        <line t="C" i="58" b="0" n="0">!     Current error stattus of the messages</line>
+        <line t="X" i="59" b="0" n="0">      logical :: is_error = .false.</line>
+        <line t="X" i="60" b="0" n="0"></line>
+        <line t="C" i="61" b="0" n="0">!     Error countes</line>
+        <line t="X" i="62" b="0" n="0">      integer :: error_count = 0</line>
+        <line t="X" i="63" b="0" n="0"></line>
+        <line t="C" i="64" b="0" n="0">!     Buffer of error messages</line>
+        <line t="X" i="65" b="0" n="0">      type(t_msg), dimension(messages_errors_size) :: errors</line>
+        <line t="X" i="66" b="0" n="0"></line>
+        <line t="C" i="67" b="0" n="0">!     Warning counte</line>
+        <line t="X" i="68" b="0" n="0">      integer :: warning_count = 0</line>
+        <line t="X" i="69" b="0" n="0"></line>
+        <line t="C" i="70" b="0" n="0">!     Buffer of warning messages</line>
+        <line t="X" i="71" b="0" n="0">      type(t_msg), dimension(messages_warnings_size) :: warnings</line>
+        <line t="X" i="72" b="0" n="0"></line>
+        <line t="X" i="73" b="0" n="0">    contains</line>
+        <line t="X" i="74" b="0" n="0"></line>
+        <line t="C" i="75" b="0" n="0">!     Report error</line>
+        <line t="X" i="76" b="0" n="0">      generic :: error =&gt; messages_error, &amp;</line>
+        <line t="X" i="77" b="0" n="0">                          messages_error_raw</line>
+        <line t="X" i="78" b="0" n="0">      procedure, private :: messages_error</line>
+        <line t="X" i="79" b="0" n="0">      procedure, private :: messages_error_raw</line>
+        <line t="X" i="80" b="0" n="0"></line>
+        <line t="C" i="81" b="0" n="0">!     Report warning</line>
+        <line t="X" i="82" b="0" n="0">      procedure :: warning =&gt; messages_warning</line>
+        <line t="X" i="83" b="0" n="0"></line>
+        <line t="C" i="84" b="0" n="0">!     Check error status</line>
+        <line t="X" i="85" b="0" n="0">      procedure :: on_error =&gt; messages_on_error</line>
+        <line t="X" i="86" b="0" n="0"></line>
+        <line t="C" i="87" b="0" n="0">!     Reset error condition</line>
+        <line t="X" i="88" b="0" n="0">      procedure :: reset_error =&gt; messages_reset_error</line>
+        <line t="X" i="89" b="0" n="0"></line>
+        <line t="C" i="90" b="0" n="0">!     Reset warning condition</line>
+        <line t="X" i="91" b="0" n="0">      procedure :: reset_warning =&gt; messages_reset_warning</line>
+        <line t="X" i="92" b="0" n="0"></line>
+        <line t="C" i="93" b="0" n="0">!     Dump the errors to the selected fortran unit</line>
+        <line t="X" i="94" b="0" n="0">      procedure :: dump_errors =&gt; messages_dump_errors</line>
+        <line t="X" i="95" b="0" n="0"></line>
+        <line t="C" i="96" b="0" n="0">!     Dump the warnings to the selected fortran unit</line>
+        <line t="X" i="97" b="0" n="0">      procedure :: dump_warnings =&gt; messages_dump_warnings</line>
+        <line t="X" i="98" b="0" n="0"></line>
+        <line t="C" i="99" b="0" n="0">!     Get the errors as an array of messages</line>
+        <line t="X" i="100" b="0" n="0">      procedure :: get_errors =&gt; messages_get_errors</line>
+        <line t="X" i="101" b="0" n="0"></line>
+        <line t="C" i="102" b="0" n="0">!     Get the warnings as an array of messages</line>
+        <line t="X" i="103" b="0" n="0">      procedure :: get_warnings =&gt; messages_get_warnings</line>
+        <line t="X" i="104" b="0" n="0"></line>
+        <line t="T" i="105" b="0" n="0">  end type t_messages</line>
+        <line t="T" i="106" b="0" n="0"></line>
+        <line t="C" i="107" b="0" n="0">! Constructor interface</line>
+        <line t="X" i="108" b="0" n="0">  interface messages</line>
+        <line t="X" i="109" b="0" n="0">    module procedure messages_default</line>
+        <line t="X" i="110" b="0" n="0">  end interface messages</line>
+        <line t="X" i="111" b="0" n="0"></line>
+        <line t="C" i="112" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="113" b="0" n="0"></line>
+        <line t="X" i="114" b="0" n="0">contains</line>
+        <line t="X" i="115" b="0" n="0"></line>
+        <line t="C" i="116" b="0" n="0">! Constructor</line>
+        <line k="messages_default" t="F" i="117" b="1" n="1">elemental function messages_default() result(res)</line>
+        <line t="F" i="118" b="1" n="1"></line>
+        <line t="C" i="119" b="1" n="1">! Constructed structure</line>
+        <line t="X" i="120" b="1" n="1">  type(t_messages) :: res</line>
+        <line t="X" i="121" b="1" n="1"></line>
+        <line t="X" i="122" b="1" n="1"></line>
+        <line t="EF" i="123" b="1" n="1">end function messages_default</line>
+        <line t="EF" i="124" b="1" n="1"></line>
+        <line t="EF" i="125" b="1" n="1"></line>
+        <line t="C" i="126" b="1" n="1">! Report error</line>
+        <line k="messages_error" t="S" i="127" b="1" n="1">elemental subroutine messages_error( this, msg )</line>
+        <line t="S" i="128" b="1" n="1"></line>
+        <line t="C" i="129" b="1" n="1">! The message handling structure</line>
+        <line t="X" i="130" b="1" n="1">  class(t_messages), optional, intent(inout) :: this</line>
+        <line t="X" i="131" b="1" n="1"></line>
+        <line t="C" i="132" b="1" n="1">! Input message</line>
+        <line t="X" i="133" b="1" n="1">  type(t_msg), intent(in) :: msg</line>
+        <line t="X" i="134" b="1" n="1"></line>
+        <line t="C" i="135" b="1" n="1">! Check if working with error list</line>
+        <line t="X" i="136" b="2" n="2">  if( present(this) ) then</line>
+        <line t="X" i="137" b="2" n="2"></line>
+        <line t="C" i="138" b="2" n="2">!   Check maximum buffer size</line>
+        <line t="X" i="139" b="3" n="3">    if( this%error_count &lt; messages_errors_size ) then</line>
+        <line t="X" i="140" b="3" n="3"></line>
+        <line t="C" i="141" b="3" n="3">!     Add message to the list</line>
+        <line t="X" i="142" b="3" n="3">      this%error_count = this%error_count + 1</line>
+        <line t="X" i="143" b="3" n="3">      this%errors(this%error_count) = msg</line>
+        <line t="X" i="144" b="3" n="3"></line>
+        <line t="C" i="145" b="3" n="3">!     Set the error flag</line>
+        <line t="X" i="146" b="3" n="3">      this%is_error = .true.</line>
+        <line t="X" i="147" b="3" n="3"></line>
+        <line t="X" i="148" b="3" n="2">    end if</line>
+        <line t="X" i="149" b="3" n="2"></line>
+        <line t="X" i="150" b="3" n="1">  end if</line>
+        <line t="X" i="151" b="3" n="1"></line>
+        <line t="ES" i="152" b="3" n="1">end subroutine messages_error</line>
+        <line t="ES" i="153" b="1" n="1"></line>
+        <line t="ES" i="154" b="1" n="1"></line>
+        <line t="C" i="155" b="1" n="1">! Report error from raw elements</line>
+        <line k="messages_error_raw" t="S" i="156" b="1" n="1">elemental subroutine messages_error_raw( this, mod, proc, code, text )</line>
+        <line t="S" i="157" b="1" n="1"></line>
+        <line t="C" i="158" b="1" n="1">! The message handling structure</line>
+        <line t="X" i="159" b="1" n="1">  class(t_messages), optional, intent(inout) :: this</line>
+        <line t="X" i="160" b="1" n="1"></line>
+        <line t="C" i="161" b="1" n="1">! The module of calling method</line>
+        <line t="X" i="162" b="1" n="1">  character(len=*), intent(in) :: mod</line>
+        <line t="X" i="163" b="1" n="1"></line>
+        <line t="C" i="164" b="1" n="1">! The calling method</line>
+        <line t="X" i="165" b="1" n="1">  character(len=*), intent(in) :: proc</line>
+        <line t="X" i="166" b="1" n="1"></line>
+        <line t="C" i="167" b="1" n="1">! The error code (whitin method)</line>
+        <line t="X" i="168" b="1" n="1">  integer, intent(in) :: code</line>
+        <line t="X" i="169" b="1" n="1"></line>
+        <line t="C" i="170" b="1" n="1">! The message text</line>
+        <line t="X" i="171" b="1" n="1">  character(len=*), intent(in) :: text</line>
+        <line t="X" i="172" b="1" n="1"></line>
+        <line t="C" i="173" b="1" n="1">! Local message</line>
+        <line t="X" i="174" b="1" n="1">  type(t_msg) :: amsg</line>
+        <line t="X" i="175" b="1" n="1"></line>
+        <line t="C" i="176" b="1" n="1">! Check if working with error list</line>
+        <line t="X" i="177" b="2" n="2">  if( present(this) ) then</line>
+        <line t="X" i="178" b="2" n="2"></line>
+        <line t="C" i="179" b="2" n="2">!   Check maximum buffer size</line>
+        <line t="X" i="180" b="3" n="3">    if( this%error_count &lt; messages_errors_size ) then</line>
+        <line t="X" i="181" b="3" n="3"></line>
+        <line t="C" i="182" b="3" n="3">!     Set the message structure</line>
+        <line t="X" i="183" b="3" n="3">      amsg = msg( code, string(text), string(mod), string(proc) )</line>
+        <line t="X" i="184" b="3" n="3"></line>
+        <line t="C" i="185" b="3" n="3">!     Add message to the list</line>
+        <line t="X" i="186" b="3" n="3">      this%error_count = this%error_count + 1</line>
+        <line t="X" i="187" b="3" n="3">      this%errors(this%error_count) = amsg</line>
+        <line t="X" i="188" b="3" n="3"></line>
+        <line t="C" i="189" b="3" n="3">!     Set the error flag</line>
+        <line t="X" i="190" b="3" n="3">      this%is_error = .true.</line>
+        <line t="X" i="191" b="3" n="3"></line>
+        <line t="X" i="192" b="3" n="2">    end if</line>
+        <line t="X" i="193" b="3" n="2"></line>
+        <line t="X" i="194" b="3" n="1">  end if</line>
+        <line t="X" i="195" b="3" n="1"></line>
+        <line t="ES" i="196" b="3" n="1">end subroutine messages_error_raw</line>
+        <line t="ES" i="197" b="1" n="1"></line>
+        <line t="ES" i="198" b="1" n="1"></line>
+        <line t="C" i="199" b="1" n="1">! Report warning</line>
+        <line k="messages_warning" t="S" i="200" b="1" n="1">elemental subroutine messages_warning( this, mod, proc, code, text )</line>
+        <line t="S" i="201" b="1" n="1"></line>
+        <line t="C" i="202" b="1" n="1">! The message handling structure</line>
+        <line t="X" i="203" b="1" n="1">  class(t_messages), optional, intent(inout) :: this</line>
+        <line t="X" i="204" b="1" n="1"></line>
+        <line t="C" i="205" b="1" n="1">! The module of calling method</line>
+        <line t="X" i="206" b="1" n="1">  character(len=*), intent(in) :: mod</line>
+        <line t="X" i="207" b="1" n="1"></line>
+        <line t="C" i="208" b="1" n="1">! The calling method</line>
+        <line t="X" i="209" b="1" n="1">  character(len=*), intent(in) :: proc</line>
+        <line t="X" i="210" b="1" n="1"></line>
+        <line t="C" i="211" b="1" n="1">! The error code (whitin method)</line>
+        <line t="X" i="212" b="1" n="1">  integer, intent(in) :: code</line>
+        <line t="X" i="213" b="1" n="1"></line>
+        <line t="C" i="214" b="1" n="1">! The message text</line>
+        <line t="X" i="215" b="1" n="1">  character(len=*), intent(in) :: text</line>
+        <line t="X" i="216" b="1" n="1"></line>
+        <line t="C" i="217" b="1" n="1">! Local message</line>
+        <line t="X" i="218" b="1" n="1">  type(t_msg) :: amsg</line>
+        <line t="X" i="219" b="1" n="1"></line>
+        <line t="C" i="220" b="1" n="1">! Check if working with error list</line>
+        <line t="X" i="221" b="2" n="2">  if( present(this) ) then</line>
+        <line t="X" i="222" b="2" n="2"></line>
+        <line t="C" i="223" b="2" n="2">!   Check maximum buffer size</line>
+        <line t="X" i="224" b="3" n="3">    if( this%warning_count &lt; messages_warnings_size ) then</line>
+        <line t="X" i="225" b="3" n="3"></line>
+        <line t="C" i="226" b="3" n="3">!     Set the message structure</line>
+        <line t="X" i="227" b="3" n="3">      amsg = msg( code, string(text), string(mod), string(proc) )</line>
+        <line t="X" i="228" b="3" n="3"></line>
+        <line t="C" i="229" b="3" n="3">!     Add message to the list</line>
+        <line t="X" i="230" b="3" n="3">      this%warning_count = this%warning_count + 1</line>
+        <line t="X" i="231" b="3" n="3">      this%warnings(this%warning_count) = Amsg</line>
+        <line t="X" i="232" b="3" n="3"></line>
+        <line t="X" i="233" b="3" n="2">    end if</line>
+        <line t="X" i="234" b="3" n="2"></line>
+        <line t="X" i="235" b="3" n="1">  end if</line>
+        <line t="X" i="236" b="3" n="1"></line>
+        <line t="ES" i="237" b="3" n="1">end subroutine messages_warning</line>
+        <line t="ES" i="238" b="1" n="1"></line>
+        <line t="ES" i="239" b="1" n="1"></line>
+        <line t="C" i="240" b="1" n="1">! Check error status</line>
+        <line k="messages_on_error" t="F" i="241" b="1" n="1">elemental function messages_on_error ( this ) result(error)</line>
+        <line t="F" i="242" b="1" n="1"></line>
+        <line t="C" i="243" b="1" n="1">! The error messages structure</line>
+        <line t="C" i="244" b="1" n="1">! Allow optional for cases when error checking is optional</line>
+        <line t="X" i="245" b="1" n="1">  class(t_messages), optional, intent(in) :: this</line>
+        <line t="X" i="246" b="1" n="1"></line>
+        <line t="C" i="247" b="1" n="1">! The error condition</line>
+        <line t="X" i="248" b="1" n="1">  logical :: error</line>
+        <line t="X" i="249" b="1" n="1"></line>
+        <line t="C" i="250" b="1" n="1">! Return the error status</line>
+        <line t="X" i="251" b="2" n="2">  if( present(this) ) then</line>
+        <line t="X" i="252" b="2" n="2">    error = this%is_error</line>
+        <line t="X" i="253" b="3" n="2">  else</line>
+        <line t="X" i="254" b="3" n="2">    error = .false.</line>
+        <line t="X" i="255" b="3" n="1">  end if</line>
+        <line t="X" i="256" b="3" n="1"></line>
+        <line t="EF" i="257" b="3" n="1">end function messages_on_error</line>
+        <line t="EF" i="258" b="1" n="1"></line>
+        <line t="EF" i="259" b="1" n="1"></line>
+        <line t="C" i="260" b="1" n="1">! Reset error condition</line>
+        <line k="messages_reset_error" t="S" i="261" b="1" n="1">pure subroutine messages_reset_error( this )</line>
+        <line t="S" i="262" b="1" n="1"></line>
+        <line t="C" i="263" b="1" n="1">! The error messages structure</line>
+        <line t="X" i="264" b="1" n="1">  class(t_messages), optional, intent(inout) :: this</line>
+        <line t="X" i="265" b="1" n="1"></line>
+        <line t="C" i="266" b="1" n="1">! Remove the error stack</line>
+        <line t="X" i="267" b="2" n="2">  if( present(this) ) then</line>
+        <line t="X" i="268" b="2" n="2">    this%errors = msg()</line>
+        <line t="X" i="269" b="2" n="2">    this%error_count = 0</line>
+        <line t="X" i="270" b="2" n="2">    this%is_error = .false.</line>
+        <line t="X" i="271" b="2" n="1">  end if</line>
+        <line t="X" i="272" b="2" n="1"></line>
+        <line t="ES" i="273" b="2" n="1">end subroutine messages_reset_error</line>
+        <line t="ES" i="274" b="1" n="1"></line>
+        <line t="ES" i="275" b="1" n="1"></line>
+        <line t="C" i="276" b="1" n="1">! Reset warning condition</line>
+        <line k="messages_reset_warning" t="S" i="277" b="1" n="1">pure subroutine messages_reset_warning( this )</line>
+        <line t="S" i="278" b="1" n="1"></line>
+        <line t="C" i="279" b="1" n="1">! The error messages structure</line>
+        <line t="X" i="280" b="1" n="1">  class(t_messages), optional, intent(inout) :: this</line>
+        <line t="X" i="281" b="1" n="1"></line>
+        <line t="C" i="282" b="1" n="1">! Remove the error stack</line>
+        <line t="X" i="283" b="2" n="2">  if( present(this) ) then</line>
+        <line t="X" i="284" b="2" n="2">    this%warnings = msg()</line>
+        <line t="X" i="285" b="2" n="2">    this%warning_count = 0</line>
+        <line t="X" i="286" b="2" n="1">  end if</line>
+        <line t="X" i="287" b="2" n="1"></line>
+        <line t="ES" i="288" b="2" n="1">end subroutine messages_reset_warning</line>
+        <line t="ES" i="289" b="1" n="1"></line>
+        <line t="ES" i="290" b="1" n="1"></line>
+        <line t="C" i="291" b="1" n="1">! Dump the errors to the selected fortran unit</line>
+        <line k="messages_dump_errors" t="S" i="292" b="1" n="1">subroutine messages_dump_errors( this, unit )</line>
+        <line t="S" i="293" b="1" n="1"></line>
+        <line t="C" i="294" b="1" n="1">! The array of messages</line>
+        <line t="X" i="295" b="1" n="1">  class(t_messages), optional, intent(in) :: this</line>
+        <line t="X" i="296" b="1" n="1"></line>
+        <line t="C" i="297" b="1" n="1">! The output fortran unit</line>
+        <line t="X" i="298" b="1" n="1">  integer, intent(in) :: unit</line>
+        <line t="X" i="299" b="1" n="1"></line>
+        <line t="C" i="300" b="1" n="1">! Dump the error messages (if not empty)</line>
+        <line t="X" i="301" b="2" n="2">  if( present(this) ) then</line>
+        <line t="X" i="302" b="2" n="2">    call dump_messages( this%errors, this%error_count, unit, 'ERROR' )</line>
+        <line t="X" i="303" b="2" n="1">  end if</line>
+        <line t="X" i="304" b="2" n="1"></line>
+        <line t="ES" i="305" b="2" n="1">end subroutine messages_dump_errors</line>
+        <line t="ES" i="306" b="1" n="1"></line>
+        <line t="ES" i="307" b="1" n="1"></line>
+        <line t="C" i="308" b="1" n="1">! Dump the warnings to the selected fortran unit</line>
+        <line k="messages_dump_warnings" t="S" i="309" b="1" n="1">subroutine messages_dump_warnings( this, unit )</line>
+        <line t="S" i="310" b="1" n="1"></line>
+        <line t="C" i="311" b="1" n="1">! The array of messages</line>
+        <line t="X" i="312" b="1" n="1">  class(t_messages), optional, intent(in) :: this</line>
+        <line t="X" i="313" b="1" n="1"></line>
+        <line t="C" i="314" b="1" n="1">! The output fortran unit</line>
+        <line t="X" i="315" b="1" n="1">  integer, intent(in) :: unit</line>
+        <line t="X" i="316" b="1" n="1"></line>
+        <line t="C" i="317" b="1" n="1">! Dump the warning messages</line>
+        <line t="X" i="318" b="2" n="2">  if( present(this) ) then</line>
+        <line t="X" i="319" b="2" n="2">    call dump_messages( this%warnings, this%warning_count, unit, 'WARNING' )</line>
+        <line t="X" i="320" b="2" n="1">  end if</line>
+        <line t="X" i="321" b="2" n="1"></line>
+        <line t="ES" i="322" b="2" n="1">end subroutine messages_dump_warnings</line>
+        <line t="ES" i="323" b="1" n="1"></line>
+        <line t="ES" i="324" b="1" n="1"></line>
+        <line t="C" i="325" b="1" n="1">! Dump a message array to the selected fortran unit</line>
+        <line k="dump_messages" t="S" i="326" b="1" n="1">subroutine dump_messages( buffer, count, unit, category )</line>
+        <line t="S" i="327" b="1" n="1"></line>
+        <line t="C" i="328" b="1" n="1">! The buffer of messages</line>
+        <line t="X" i="329" b="1" n="1">  type(t_msg), dimension(:), intent(in) :: buffer</line>
+        <line t="X" i="330" b="1" n="1"></line>
+        <line t="C" i="331" b="1" n="1">! Number of messages in the buffer to dump</line>
+        <line t="X" i="332" b="1" n="1">  integer, intent(in) :: count</line>
+        <line t="X" i="333" b="1" n="1"></line>
+        <line t="C" i="334" b="1" n="1">! The output fortran unit</line>
+        <line t="X" i="335" b="1" n="1">  integer, intent(in) :: unit</line>
+        <line t="X" i="336" b="1" n="1"></line>
+        <line t="C" i="337" b="1" n="1">! The error category (ERROR, WARNING, INFO)</line>
+        <line t="X" i="338" b="1" n="1">  character(len=*), intent(in) :: category</line>
+        <line t="X" i="339" b="1" n="1"></line>
+        <line t="C" i="340" b="1" n="1">! Local variables</line>
+        <line t="X" i="341" b="1" n="1">  integer :: imsg</line>
+        <line t="X" i="342" b="1" n="1"></line>
+        <line t="C" i="343" b="1" n="1">! Loop on the messages starting on the last one</line>
+        <line t="X" i="344" b="2" n="2">  do imsg = count, 1, -1</line>
+        <line t="X" i="345" b="2" n="2"></line>
+        <line t="C" i="346" b="2" n="2">!   Write the error message</line>
+        <line t="X" i="347" b="2" n="2">    call buffer(imsg)%write( unit, category )</line>
+        <line t="X" i="348" b="2" n="2"></line>
+        <line t="X" i="349" b="2" n="1">  end do</line>
+        <line t="X" i="350" b="2" n="1"></line>
+        <line t="ES" i="351" b="2" n="1">end subroutine dump_messages</line>
+        <line t="ES" i="352" b="1" n="1"></line>
+        <line t="ES" i="353" b="1" n="1"></line>
+        <line t="C" i="354" b="1" n="1">! Get the errors as an array of messages</line>
+        <line k="messages_get_errors" t="S" i="355" b="1" n="1">pure subroutine messages_get_errors( this, array )</line>
+        <line t="S" i="356" b="1" n="1"></line>
+        <line t="C" i="357" b="1" n="1">! The messages structure</line>
+        <line t="X" i="358" b="1" n="1">  class(t_messages), intent(in) :: this</line>
+        <line t="X" i="359" b="1" n="1"></line>
+        <line t="C" i="360" b="1" n="1">! The array of messages</line>
+        <line t="X" i="361" b="1" n="1">  type(t_msg), allocatable, dimension(:), intent(out) :: array</line>
+        <line t="X" i="362" b="1" n="1"></line>
+        <line t="C" i="363" b="1" n="1">! Get the error messages</line>
+        <line t="X" i="364" b="1" n="1">  call messages_get_messages( this%errors, this%error_count, array )</line>
+        <line t="X" i="365" b="1" n="1"></line>
+        <line t="ES" i="366" b="1" n="1">end subroutine messages_get_errors</line>
+        <line t="ES" i="367" b="1" n="1"></line>
+        <line t="ES" i="368" b="1" n="1"></line>
+        <line t="C" i="369" b="1" n="1">! Get the warnings as an array of messages</line>
+        <line k="messages_get_warnings" t="S" i="370" b="1" n="1">pure subroutine messages_get_warnings( this, array )</line>
+        <line t="S" i="371" b="1" n="1"></line>
+        <line t="C" i="372" b="1" n="1">! The messages structure</line>
+        <line t="X" i="373" b="1" n="1">  class(t_messages), intent(in) :: this</line>
+        <line t="X" i="374" b="1" n="1"></line>
+        <line t="C" i="375" b="1" n="1">! The array of messages</line>
+        <line t="X" i="376" b="1" n="1">  type(t_msg), allocatable, dimension(:), intent(out) :: array</line>
+        <line t="X" i="377" b="1" n="1"></line>
+        <line t="C" i="378" b="1" n="1">! Get the warning messages</line>
+        <line t="X" i="379" b="1" n="1">  call messages_get_messages( this%warnings, this%warning_count, array )</line>
+        <line t="X" i="380" b="1" n="1"></line>
+        <line t="ES" i="381" b="1" n="1">end subroutine messages_get_warnings</line>
+        <line t="ES" i="382" b="1" n="1"></line>
+        <line t="ES" i="383" b="1" n="1"></line>
+        <line t="C" i="384" b="1" n="1">! Get message array to the selected fortran unit</line>
+        <line k="messages_get_messages" t="S" i="385" b="1" n="1">pure subroutine messages_get_messages( buffer, count, array )</line>
+        <line t="S" i="386" b="1" n="1"></line>
+        <line t="C" i="387" b="1" n="1">! The array of messages (input)</line>
+        <line t="X" i="388" b="1" n="1">  type(t_msg), dimension(:), intent(in) :: buffer</line>
+        <line t="X" i="389" b="1" n="1"></line>
+        <line t="C" i="390" b="1" n="1">! The number of messages to get</line>
+        <line t="X" i="391" b="1" n="1">  integer, intent(in) :: count</line>
+        <line t="X" i="392" b="1" n="1"></line>
+        <line t="C" i="393" b="1" n="1">! The array of messages (output)</line>
+        <line t="X" i="394" b="1" n="1">  type(t_msg), allocatable, dimension(:), intent(out) :: array</line>
+        <line t="X" i="395" b="1" n="1"></line>
+        <line t="C" i="396" b="1" n="1">! Check the number of messages</line>
+        <line t="X" i="397" b="2" n="2">  if( count &gt; 0 ) then</line>
+        <line t="X" i="398" b="2" n="2"></line>
+        <line t="C" i="399" b="2" n="2">!   Allocate the return array</line>
+        <line t="X" i="400" b="2" n="2">    allocate( array, source=buffer(:count) )</line>
+        <line t="X" i="401" b="2" n="2"></line>
+        <line t="X" i="402" b="2" n="1">  end if</line>
+        <line t="X" i="403" b="2" n="1"></line>
+        <line t="ES" i="404" b="2" n="1">end subroutine messages_get_messages</line>
+        <line t="ES" i="405" b="1" n="1"></line>
+        <line t="M" i="406" b="1" n="1">end module m_messages</line>
+        <line t="M" i="407" b="1" n="1"></line>
+    </code>
+</fmx>

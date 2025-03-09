@@ -1,0 +1,1274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../fmx.xsl"?>
+<fmx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="m_iso8601_date.f90">
+    <context>
+        <time>2025-03-09T18:18:31</time>
+        <version>1.0.0.1</version>
+        <path>src</path>
+        <path_to_root>../</path_to_root>
+        <project>Fommons</project>
+        <name>m_iso8601_date.f90</name>
+        <copyright>Copyright © 2020, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</copyright>
+    </context>
+    <units>
+        <unit name="m_iso8601_date" type="module">
+            <main>
+                <lines>
+                    <source percent="50.57">89</source>
+                    <comments percent="28.98">51</comments>
+                    <empty percent="20.45">36</empty>
+                    <total>176</total>
+                </lines>
+                <complexity>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </complexity>
+                <nesting>
+                    <minimum>0</minimum>
+                    <maximum>0</maximum>
+                    <average>0.00</average>
+                </nesting>
+                <methods>0</methods>
+            </main>
+            <methods>
+                <method name="iso8601_date_day_of_week" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="42.31">11</source>
+                            <comments percent="26.92">7</comments>
+                            <empty percent="30.77">8</empty>
+                            <total>26</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_day_of_year" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="42.86">12</source>
+                            <comments percent="25.00">7</comments>
+                            <empty percent="32.14">9</empty>
+                            <total>28</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_days_in_month_default" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="45.45">10</source>
+                            <comments percent="22.73">5</comments>
+                            <empty percent="31.82">7</empty>
+                            <total>22</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_days_in_month_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="46.34">19</source>
+                            <comments percent="21.95">9</comments>
+                            <empty percent="31.71">13</empty>
+                            <total>41</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>7</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>4</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_days_in_month_this" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_default" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">9</source>
+                            <comments percent="29.63">8</comments>
+                            <empty percent="37.04">10</empty>
+                            <total>27</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_get_day" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_get_month" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_get_year" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="31.25">5</source>
+                            <comments percent="31.25">5</comments>
+                            <empty percent="37.50">6</empty>
+                            <total>16</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_is_leap_year_default" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_is_leap_year_static" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="43.33">13</source>
+                            <comments percent="23.33">7</comments>
+                            <empty percent="33.33">10</empty>
+                            <total>30</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>5</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_is_leap_year_this" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_mjd" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="44.44">12</source>
+                            <comments percent="25.93">7</comments>
+                            <empty percent="29.63">8</empty>
+                            <total>27</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_now" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="42.86">9</source>
+                            <comments percent="23.81">5</comments>
+                            <empty percent="33.33">7</empty>
+                            <total>21</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_set_day" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_set_day_default" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_set_month" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_set_month_default" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_set_year" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_set_year_default" type="subroutine">
+                    <statistics>
+                        <lines>
+                            <source percent="33.33">5</source>
+                            <comments percent="26.67">4</comments>
+                            <empty percent="40.00">6</empty>
+                            <total>15</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_specific" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="34.62">9</source>
+                            <comments percent="30.77">8</comments>
+                            <empty percent="34.62">9</empty>
+                            <total>26</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>1</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_to_string" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="59.79">58</source>
+                            <comments percent="18.56">18</comments>
+                            <empty percent="21.65">21</empty>
+                            <total>97</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>16</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>4</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+                <method name="iso8601_date_week_of_year" type="function">
+                    <statistics>
+                        <lines>
+                            <source percent="45.45">15</source>
+                            <comments percent="27.27">9</comments>
+                            <empty percent="27.27">9</empty>
+                            <total>33</total>
+                        </lines>
+                        <complexity>
+                            <minimum>0</minimum>
+                            <maximum>3</maximum>
+                            <average>0.00</average>
+                        </complexity>
+                        <nesting>
+                            <minimum>0</minimum>
+                            <maximum>2</maximum>
+                            <average>0.00</average>
+                        </nesting>
+                    </statistics>
+                </method>
+            </methods>
+            <statistics>
+                <lines>
+                    <source percent="44.35">326</source>
+                    <comments percent="25.85">190</comments>
+                    <empty percent="29.80">219</empty>
+                    <total>735</total>
+                </lines>
+                <complexity>
+                    <minimum>1</minimum>
+                    <maximum>16</maximum>
+                    <average>2.43</average>
+                </complexity>
+                <nesting>
+                    <minimum>1</minimum>
+                    <maximum>4</maximum>
+                    <average>1.52</average>
+                </nesting>
+                <methods>23</methods>
+            </statistics>
+        </unit>
+    </units>
+    <statistics>
+        <lines>
+            <source percent="44.35">326</source>
+            <comments percent="25.85">190</comments>
+            <empty percent="29.80">219</empty>
+            <total>735</total>
+        </lines>
+        <complexity>
+            <minimum>1</minimum>
+            <maximum>16</maximum>
+            <average>2.43</average>
+        </complexity>
+        <nesting>
+            <minimum>1</minimum>
+            <maximum>4</maximum>
+            <average>1.52</average>
+        </nesting>
+        <methods>23</methods>
+    </statistics>
+    <code>
+        <line t="M" i="1" b="0" n="0">module m_iso8601_date</line>
+        <line t="M" i="2" b="0" n="0"></line>
+        <line t="C" i="3" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="4" b="0" n="0">! Copyright : 2025, Fran Martinez Fadrique &lt;Fran.Martinez.Fadrique@gmail.com&gt;</line>
+        <line t="C" i="5" b="0" n="0">! Project   : Atlantis</line>
+        <line t="C" i="6" b="0" n="0">! Reference : ISO_8601-2004_E</line>
+        <line t="C" i="7" b="0" n="0">! Author    : Fran Martinez Fadrique</line>
+        <line t="C" i="8" b="0" n="0">! Language  : Object Oriented Fortran 2018</line>
+        <line t="C" i="9" b="0" n="0">! Synopsis  : ISO8601 date format</line>
+        <line t="C" i="10" b="0" n="0">!</line>
+        <line t="C" i="11" b="0" n="0">! License   : This file is part of Fommons.</line>
+        <line t="C" i="12" b="0" n="0">!</line>
+        <line t="C" i="13" b="0" n="0">!             Fommons is free software: you can redistribute it and/or modify</line>
+        <line t="C" i="14" b="0" n="0">!             it under the terms of the GNU Lesser General Public License as</line>
+        <line t="C" i="15" b="0" n="0">!             published by the Free Software Foundation, either version 3 of</line>
+        <line t="C" i="16" b="0" n="0">!             the License, or (at your option) any later version.</line>
+        <line t="C" i="17" b="0" n="0">!</line>
+        <line t="C" i="18" b="0" n="0">!             Fommons is distributed in the hope that it will be useful,</line>
+        <line t="C" i="19" b="0" n="0">!             but WITHOUT ANY WARRANTY; without even the implied warranty of</line>
+        <line t="C" i="20" b="0" n="0">!             MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</line>
+        <line t="C" i="21" b="0" n="0">!             See the GNU Lesser General Public License for more details.</line>
+        <line t="C" i="22" b="0" n="0">!</line>
+        <line t="C" i="23" b="0" n="0">!             You should have received a copy of the GNU Lesser General Public</line>
+        <line t="C" i="24" b="0" n="0">!             License along with Fommons.  </line>
+        <line t="C" i="25" b="0" n="0">!             If not, see &lt;http://www.gnu.org/licenses/&gt;.</line>
+        <line t="C" i="26" b="0" n="0">!------------------------------------------------------------------------------</line>
+        <line t="C" i="27" b="0" n="0"></line>
+        <line t="C" i="28" b="0" n="0">!- Start of use statements ----------------------------------------------------</line>
+        <line t="C" i="29" b="0" n="0"></line>
+        <line t="X" i="30" b="0" n="0">  use m_object</line>
+        <line t="X" i="31" b="0" n="0"></line>
+        <line t="C" i="32" b="0" n="0">!- End of use statements ------------------------------------------------------</line>
+        <line t="C" i="33" b="0" n="0"></line>
+        <line t="X" i="34" b="0" n="0">  implicit none</line>
+        <line t="X" i="35" b="0" n="0"></line>
+        <line t="C" i="36" b="0" n="0">!- Start of Public/Private declarations ---------------------------------------</line>
+        <line t="C" i="37" b="0" n="0"></line>
+        <line t="X" i="38" b="0" n="0">  private</line>
+        <line t="X" i="39" b="0" n="0">  public t_iso8601_date</line>
+        <line t="X" i="40" b="0" n="0">  public iso8601_date</line>
+        <line t="X" i="41" b="0" n="0"></line>
+        <line t="X" i="42" b="0" n="0">  public iso8601_date_now</line>
+        <line t="X" i="43" b="0" n="0">  public iso8601_YYYYMMDD</line>
+        <line t="X" i="44" b="0" n="0">  public iso8601_YYYYMM</line>
+        <line t="X" i="45" b="0" n="0">  public iso8601_YYYY</line>
+        <line t="X" i="46" b="0" n="0">  public iso8601_YY</line>
+        <line t="X" i="47" b="0" n="0">  public iso8601_YYYYDDD</line>
+        <line t="X" i="48" b="0" n="0">  public iso8601_YYYYWwwD</line>
+        <line t="X" i="49" b="0" n="0">  public iso8601_YYYYWww</line>
+        <line t="X" i="50" b="0" n="0"></line>
+        <line t="X" i="51" b="0" n="0">  public iso8601_date_extended_format, iso8601_date_base_format</line>
+        <line t="X" i="52" b="0" n="0"></line>
+        <line t="X" i="53" b="0" n="0">  public iso8601_date_is_leap_year, iso8601_date_days_in_month</line>
+        <line t="X" i="54" b="0" n="0"></line>
+        <line t="C" i="55" b="0" n="0">!- End of Public/Private declarations -----------------------------------------</line>
+        <line t="C" i="56" b="0" n="0"></line>
+        <line t="C" i="57" b="0" n="0">!- Start of module variable declarations --------------------------------------</line>
+        <line t="C" i="58" b="0" n="0"></line>
+        <line t="C" i="59" b="0" n="0">! ISO6801 format separators</line>
+        <line t="X" i="60" b="0" n="0">  character, parameter :: date_separator = '-'</line>
+        <line t="X" i="61" b="0" n="0"></line>
+        <line t="C" i="62" b="0" n="0">! Base/Extended format</line>
+        <line t="X" i="63" b="0" n="0">  integer, parameter :: iso8601_date_base_format     = 1</line>
+        <line t="X" i="64" b="0" n="0">  integer, parameter :: iso8601_date_extended_format = 2</line>
+        <line t="X" i="65" b="0" n="0"></line>
+        <line t="C" i="66" b="0" n="0">! ISO8601 date format designators</line>
+        <line t="C" i="67" b="0" n="0">! The values shall be multiple of 100 to allow combination with the time desingators and allow</line>
+        <line t="C" i="68" b="0" n="0">! date/time designatos to be n00+m and make unique combinations of date and time designators</line>
+        <line t="X" i="69" b="0" n="0">  integer, parameter :: iso8601_YYYYMMDD =  100</line>
+        <line t="X" i="70" b="0" n="0">  integer, parameter :: iso8601_YYYYMM   =  200</line>
+        <line t="X" i="71" b="0" n="0">  integer, parameter :: iso8601_YYYY     =  300</line>
+        <line t="X" i="72" b="0" n="0">  integer, parameter :: iso8601_YY       =  400</line>
+        <line t="X" i="73" b="0" n="0">  integer, parameter :: iso8601_YYYYDDD  =  500</line>
+        <line t="X" i="74" b="0" n="0">  integer, parameter :: iso8601_YYYYWwwD =  600</line>
+        <line t="X" i="75" b="0" n="0">  integer, parameter :: iso8601_YYYYWww  =  700</line>
+        <line t="X" i="76" b="0" n="0">  character(len=*), parameter, dimension(2,7) :: date_format_base = reshape( (/ &amp;</line>
+        <line t="X" i="77" b="0" n="0">    'i4.4,2i2.2             ', 'i4.4,2("-",i2.2)       ', &amp;</line>
+        <line t="X" i="78" b="0" n="0">    'i4.4,i2.2              ', 'i4.4,"-",i2.2          ', &amp;</line>
+        <line t="X" i="79" b="0" n="0">    'i4.4                   ', 'i4.4                   ', &amp;</line>
+        <line t="X" i="80" b="0" n="0">    'i2.2                   ', 'i2.2                   ', &amp;</line>
+        <line t="X" i="81" b="0" n="0">    'i4.4,i3.3              ', 'i4.4,"-",i3.3)         ', &amp;</line>
+        <line t="X" i="82" b="0" n="0">    'i4.4,"W",i2.2,i1.1     ', 'i4.4,"-W",i2.2,"-",i1.1', &amp;</line>
+        <line t="X" i="83" b="0" n="0">    'i4.4,"W",i2.2          ', 'i4.4,"-W",i2.2         ' /), &amp;</line>
+        <line t="X" i="84" b="0" n="0">    (/ 2, 7 /) )</line>
+        <line t="X" i="85" b="0" n="0">  integer :: i</line>
+        <line t="X" i="86" b="0" n="0">  character(len=*), parameter, dimension(2,7) :: date_format = reshape( (/ &amp;</line>
+        <line t="X" i="87" b="0" n="0">    ( '(' // date_format_base(1,i) // ')', '(' // date_format_base(2,i) // ')', i=1, 7 ) /), &amp;</line>
+        <line t="X" i="88" b="0" n="0">    (/ 2, 7 /) )</line>
+        <line t="X" i="89" b="0" n="0"></line>
+        <line t="C" i="90" b="0" n="0">! Default length for character representation</line>
+        <line t="X" i="91" b="0" n="0">  integer, parameter :: date_length = 16</line>
+        <line t="X" i="92" b="0" n="0"></line>
+        <line t="C" i="93" b="0" n="0">! Days in a month</line>
+        <line t="X" i="94" b="0" n="0">  integer(kind=1), dimension(12), parameter :: days_in_a_month = &amp;</line>
+        <line t="X" i="95" b="0" n="0">      (/ 31_1, 28_1, 31_1, 30_1, 31_1, 30_1, 31_1, 31_1, 30_1, 31_1, 30_1, 31_1 /)</line>
+        <line t="X" i="96" b="0" n="0"></line>
+        <line t="C" i="97" b="0" n="0">! The iso8601 structure</line>
+        <line t="T" i="98" b="0" n="0">  type, extends(t_object) :: t_iso8601_date</line>
+        <line t="X" i="99" b="0" n="0">    private</line>
+        <line t="X" i="100" b="0" n="0"></line>
+        <line t="C" i="101" b="0" n="0">!     Calendar year</line>
+        <line t="X" i="102" b="0" n="0">      integer(kind=2) :: year = 0_2</line>
+        <line t="X" i="103" b="0" n="0"></line>
+        <line t="C" i="104" b="0" n="0">!     Calendar month</line>
+        <line t="X" i="105" b="0" n="0">      integer(kind=1) :: month = 0_1</line>
+        <line t="X" i="106" b="0" n="0"></line>
+        <line t="C" i="107" b="0" n="0">!     Calendar day</line>
+        <line t="X" i="108" b="0" n="0">      integer(kind=1) :: day = 0_1</line>
+        <line t="X" i="109" b="0" n="0"></line>
+        <line t="X" i="110" b="0" n="0">    contains</line>
+        <line t="X" i="111" b="0" n="0"></line>
+        <line t="C" i="112" b="0" n="0">!     Formatting interfaces</line>
+        <line t="X" i="113" b="0" n="0">      generic :: to_string =&gt; iso8601_date_to_string</line>
+        <line t="X" i="114" b="0" n="0">      procedure, private :: iso8601_date_to_string</line>
+        <line t="X" i="115" b="0" n="0"></line>
+        <line t="C" i="116" b="0" n="0">!     Access function interfaces</line>
+        <line t="X" i="117" b="0" n="0">      generic :: get_year =&gt; iso8601_date_get_year</line>
+        <line t="X" i="118" b="0" n="0">      procedure, private :: iso8601_date_get_year</line>
+        <line t="X" i="119" b="0" n="0">      generic :: set_year =&gt; iso8601_date_set_year, &amp;</line>
+        <line t="X" i="120" b="0" n="0">                             iso8601_date_set_year_default</line>
+        <line t="X" i="121" b="0" n="0">      procedure, private :: iso8601_date_set_year</line>
+        <line t="X" i="122" b="0" n="0">      procedure, private :: iso8601_date_set_year_default</line>
+        <line t="X" i="123" b="0" n="0">      generic :: get_month =&gt; iso8601_date_get_month</line>
+        <line t="X" i="124" b="0" n="0">      procedure, private :: iso8601_date_get_month</line>
+        <line t="X" i="125" b="0" n="0">      generic :: set_month =&gt; iso8601_date_set_month, &amp;</line>
+        <line t="X" i="126" b="0" n="0">                              iso8601_date_set_month_default</line>
+        <line t="X" i="127" b="0" n="0">      procedure, private :: iso8601_date_set_month</line>
+        <line t="X" i="128" b="0" n="0">      procedure, private :: iso8601_date_set_month_default</line>
+        <line t="X" i="129" b="0" n="0">      generic :: get_day =&gt; iso8601_date_get_day</line>
+        <line t="X" i="130" b="0" n="0">      procedure, private :: iso8601_date_get_day</line>
+        <line t="X" i="131" b="0" n="0">      generic :: set_day =&gt; iso8601_date_set_day, &amp;</line>
+        <line t="X" i="132" b="0" n="0">                            iso8601_date_set_day_default</line>
+        <line t="X" i="133" b="0" n="0">      procedure, private :: iso8601_date_set_day</line>
+        <line t="X" i="134" b="0" n="0">      procedure, private :: iso8601_date_set_day_default</line>
+        <line t="X" i="135" b="0" n="0"></line>
+        <line t="C" i="136" b="0" n="0">!     Calculate the day of the year</line>
+        <line t="X" i="137" b="0" n="0">      procedure :: day_of_year =&gt; iso8601_date_day_of_year</line>
+        <line t="X" i="138" b="0" n="0"></line>
+        <line t="C" i="139" b="0" n="0">!     Calculate the week of the year</line>
+        <line t="X" i="140" b="0" n="0">      procedure :: week_of_year =&gt; iso8601_date_week_of_year</line>
+        <line t="X" i="141" b="0" n="0"></line>
+        <line t="C" i="142" b="0" n="0">!     Calculate the day of the week</line>
+        <line t="X" i="143" b="0" n="0">      procedure :: day_of_week =&gt; iso8601_date_day_of_week</line>
+        <line t="X" i="144" b="0" n="0"></line>
+        <line t="C" i="145" b="0" n="0">!     Return the number of days in the month</line>
+        <line t="X" i="146" b="0" n="0">      procedure :: days_in_month =&gt; iso8601_date_days_in_month_this</line>
+        <line t="X" i="147" b="0" n="0"></line>
+        <line t="C" i="148" b="0" n="0">!     Check if it is a leap year</line>
+        <line t="X" i="149" b="0" n="0">      procedure :: is_leap_year =&gt; iso8601_date_is_leap_year_this</line>
+        <line t="X" i="150" b="0" n="0"></line>
+        <line t="C" i="151" b="0" n="0">!     Auxiliary function for day counting</line>
+        <line t="X" i="152" b="0" n="0">      procedure, private :: mjd =&gt; iso8601_date_mjd</line>
+        <line t="X" i="153" b="0" n="0"></line>
+        <line t="T" i="154" b="0" n="0">  end type t_iso8601_date</line>
+        <line t="T" i="155" b="0" n="0"></line>
+        <line t="C" i="156" b="0" n="0">! Constructor interface</line>
+        <line t="X" i="157" b="0" n="0">  interface iso8601_date</line>
+        <line t="X" i="158" b="0" n="0">    module procedure iso8601_date_specific</line>
+        <line t="X" i="159" b="0" n="0">    module procedure iso8601_date_default</line>
+        <line t="X" i="160" b="0" n="0">  end interface iso8601_date</line>
+        <line t="X" i="161" b="0" n="0"></line>
+        <line t="C" i="162" b="0" n="0">! Interface for static functions</line>
+        <line t="X" i="163" b="0" n="0">  interface iso8601_date_is_leap_year</line>
+        <line t="X" i="164" b="0" n="0">    module procedure iso8601_date_is_leap_year_static</line>
+        <line t="X" i="165" b="0" n="0">    module procedure iso8601_date_is_leap_year_default</line>
+        <line t="X" i="166" b="0" n="0">  end interface iso8601_date_is_leap_year</line>
+        <line t="X" i="167" b="0" n="0">  interface iso8601_date_days_in_month</line>
+        <line t="X" i="168" b="0" n="0">    module procedure iso8601_date_days_in_month_static</line>
+        <line t="X" i="169" b="0" n="0">    module procedure iso8601_date_days_in_month_default</line>
+        <line t="X" i="170" b="0" n="0">  end interface iso8601_date_days_in_month</line>
+        <line t="X" i="171" b="0" n="0"></line>
+        <line t="C" i="172" b="0" n="0">!- End of module variable declarations ----------------------------------------</line>
+        <line t="C" i="173" b="0" n="0"></line>
+        <line t="X" i="174" b="0" n="0">contains</line>
+        <line t="X" i="175" b="0" n="0"></line>
+        <line t="C" i="176" b="0" n="0">! Date constructor</line>
+        <line k="iso8601_date_specific" t="F" i="177" b="1" n="1">elemental function iso8601_date_specific( year, month, day ) result(res)</line>
+        <line t="F" i="178" b="1" n="1"></line>
+        <line t="C" i="179" b="1" n="1">! The year</line>
+        <line t="X" i="180" b="1" n="1">  integer(kind=2), intent(in) :: year</line>
+        <line t="X" i="181" b="1" n="1"></line>
+        <line t="C" i="182" b="1" n="1">! The month</line>
+        <line t="X" i="183" b="1" n="1">  integer(kind=1), intent(in) :: month</line>
+        <line t="X" i="184" b="1" n="1"></line>
+        <line t="C" i="185" b="1" n="1">! The day</line>
+        <line t="X" i="186" b="1" n="1">  integer(kind=1), intent(in) :: day</line>
+        <line t="X" i="187" b="1" n="1"></line>
+        <line t="C" i="188" b="1" n="1">! The constructed structure</line>
+        <line t="X" i="189" b="1" n="1">  type(t_iso8601_date) :: res</line>
+        <line t="X" i="190" b="1" n="1"></line>
+        <line t="C" i="191" b="1" n="1">! Initialise the year</line>
+        <line t="X" i="192" b="1" n="1">  res%year = year</line>
+        <line t="X" i="193" b="1" n="1"></line>
+        <line t="C" i="194" b="1" n="1">! Initialise the month</line>
+        <line t="X" i="195" b="1" n="1">  res%month = month</line>
+        <line t="X" i="196" b="1" n="1"></line>
+        <line t="C" i="197" b="1" n="1">! Initialise the day</line>
+        <line t="X" i="198" b="1" n="1">  res%day = day</line>
+        <line t="X" i="199" b="1" n="1"></line>
+        <line t="EF" i="200" b="1" n="1">end function iso8601_date_specific</line>
+        <line t="EF" i="201" b="1" n="1"></line>
+        <line t="EF" i="202" b="1" n="1"></line>
+        <line t="C" i="203" b="1" n="1">! Date constructor with default integers</line>
+        <line k="iso8601_date_default" t="F" i="204" b="1" n="1">elemental function iso8601_date_default( year, month, day ) result(res)</line>
+        <line t="F" i="205" b="1" n="1"></line>
+        <line t="C" i="206" b="1" n="1">! The year</line>
+        <line t="X" i="207" b="1" n="1">  integer, intent(in) :: year</line>
+        <line t="X" i="208" b="1" n="1"></line>
+        <line t="C" i="209" b="1" n="1">! The month</line>
+        <line t="X" i="210" b="1" n="1">  integer, intent(in) :: month</line>
+        <line t="X" i="211" b="1" n="1"></line>
+        <line t="C" i="212" b="1" n="1">! The day</line>
+        <line t="X" i="213" b="1" n="1">  integer, intent(in) :: day</line>
+        <line t="X" i="214" b="1" n="1"></line>
+        <line t="C" i="215" b="1" n="1">! The constructed structure</line>
+        <line t="X" i="216" b="1" n="1">  type(t_iso8601_date) :: res</line>
+        <line t="X" i="217" b="1" n="1"></line>
+        <line t="C" i="218" b="1" n="1">! Initialise the year</line>
+        <line t="X" i="219" b="1" n="1">  res%year = int(year,2)</line>
+        <line t="X" i="220" b="1" n="1"></line>
+        <line t="C" i="221" b="1" n="1">! Initialise the month</line>
+        <line t="X" i="222" b="1" n="1">  res%month = int(month,1)</line>
+        <line t="X" i="223" b="1" n="1"></line>
+        <line t="C" i="224" b="1" n="1">! Initialise the day</line>
+        <line t="X" i="225" b="1" n="1">  res%day = int(day,1)</line>
+        <line t="X" i="226" b="1" n="1"></line>
+        <line t="EF" i="227" b="1" n="1">end function iso8601_date_default</line>
+        <line t="EF" i="228" b="1" n="1"></line>
+        <line t="EF" i="229" b="1" n="1"></line>
+        <line t="C" i="230" b="1" n="1">! Initialise from machine clock</line>
+        <line k="iso8601_date_now" t="F" i="231" b="1" n="1">function iso8601_date_now() result(res)</line>
+        <line t="F" i="232" b="1" n="1"></line>
+        <line t="C" i="233" b="1" n="1">! The constructed structure</line>
+        <line t="X" i="234" b="1" n="1">  type(t_iso8601_date) :: res</line>
+        <line t="X" i="235" b="1" n="1"></line>
+        <line t="C" i="236" b="1" n="1">! Local variables</line>
+        <line t="X" i="237" b="1" n="1">  integer, dimension(8) :: values</line>
+        <line t="X" i="238" b="1" n="1">  character(len=5) :: zone</line>
+        <line t="X" i="239" b="1" n="1"></line>
+        <line t="C" i="240" b="1" n="1">! Get the machine time</line>
+        <line t="X" i="241" b="1" n="1">  call date_and_time( zone=zone, values=values )</line>
+        <line t="X" i="242" b="1" n="1"></line>
+        <line t="C" i="243" b="1" n="1">! Assign the core return information</line>
+        <line t="X" i="244" b="1" n="1">  res%year = int(values(1),2)</line>
+        <line t="X" i="245" b="1" n="1">  res%month = int(values(2),1)</line>
+        <line t="X" i="246" b="1" n="1">  res%day = int(values(3),1)</line>
+        <line t="X" i="247" b="1" n="1"></line>
+        <line t="EF" i="248" b="1" n="1">end function iso8601_date_now</line>
+        <line t="EF" i="249" b="1" n="1"></line>
+        <line t="EF" i="250" b="1" n="1"></line>
+        <line t="C" i="251" b="1" n="1">! Format a date</line>
+        <line k="iso8601_date_to_string" t="F" i="252" b="1" n="1">elemental function iso8601_date_to_string( this, format, size, sign ) result(res)</line>
+        <line t="F" i="253" b="1" n="1"></line>
+        <line t="C" i="254" b="1" n="1">! The ISO8601 structure</line>
+        <line t="X" i="255" b="1" n="1">  class(t_iso8601_date), intent(in) :: this</line>
+        <line t="X" i="256" b="1" n="1"></line>
+        <line t="C" i="257" b="1" n="1">! The format flag (optiona, default to iso8601_YYYYMMDD)</line>
+        <line t="X" i="258" b="1" n="1">  integer, optional, intent(in) :: format</line>
+        <line t="X" i="259" b="1" n="1"></line>
+        <line t="C" i="260" b="1" n="1">! The flag to for base/extended format (default to extended_format)</line>
+        <line t="X" i="261" b="1" n="1">  integer, optional, intent(in) :: size</line>
+        <line t="X" i="262" b="1" n="1"></line>
+        <line t="C" i="263" b="1" n="1">! The flag to include the sign before the date (default to .false.)</line>
+        <line t="X" i="264" b="1" n="1">  logical, optional, intent(in) :: sign</line>
+        <line t="X" i="265" b="1" n="1"></line>
+        <line t="C" i="266" b="1" n="1">! The resulting string</line>
+        <line t="X" i="267" b="1" n="1">  character(len=date_length) :: res</line>
+        <line t="X" i="268" b="1" n="1"></line>
+        <line t="C" i="269" b="1" n="1">! Local variables</line>
+        <line t="X" i="270" b="1" n="1">  character(len=32) :: local</line>
+        <line t="X" i="271" b="1" n="1">  integer :: the_format</line>
+        <line t="X" i="272" b="1" n="1">  integer :: the_size</line>
+        <line t="X" i="273" b="1" n="1">  character :: the_sign</line>
+        <line t="X" i="274" b="1" n="1">  integer :: fmt_idx</line>
+        <line t="X" i="275" b="1" n="1"></line>
+        <line t="C" i="276" b="1" n="1">! Check inputs</line>
+        <line t="X" i="277" b="2" n="2">  if( present(format) ) then</line>
+        <line t="X" i="278" b="2" n="2">    the_format = format</line>
+        <line t="X" i="279" b="3" n="2">  else</line>
+        <line t="X" i="280" b="3" n="2">    the_format = iso8601_YYYYMMDD</line>
+        <line t="X" i="281" b="3" n="1">  end if</line>
+        <line t="X" i="282" b="4" n="2">  if( present(size) ) then</line>
+        <line t="X" i="283" b="4" n="2">    the_size = size</line>
+        <line t="X" i="284" b="5" n="2">  else</line>
+        <line t="X" i="285" b="5" n="2">    the_size = iso8601_date_extended_format</line>
+        <line t="X" i="286" b="5" n="1">  end if</line>
+        <line t="X" i="287" b="5" n="1">  the_sign = ''</line>
+        <line t="X" i="288" b="6" n="2">  if( present(sign) ) then</line>
+        <line t="X" i="289" b="7" n="3">    if( sign ) then</line>
+        <line t="X" i="290" b="8" n="4">      if( this%year &gt;= 0 ) then</line>
+        <line t="X" i="291" b="8" n="4">        the_sign = '+'</line>
+        <line t="X" i="292" b="9" n="4">      else</line>
+        <line t="X" i="293" b="9" n="4">        the_sign = '-'</line>
+        <line t="X" i="294" b="9" n="3">      end if</line>
+        <line t="X" i="295" b="9" n="2">    end if</line>
+        <line t="X" i="296" b="9" n="1">  end if</line>
+        <line t="X" i="297" b="9" n="1"></line>
+        <line t="C" i="298" b="9" n="1">! Generate the output</line>
+        <line t="X" i="299" b="9" n="1">  fmt_idx = the_format / 100</line>
+        <line t="X" i="300" b="9" n="2">  select case( the_format )</line>
+        <line t="X" i="301" b="9" n="2"></line>
+        <line t="C" i="302" b="9" n="2">!   Format: YYYY/MM/DD</line>
+        <line t="X" i="303" b="10" n="2">    case( iso8601_YYYYMMDD )</line>
+        <line t="X" i="304" b="10" n="2">      write( local, date_format(the_size,fmt_idx) ) &amp;</line>
+        <line t="X" i="305" b="10" n="2">             abs(this%year), this%month, this%day</line>
+        <line t="X" i="306" b="10" n="2"></line>
+        <line t="C" i="307" b="10" n="2">!   Format: YYYY/MM</line>
+        <line t="X" i="308" b="11" n="2">    case( iso8601_YYYYMM )</line>
+        <line t="X" i="309" b="11" n="2">      write( local, date_format(the_size,fmt_idx) ) &amp;</line>
+        <line t="X" i="310" b="11" n="2">             abs(this%year), this%month</line>
+        <line t="X" i="311" b="11" n="2"></line>
+        <line t="C" i="312" b="11" n="2">!   Format: YYYY</line>
+        <line t="X" i="313" b="12" n="2">    case( iso8601_YYYY )</line>
+        <line t="X" i="314" b="12" n="2">      write( local, date_format(the_size,fmt_idx) ) &amp;</line>
+        <line t="X" i="315" b="12" n="2">             abs(this%year)</line>
+        <line t="X" i="316" b="12" n="2"></line>
+        <line t="C" i="317" b="12" n="2">!   Format: YY</line>
+        <line t="X" i="318" b="13" n="2">    case( iso8601_YY )</line>
+        <line t="X" i="319" b="13" n="2">      write( local, date_format(the_size,fmt_idx) ) &amp;</line>
+        <line t="X" i="320" b="13" n="2">             abs(this%year - ( this%year / 100 ) * 100 )</line>
+        <line t="X" i="321" b="13" n="2"></line>
+        <line t="C" i="322" b="13" n="2">!   Format: YYYY/DoY</line>
+        <line t="X" i="323" b="14" n="2">    case( iso8601_YYYYDDD )</line>
+        <line t="X" i="324" b="14" n="2">      write( local, date_format(the_size,fmt_idx) ) &amp;</line>
+        <line t="X" i="325" b="14" n="2">             abs(this%year), this%day_of_year()</line>
+        <line t="X" i="326" b="14" n="2"></line>
+        <line t="C" i="327" b="14" n="2">!   Format: YYYY/WoY/DoW</line>
+        <line t="X" i="328" b="15" n="2">    case( iso8601_YYYYWwwD )</line>
+        <line t="X" i="329" b="15" n="2">      write( local, date_format(the_size,fmt_idx) ) &amp;</line>
+        <line t="X" i="330" b="15" n="2">             abs(this%year), this%week_of_year(), this%day_of_week()</line>
+        <line t="X" i="331" b="15" n="2"></line>
+        <line t="C" i="332" b="15" n="2">!   Format: YYYY/WoY</line>
+        <line t="X" i="333" b="16" n="2">    case( iso8601_YYYYWww )</line>
+        <line t="X" i="334" b="16" n="2">      write( local, date_format(the_size,fmt_idx) ) &amp;</line>
+        <line t="X" i="335" b="16" n="2">             abs(this%year), this%week_of_year()</line>
+        <line t="X" i="336" b="16" n="2"></line>
+        <line t="X" i="337" b="16" n="1">  end select</line>
+        <line t="X" i="338" b="16" n="1"></line>
+        <line t="C" i="339" b="16" n="1">! Prepend the sign</line>
+        <line t="X" i="340" b="16" n="1">  local = trim(the_sign) // local</line>
+        <line t="X" i="341" b="16" n="1"></line>
+        <line t="C" i="342" b="16" n="1">! Return the formatted string</line>
+        <line t="X" i="343" b="16" n="1">  res = trim( local )</line>
+        <line t="X" i="344" b="16" n="1"></line>
+        <line t="EF" i="345" b="16" n="1">end function iso8601_date_to_string</line>
+        <line t="EF" i="346" b="1" n="1"></line>
+        <line t="EF" i="347" b="1" n="1"></line>
+        <line t="C" i="348" b="1" n="1">! Access functions</line>
+        <line t="C" i="349" b="1" n="1">! Get attribute year</line>
+        <line k="iso8601_date_get_year" t="F" i="350" b="1" n="1">elemental function iso8601_date_get_year( this ) result(res)</line>
+        <line t="F" i="351" b="1" n="1"></line>
+        <line t="C" i="352" b="1" n="1">! The data structure</line>
+        <line t="X" i="353" b="1" n="1">  class(t_iso8601_date), intent(in) :: this</line>
+        <line t="X" i="354" b="1" n="1"></line>
+        <line t="C" i="355" b="1" n="1">! The parameter value to be returned</line>
+        <line t="X" i="356" b="1" n="1">  integer(kind=2) :: res</line>
+        <line t="X" i="357" b="1" n="1"></line>
+        <line t="C" i="358" b="1" n="1">! Return the value</line>
+        <line t="X" i="359" b="1" n="1">  res = this%year</line>
+        <line t="X" i="360" b="1" n="1"></line>
+        <line t="EF" i="361" b="1" n="1">end function iso8601_date_get_year</line>
+        <line t="EF" i="362" b="1" n="1"></line>
+        <line t="EF" i="363" b="1" n="1"></line>
+        <line t="C" i="364" b="1" n="1">! Set attribute year</line>
+        <line k="iso8601_date_set_year" t="S" i="365" b="1" n="1">elemental subroutine iso8601_date_set_year( this, value )</line>
+        <line t="S" i="366" b="1" n="1"></line>
+        <line t="C" i="367" b="1" n="1">! The data structure</line>
+        <line t="X" i="368" b="1" n="1">  class(t_iso8601_date), intent(inout) :: this</line>
+        <line t="X" i="369" b="1" n="1"></line>
+        <line t="C" i="370" b="1" n="1">! The parameter value to set</line>
+        <line t="X" i="371" b="1" n="1">  integer(kind=2), intent(in) :: value</line>
+        <line t="X" i="372" b="1" n="1"></line>
+        <line t="C" i="373" b="1" n="1">! Set the value</line>
+        <line t="X" i="374" b="1" n="1">  this%year = value</line>
+        <line t="X" i="375" b="1" n="1"></line>
+        <line t="ES" i="376" b="1" n="1">end subroutine iso8601_date_set_year</line>
+        <line t="ES" i="377" b="1" n="1"></line>
+        <line t="ES" i="378" b="1" n="1"></line>
+        <line t="C" i="379" b="1" n="1">! Set attribute year (from default integer)</line>
+        <line k="iso8601_date_set_year_default" t="S" i="380" b="1" n="1">elemental subroutine iso8601_date_set_year_default( this, value )</line>
+        <line t="S" i="381" b="1" n="1"></line>
+        <line t="C" i="382" b="1" n="1">! The data structure</line>
+        <line t="X" i="383" b="1" n="1">  class(t_iso8601_date), intent(inout) :: this</line>
+        <line t="X" i="384" b="1" n="1"></line>
+        <line t="C" i="385" b="1" n="1">! The parameter value to set</line>
+        <line t="X" i="386" b="1" n="1">  integer, intent(in) :: value</line>
+        <line t="X" i="387" b="1" n="1"></line>
+        <line t="C" i="388" b="1" n="1">! Set the value</line>
+        <line t="X" i="389" b="1" n="1">  this%year = int(value,2)</line>
+        <line t="X" i="390" b="1" n="1"></line>
+        <line t="ES" i="391" b="1" n="1">end subroutine iso8601_date_set_year_default</line>
+        <line t="ES" i="392" b="1" n="1"></line>
+        <line t="ES" i="393" b="1" n="1"></line>
+        <line t="C" i="394" b="1" n="1">! Get attribute month</line>
+        <line k="iso8601_date_get_month" t="F" i="395" b="1" n="1">elemental function iso8601_date_get_month( this ) result(res)</line>
+        <line t="F" i="396" b="1" n="1"></line>
+        <line t="C" i="397" b="1" n="1">! The data structure</line>
+        <line t="X" i="398" b="1" n="1">  class(t_iso8601_date), intent(in) :: this</line>
+        <line t="X" i="399" b="1" n="1"></line>
+        <line t="C" i="400" b="1" n="1">! The parameter value to be returned</line>
+        <line t="X" i="401" b="1" n="1">  integer(kind=1) :: res</line>
+        <line t="X" i="402" b="1" n="1"></line>
+        <line t="C" i="403" b="1" n="1">! Return the value</line>
+        <line t="X" i="404" b="1" n="1">  res = this%month</line>
+        <line t="X" i="405" b="1" n="1"></line>
+        <line t="EF" i="406" b="1" n="1">end function iso8601_date_get_month</line>
+        <line t="EF" i="407" b="1" n="1"></line>
+        <line t="EF" i="408" b="1" n="1"></line>
+        <line t="C" i="409" b="1" n="1">! Set attribute month</line>
+        <line k="iso8601_date_set_month" t="S" i="410" b="1" n="1">elemental subroutine iso8601_date_set_month( this, value )</line>
+        <line t="S" i="411" b="1" n="1"></line>
+        <line t="C" i="412" b="1" n="1">! The data structure</line>
+        <line t="X" i="413" b="1" n="1">  class(t_iso8601_date), intent(inout) :: this</line>
+        <line t="X" i="414" b="1" n="1"></line>
+        <line t="C" i="415" b="1" n="1">! The parameter value to set</line>
+        <line t="X" i="416" b="1" n="1">  integer(kind=1), intent(in) :: value</line>
+        <line t="X" i="417" b="1" n="1"></line>
+        <line t="C" i="418" b="1" n="1">! Set the value</line>
+        <line t="X" i="419" b="1" n="1">  this%month = value</line>
+        <line t="X" i="420" b="1" n="1"></line>
+        <line t="ES" i="421" b="1" n="1">end subroutine iso8601_date_set_month</line>
+        <line t="ES" i="422" b="1" n="1"></line>
+        <line t="ES" i="423" b="1" n="1"></line>
+        <line t="C" i="424" b="1" n="1">! Set attribute month (from default integer)</line>
+        <line k="iso8601_date_set_month_default" t="S" i="425" b="1" n="1">elemental subroutine iso8601_date_set_month_default( this, value )</line>
+        <line t="S" i="426" b="1" n="1"></line>
+        <line t="C" i="427" b="1" n="1">! The data structure</line>
+        <line t="X" i="428" b="1" n="1">  class(t_iso8601_date), intent(inout) :: this</line>
+        <line t="X" i="429" b="1" n="1"></line>
+        <line t="C" i="430" b="1" n="1">! The parameter value to set</line>
+        <line t="X" i="431" b="1" n="1">  integer, intent(in) :: value</line>
+        <line t="X" i="432" b="1" n="1"></line>
+        <line t="C" i="433" b="1" n="1">! Set the value</line>
+        <line t="X" i="434" b="1" n="1">  this%month = int(value,1)</line>
+        <line t="X" i="435" b="1" n="1"></line>
+        <line t="ES" i="436" b="1" n="1">end subroutine iso8601_date_set_month_default</line>
+        <line t="ES" i="437" b="1" n="1"></line>
+        <line t="ES" i="438" b="1" n="1"></line>
+        <line t="C" i="439" b="1" n="1">! Get attribute day</line>
+        <line k="iso8601_date_get_day" t="F" i="440" b="1" n="1">elemental function iso8601_date_get_day( this ) result(res)</line>
+        <line t="F" i="441" b="1" n="1"></line>
+        <line t="C" i="442" b="1" n="1">! The data structure</line>
+        <line t="X" i="443" b="1" n="1">  class(t_iso8601_date), intent(in) :: this</line>
+        <line t="X" i="444" b="1" n="1"></line>
+        <line t="C" i="445" b="1" n="1">! The parameter value to be returned</line>
+        <line t="X" i="446" b="1" n="1">  integer(kind=1) :: res</line>
+        <line t="X" i="447" b="1" n="1"></line>
+        <line t="C" i="448" b="1" n="1">! Return the value</line>
+        <line t="X" i="449" b="1" n="1">  res = this%day</line>
+        <line t="X" i="450" b="1" n="1"></line>
+        <line t="EF" i="451" b="1" n="1">end function iso8601_date_get_day</line>
+        <line t="EF" i="452" b="1" n="1"></line>
+        <line t="EF" i="453" b="1" n="1"></line>
+        <line t="C" i="454" b="1" n="1">! Set attribute day</line>
+        <line k="iso8601_date_set_day" t="S" i="455" b="1" n="1">elemental subroutine iso8601_date_set_day( this, value )</line>
+        <line t="S" i="456" b="1" n="1"></line>
+        <line t="C" i="457" b="1" n="1">! The data structure</line>
+        <line t="X" i="458" b="1" n="1">  class(t_iso8601_date), intent(inout) :: this</line>
+        <line t="X" i="459" b="1" n="1"></line>
+        <line t="C" i="460" b="1" n="1">! The parameter value to set</line>
+        <line t="X" i="461" b="1" n="1">  integer(kind=1), intent(in) :: value</line>
+        <line t="X" i="462" b="1" n="1"></line>
+        <line t="C" i="463" b="1" n="1">! Set the value</line>
+        <line t="X" i="464" b="1" n="1">  this%day = value</line>
+        <line t="X" i="465" b="1" n="1"></line>
+        <line t="ES" i="466" b="1" n="1">end subroutine iso8601_date_set_day</line>
+        <line t="ES" i="467" b="1" n="1"></line>
+        <line t="ES" i="468" b="1" n="1"></line>
+        <line t="C" i="469" b="1" n="1">! Set attribute day (from default integer)</line>
+        <line k="iso8601_date_set_day_default" t="S" i="470" b="1" n="1">elemental subroutine iso8601_date_set_day_default( this, value )</line>
+        <line t="S" i="471" b="1" n="1"></line>
+        <line t="C" i="472" b="1" n="1">! The data structure</line>
+        <line t="X" i="473" b="1" n="1">  class(t_iso8601_date), intent(inout) :: this</line>
+        <line t="X" i="474" b="1" n="1"></line>
+        <line t="C" i="475" b="1" n="1">! The parameter value to set</line>
+        <line t="X" i="476" b="1" n="1">  integer, intent(in) :: value</line>
+        <line t="X" i="477" b="1" n="1"></line>
+        <line t="C" i="478" b="1" n="1">! Set the value</line>
+        <line t="X" i="479" b="1" n="1">  this%day = int(value,1)</line>
+        <line t="X" i="480" b="1" n="1"></line>
+        <line t="ES" i="481" b="1" n="1">end subroutine iso8601_date_set_day_default</line>
+        <line t="ES" i="482" b="1" n="1"></line>
+        <line t="ES" i="483" b="1" n="1"></line>
+        <line t="C" i="484" b="1" n="1">! Check for leap year (type dound)</line>
+        <line k="iso8601_date_is_leap_year_this" t="F" i="485" b="1" n="1">pure function iso8601_date_is_leap_year_this( this ) result(res)</line>
+        <line t="F" i="486" b="1" n="1"></line>
+        <line t="C" i="487" b="1" n="1">! Calling object</line>
+        <line t="X" i="488" b="1" n="1">  class(t_iso8601_date), intent(in) :: this</line>
+        <line t="X" i="489" b="1" n="1"></line>
+        <line t="C" i="490" b="1" n="1">! Flag for leap year</line>
+        <line t="X" i="491" b="1" n="1">  logical :: res</line>
+        <line t="X" i="492" b="1" n="1"></line>
+        <line t="C" i="493" b="1" n="1">! Compute from static function</line>
+        <line t="X" i="494" b="1" n="1">  res = iso8601_date_is_leap_year_static(this%year)</line>
+        <line t="X" i="495" b="1" n="1"></line>
+        <line t="EF" i="496" b="1" n="1">end function iso8601_date_is_leap_year_this</line>
+        <line t="EF" i="497" b="1" n="1"></line>
+        <line t="EF" i="498" b="1" n="1"></line>
+        <line t="C" i="499" b="1" n="1">! Check for leap year (static)</line>
+        <line k="iso8601_date_is_leap_year_static" t="F" i="500" b="1" n="1">pure function iso8601_date_is_leap_year_static( year ) result(res)</line>
+        <line t="F" i="501" b="1" n="1"></line>
+        <line t="C" i="502" b="1" n="1">! Year to test</line>
+        <line t="X" i="503" b="1" n="1">  integer(kind=2), intent(in) :: year</line>
+        <line t="X" i="504" b="1" n="1"></line>
+        <line t="C" i="505" b="1" n="1">! Flag for leap year</line>
+        <line t="X" i="506" b="1" n="1">  logical :: res</line>
+        <line t="X" i="507" b="1" n="1"></line>
+        <line t="C" i="508" b="1" n="1">! Check modulus 400; is leap year</line>
+        <line t="X" i="509" b="2" n="2">  if( mod(year,400_2) == 0 ) then</line>
+        <line t="X" i="510" b="2" n="2">    res = .true.</line>
+        <line t="X" i="511" b="2" n="2"></line>
+        <line t="C" i="512" b="2" n="2">! Check modulus 100; is not leap year</line>
+        <line t="X" i="513" b="3" n="2">  else if( mod(year,100_2) == 0 ) then</line>
+        <line t="X" i="514" b="3" n="2">    res = .false.</line>
+        <line t="X" i="515" b="3" n="2"></line>
+        <line t="C" i="516" b="3" n="2">! Check modulus 4; is leap year</line>
+        <line t="X" i="517" b="4" n="2">  else if( mod(year,4_2) == 0 ) then</line>
+        <line t="X" i="518" b="4" n="2">    res = .true.</line>
+        <line t="X" i="519" b="4" n="2"></line>
+        <line t="C" i="520" b="4" n="2">! Default is not leap year</line>
+        <line t="X" i="521" b="5" n="2">  else</line>
+        <line t="X" i="522" b="5" n="2">    res = .false.</line>
+        <line t="X" i="523" b="5" n="2"></line>
+        <line t="X" i="524" b="5" n="1">  end if</line>
+        <line t="X" i="525" b="5" n="1"></line>
+        <line t="EF" i="526" b="5" n="1">end function iso8601_date_is_leap_year_static</line>
+        <line t="EF" i="527" b="1" n="1"></line>
+        <line t="EF" i="528" b="1" n="1"></line>
+        <line t="C" i="529" b="1" n="1">! Check for leap year (static; default integer)</line>
+        <line k="iso8601_date_is_leap_year_default" t="F" i="530" b="1" n="1">pure function iso8601_date_is_leap_year_default( year ) result(res)</line>
+        <line t="F" i="531" b="1" n="1"></line>
+        <line t="C" i="532" b="1" n="1">! Year to test</line>
+        <line t="X" i="533" b="1" n="1">  integer, intent(in) :: year</line>
+        <line t="X" i="534" b="1" n="1"></line>
+        <line t="C" i="535" b="1" n="1">! Flag for leap year</line>
+        <line t="X" i="536" b="1" n="1">  logical :: res</line>
+        <line t="X" i="537" b="1" n="1"></line>
+        <line t="C" i="538" b="1" n="1">! Compute from the base function</line>
+        <line t="X" i="539" b="1" n="1">  res = iso8601_date_is_leap_year_static( int(year,kind=2) )</line>
+        <line t="X" i="540" b="1" n="1"></line>
+        <line t="EF" i="541" b="1" n="1">end function iso8601_date_is_leap_year_default</line>
+        <line t="EF" i="542" b="1" n="1"></line>
+        <line t="EF" i="543" b="1" n="1"></line>
+        <line t="C" i="544" b="1" n="1">! Get days in month (type dound)</line>
+        <line k="iso8601_date_days_in_month_this" t="F" i="545" b="1" n="1">pure function iso8601_date_days_in_month_this( this ) result(res)</line>
+        <line t="F" i="546" b="1" n="1"></line>
+        <line t="C" i="547" b="1" n="1">! Calling object</line>
+        <line t="X" i="548" b="1" n="1">  class(t_iso8601_date), intent(in) :: this</line>
+        <line t="X" i="549" b="1" n="1"></line>
+        <line t="C" i="550" b="1" n="1">! Days in month</line>
+        <line t="X" i="551" b="1" n="1">  integer :: res</line>
+        <line t="X" i="552" b="1" n="1"></line>
+        <line t="C" i="553" b="1" n="1">! Compute from static function</line>
+        <line t="X" i="554" b="1" n="1">  res = iso8601_date_days_in_month_static( this%month, this%year )</line>
+        <line t="X" i="555" b="1" n="1"></line>
+        <line t="EF" i="556" b="1" n="1">end function iso8601_date_days_in_month_this</line>
+        <line t="EF" i="557" b="1" n="1"></line>
+        <line t="EF" i="558" b="1" n="1"></line>
+        <line t="C" i="559" b="1" n="1">! Get the days in month (static)</line>
+        <line k="iso8601_date_days_in_month_static" t="F" i="560" b="1" n="1">pure function iso8601_date_days_in_month_static( month, year ) result(res)</line>
+        <line t="F" i="561" b="1" n="1"></line>
+        <line t="C" i="562" b="1" n="1">! Input month</line>
+        <line t="X" i="563" b="1" n="1">  integer(kind=1), intent(in) :: month</line>
+        <line t="X" i="564" b="1" n="1"></line>
+        <line t="C" i="565" b="1" n="1">! Input year (to check for leap year; optional; default no leap year)</line>
+        <line t="X" i="566" b="1" n="1">  integer(kind=2), optional, intent(in) :: year</line>
+        <line t="X" i="567" b="1" n="1"></line>
+        <line t="C" i="568" b="1" n="1">! Days in month</line>
+        <line t="X" i="569" b="1" n="1">  integer :: res</line>
+        <line t="X" i="570" b="1" n="1"></line>
+        <line t="C" i="571" b="1" n="1">! Local variables</line>
+        <line t="X" i="572" b="1" n="1">  logical :: isleap</line>
+        <line t="X" i="573" b="1" n="1"></line>
+        <line t="C" i="574" b="1" n="1">! Check input range</line>
+        <line t="X" i="575" b="2" n="2">  if( month &gt; 0 .and. month &lt;= 12 ) then</line>
+        <line t="X" i="576" b="2" n="2"></line>
+        <line t="C" i="577" b="2" n="2">!   Basic computation of the number of days</line>
+        <line t="X" i="578" b="2" n="2">    res = days_in_a_month(month)</line>
+        <line t="X" i="579" b="2" n="2"></line>
+        <line t="C" i="580" b="2" n="2">!   Check for leap year and month</line>
+        <line t="X" i="581" b="3" n="3">    if( month == 2 ) then</line>
+        <line t="X" i="582" b="3" n="3"></line>
+        <line t="C" i="583" b="3" n="3">!     Check if leap year is to be taken into account</line>
+        <line t="X" i="584" b="4" n="4">      if( present(year) ) then</line>
+        <line t="X" i="585" b="4" n="4">        isleap = iso8601_date_is_leap_year_static(year)</line>
+        <line t="X" i="586" b="5" n="4">      else</line>
+        <line t="X" i="587" b="5" n="4">        isleap = .false.</line>
+        <line t="X" i="588" b="5" n="3">      end if</line>
+        <line t="X" i="589" b="6" n="4">      if( isleap ) res = res + 1</line>
+        <line t="X" i="590" b="6" n="4"></line>
+        <line t="X" i="591" b="6" n="3">    end if</line>
+        <line t="X" i="592" b="6" n="3"></line>
+        <line t="X" i="593" b="7" n="3">  else</line>
+        <line t="X" i="594" b="7" n="3">    res = 0</line>
+        <line t="X" i="595" b="7" n="2">  end if</line>
+        <line t="X" i="596" b="7" n="2"></line>
+        <line t="EF" i="597" b="7" n="2">end function iso8601_date_days_in_month_static</line>
+        <line t="EF" i="598" b="1" n="2"></line>
+        <line t="EF" i="599" b="1" n="2"></line>
+        <line t="C" i="600" b="1" n="2">! Get days in month (static; default integer)</line>
+        <line k="iso8601_date_days_in_month_default" t="F" i="601" b="1" n="1">pure function iso8601_date_days_in_month_default( month, year ) result(res)</line>
+        <line t="F" i="602" b="1" n="1"></line>
+        <line t="C" i="603" b="1" n="1">! Input month</line>
+        <line t="X" i="604" b="1" n="1">  integer, intent(in) :: month</line>
+        <line t="X" i="605" b="1" n="1"></line>
+        <line t="C" i="606" b="1" n="1">! Input year (to check for leap year; optional; default no leap year)</line>
+        <line t="X" i="607" b="1" n="1">  integer, optional, intent(in) :: year</line>
+        <line t="X" i="608" b="1" n="1"></line>
+        <line t="C" i="609" b="1" n="1">! Days in month</line>
+        <line t="X" i="610" b="1" n="1">  integer :: res</line>
+        <line t="X" i="611" b="1" n="1"></line>
+        <line t="C" i="612" b="1" n="1">! Compute with base function</line>
+        <line t="X" i="613" b="2" n="2">  if( present(year) ) then</line>
+        <line t="X" i="614" b="2" n="2">    res = iso8601_date_days_in_month_static( int(month,kind=1), int(year,kind=2) )</line>
+        <line t="X" i="615" b="3" n="2">  else</line>
+        <line t="X" i="616" b="3" n="2">    res = iso8601_date_days_in_month_static( int(month,kind=1) )</line>
+        <line t="X" i="617" b="3" n="1">  end if</line>
+        <line t="X" i="618" b="3" n="1"></line>
+        <line t="EF" i="619" b="3" n="1">end function iso8601_date_days_in_month_default</line>
+        <line t="EF" i="620" b="1" n="1"></line>
+        <line t="EF" i="621" b="1" n="1"></line>
+        <line t="C" i="622" b="1" n="1">! Get day of the year</line>
+        <line k="iso8601_date_day_of_year" t="F" i="623" b="1" n="1">pure function iso8601_date_day_of_year( this ) result(res)</line>
+        <line t="F" i="624" b="1" n="1"></line>
+        <line t="C" i="625" b="1" n="1">! Calling object</line>
+        <line t="X" i="626" b="1" n="1">  class(t_iso8601_date), intent(in) :: this</line>
+        <line t="X" i="627" b="1" n="1"></line>
+        <line t="C" i="628" b="1" n="1">! Day of the year</line>
+        <line t="X" i="629" b="1" n="1">  integer :: res</line>
+        <line t="X" i="630" b="1" n="1"></line>
+        <line t="C" i="631" b="1" n="1">! Local variables</line>
+        <line t="X" i="632" b="1" n="1">  integer(kind=1) :: month</line>
+        <line t="X" i="633" b="1" n="1"></line>
+        <line t="C" i="634" b="1" n="1">! Get the last complete month in the date</line>
+        <line t="X" i="635" b="1" n="1">  month = this%month - 1_1</line>
+        <line t="X" i="636" b="1" n="1"></line>
+        <line t="C" i="637" b="1" n="1">! Get the number of days from the date</line>
+        <line t="X" i="638" b="1" n="1">  res = int( sum( days_in_a_month(:month) ), 4) + int(this%day,4)</line>
+        <line t="X" i="639" b="1" n="1"></line>
+        <line t="C" i="640" b="1" n="1">! Check for leap years</line>
+        <line t="X" i="641" b="2" n="2">  if( this%month &gt; 2 ) then</line>
+        <line t="X" i="642" b="3" n="3">    if( this%is_leap_year() ) then</line>
+        <line t="X" i="643" b="3" n="3">      res = res + 1</line>
+        <line t="X" i="644" b="3" n="2">    end if</line>
+        <line t="X" i="645" b="3" n="1">  end if</line>
+        <line t="X" i="646" b="3" n="1"></line>
+        <line t="EF" i="647" b="3" n="1">end function iso8601_date_day_of_year</line>
+        <line t="EF" i="648" b="1" n="1"></line>
+        <line t="EF" i="649" b="1" n="1"></line>
+        <line t="C" i="650" b="1" n="1">! Get week of the year</line>
+        <line t="C" i="651" b="1" n="1">! ISO-8601: 1st week of year contains first Thursday of year</line>
+        <line t="C" i="652" b="1" n="1">!           Calendar week starts on Monday</line>
+        <line k="iso8601_date_week_of_year" t="F" i="653" b="1" n="1">pure function iso8601_date_week_of_year( this ) result(res)</line>
+        <line t="F" i="654" b="1" n="1"></line>
+        <line t="C" i="655" b="1" n="1">! Calling object</line>
+        <line t="X" i="656" b="1" n="1">  class(t_iso8601_date), intent(in) :: this</line>
+        <line t="X" i="657" b="1" n="1"></line>
+        <line t="C" i="658" b="1" n="1">! Day of the year</line>
+        <line t="X" i="659" b="1" n="1">  integer :: res</line>
+        <line t="X" i="660" b="1" n="1"></line>
+        <line t="C" i="661" b="1" n="1">! Local variables</line>
+        <line t="X" i="662" b="1" n="1">  type(t_iso8601_date) :: jan_first</line>
+        <line t="X" i="663" b="1" n="1">  integer :: jan_first_dow</line>
+        <line t="X" i="664" b="1" n="1">  integer :: first_week</line>
+        <line t="X" i="665" b="1" n="1"></line>
+        <line t="C" i="666" b="1" n="1">! Compute the week day for January first of the input date year</line>
+        <line t="X" i="667" b="1" n="1">  jan_first = iso8601_date( this%year, 1_1, 1_1 )</line>
+        <line t="X" i="668" b="1" n="1">  jan_first_dow = jan_first%day_of_week()</line>
+        <line t="X" i="669" b="1" n="1"></line>
+        <line t="C" i="670" b="1" n="1">! Compute the first week of the year according to ISO-8601</line>
+        <line t="X" i="671" b="2" n="2">  if( jan_first_dow &lt;= 4 ) then</line>
+        <line t="X" i="672" b="2" n="2">    first_week = 1</line>
+        <line t="X" i="673" b="3" n="2">  else</line>
+        <line t="X" i="674" b="3" n="2">    first_week = 0</line>
+        <line t="X" i="675" b="3" n="1">  end if</line>
+        <line t="X" i="676" b="3" n="1"></line>
+        <line t="C" i="677" b="3" n="1">! Compute the week of the year</line>
+        <line t="X" i="678" b="3" n="1">  res = ( ( this%day_of_year() + jan_first_dow - 2 ) / 7 ) + first_week</line>
+        <line t="X" i="679" b="3" n="1"></line>
+        <line t="EF" i="680" b="3" n="1">end function iso8601_date_week_of_year</line>
+        <line t="EF" i="681" b="1" n="1"></line>
+        <line t="EF" i="682" b="1" n="1"></line>
+        <line t="C" i="683" b="1" n="1">! Get day of the week</line>
+        <line t="C" i="684" b="1" n="1">! ISO-8601: Calendar week starts on Monday</line>
+        <line k="iso8601_date_day_of_week" t="F" i="685" b="1" n="1">pure function iso8601_date_day_of_week( this ) result(res)</line>
+        <line t="F" i="686" b="1" n="1"></line>
+        <line t="C" i="687" b="1" n="1">! Calling object</line>
+        <line t="X" i="688" b="1" n="1">  class(t_iso8601_date), intent(in) :: this</line>
+        <line t="X" i="689" b="1" n="1"></line>
+        <line t="C" i="690" b="1" n="1">! Day of the year</line>
+        <line t="X" i="691" b="1" n="1">  integer :: res</line>
+        <line t="X" i="692" b="1" n="1"></line>
+        <line t="C" i="693" b="1" n="1">! Local variables</line>
+        <line t="X" i="694" b="1" n="1">  integer :: mjd</line>
+        <line t="X" i="695" b="1" n="1"></line>
+        <line t="C" i="696" b="1" n="1">! Compute MJD (reference 2000-01-01)</line>
+        <line t="X" i="697" b="1" n="1">  mjd = this%mjd()</line>
+        <line t="X" i="698" b="1" n="1"></line>
+        <line t="C" i="699" b="1" n="1">! Compute the week day (2000-01-01 is Saturday=6)</line>
+        <line t="X" i="700" b="2" n="2">  if( mjd &gt; 0 ) then</line>
+        <line t="X" i="701" b="2" n="2">    res = mod( mjd + 5, 7 ) + 1</line>
+        <line t="X" i="702" b="3" n="2">  else</line>
+        <line t="X" i="703" b="3" n="2">    res = mod( mod( mjd + 5, 7 ) + 8, 7 )</line>
+        <line t="X" i="704" b="3" n="1">  end if</line>
+        <line t="X" i="705" b="3" n="1"></line>
+        <line t="EF" i="706" b="3" n="1">end  function iso8601_date_day_of_week</line>
+        <line t="EF" i="707" b="1" n="1"></line>
+        <line t="EF" i="708" b="1" n="1"></line>
+        <line t="C" i="709" b="1" n="1">! Compute integer part of mjd2000 from year, month, day</line>
+        <line k="iso8601_date_mjd" t="F" i="710" b="1" n="1">pure function iso8601_date_mjd( this ) result(res)</line>
+        <line t="F" i="711" b="1" n="1"></line>
+        <line t="C" i="712" b="1" n="1">! Calling object</line>
+        <line t="X" i="713" b="1" n="1">  class(t_iso8601_date), intent(in) :: this</line>
+        <line t="X" i="714" b="1" n="1"></line>
+        <line t="C" i="715" b="1" n="1">! Resulting MJD with reference to 2000-01-01</line>
+        <line t="X" i="716" b="1" n="1">  integer :: res</line>
+        <line t="X" i="717" b="1" n="1"></line>
+        <line t="C" i="718" b="1" n="1">! Local variables</line>
+        <line t="X" i="719" b="1" n="1">  integer :: mjd2000</line>
+        <line t="X" i="720" b="1" n="1">  integer   :: jj, l</line>
+        <line t="X" i="721" b="1" n="1">  integer, parameter :: user_time_mjd1950 = -18262    ! 1950-01-01 in MJD2000</line>
+        <line t="X" i="722" b="1" n="1"></line>
+        <line t="C" i="723" b="1" n="1">! Code from ESA's orbit library ORBLIB</line>
+        <line t="X" i="724" b="1" n="1">  jj      = (14 - this%month)/12</line>
+        <line t="X" i="725" b="1" n="1">  l       = this%year - 1900 * (this%year / 1900) - jj</line>
+        <line t="X" i="726" b="1" n="1">  mjd2000 = this%day - 18234 + (1461 * l) / 4 +       &amp;</line>
+        <line t="X" i="727" b="1" n="1">            (367 * (this%month - 2 + jj * 12)) / 12</line>
+        <line t="C" i="728" b="1" n="1">! End of code from ESA's orbit library ORBLIB</line>
+        <line t="C" i="729" b="1" n="1"></line>
+        <line t="C" i="730" b="1" n="1">! Set reference to 2000-01-01</line>
+        <line t="X" i="731" b="1" n="1">  res = mjd2000 + user_time_mjd1950</line>
+        <line t="X" i="732" b="1" n="1"></line>
+        <line t="EF" i="733" b="1" n="1">end function iso8601_date_mjd</line>
+        <line t="EF" i="734" b="1" n="1"></line>
+        <line t="M" i="735" b="1" n="1">end module m_iso8601_date</line>
+        <line t="M" i="736" b="1" n="1"></line>
+    </code>
+</fmx>
