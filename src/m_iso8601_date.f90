@@ -1,7 +1,7 @@
 module m_iso8601_date
 
 !------------------------------------------------------------------------------
-! Copyright : 2022, Fran Martinez Fadrique <Fran.Martinez.Fadrique@gmail.com>
+! Copyright : 2025, Fran Martinez Fadrique <Fran.Martinez.Fadrique@gmail.com>
 ! Project   : Atlantis
 ! Reference : ISO_8601-2004_E
 ! Author    : Fran Martinez Fadrique
