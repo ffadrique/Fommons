@@ -45,8 +45,7 @@ module m_messages
 !- Start of module variable declarations --------------------------------------
 
 ! Default aray sizes
-  integer, parameter :: messages_errors_size = 20
-  integer, parameter :: messages_warnings_size = 20
+  integer, parameter :: messages_maximum_size = 50
 
 ! The list of messages
   type, extends(t_object) :: t_messages
@@ -62,14 +61,14 @@ module m_messages
       integer :: error_count = 0
 
 !     Buffer of error messages
-      type(t_msg), dimension(messages_errors_size) :: errors
+      type(t_msg), dimension(messages_maximum_size) :: errors
 
 !     Warning counte
       integer :: warning_count = 0
 
 !     Buffer of warning messages
-      type(t_msg), dimension(messages_warnings_size) :: warnings
-
+      type(t_msg), dimension(messages_maximum_size) :: warnings
+      
     contains
 
 !     Report error
@@ -102,6 +101,9 @@ module m_messages
 !     Get the warnings as an array of messages
       procedure :: get_warnings => messages_get_warnings
 
+!     Stack two arrays of messages
+      procedure :: stack => messages_stack
+      
   end type t_messages
 
 ! Constructor interface
@@ -136,7 +138,7 @@ elemental subroutine messages_error( this, msg )
   if( present(this) ) then
 
 !   Check maximum buffer size
-    if( this%error_count < messages_errors_size ) then
+    if( this%error_count < messages_maximum_size ) then
 
 !     Add message to the list
       this%error_count = this%error_count + 1
@@ -177,7 +179,7 @@ elemental subroutine messages_error_raw( this, mod, proc, code, text )
   if( present(this) ) then
 
 !   Check maximum buffer size
-    if( this%error_count < messages_errors_size ) then
+    if( this%error_count < messages_maximum_size ) then
 
 !     Set the message structure
       amsg = msg( code, string(text), string(mod), string(proc) )
@@ -221,7 +223,7 @@ elemental subroutine messages_warning( this, mod, proc, code, text )
   if( present(this) ) then
 
 !   Check maximum buffer size
-    if( this%warning_count < messages_warnings_size ) then
+    if( this%warning_count < messages_maximum_size ) then
 
 !     Set the message structure
       amsg = msg( code, string(text), string(mod), string(proc) )
@@ -402,5 +404,86 @@ pure subroutine messages_get_messages( buffer, count, array )
   end if
 
 end subroutine messages_get_messages
+
+
+! Stack two arrays of messages
+pure subroutine messages_stack( this, msgs, insert )
+
+! The messages structure
+  class(t_messages), intent(inout) :: this
+
+! The new messages to stack
+  class(t_messages), intent(in) :: msgs
+  
+! Flag to insert the new messages before the existing ones (default: .false.)
+  logical, optional, intent(in) :: insert
+
+! Local variables
+  logical :: before 
+
+! Check the insert flag
+  if( present(insert) ) then
+    before = insert
+  else
+    before = .false.
+  end if
+  
+! Stack the error messages
+  if( msgs%error_count > 0 ) then
+
+!     Check the stack order
+      if( before ) then 
+  
+!       Messages to stack before the existing ones
+        call stack_message_arrays( msgs%errors, this%errors )  
+        this%errors = msgs%errors
+        call stack_message_arrays( msgs%warnings, this%warnings )
+        this%warnings = msgs%warnings
+    
+      else
+    
+!       Messages to stack after the existing ones
+        call stack_message_arrays( this%errors, msgs%errors )
+        call stack_message_arrays( this%warnings, msgs%warnings )
+      
+      end if
+
+!     Update the error count and flag
+      this%error_count = min( this%error_count + msgs%error_count, messages_maximum_size )
+      this%warning_count = min( this%warning_count + msgs%warning_count, messages_maximum_size )
+      this%is_error = this%is_error .or. msgs%is_error
+            
+  end if
+  
+end subroutine messages_stack
+
+
+! Internal subroutine to stack two arrays of messages
+pure subroutine stack_message_arrays( array1, array2 )
+
+! The first array of messages (updated in place)
+  type(t_msg), dimension(:), intent(inout) :: array1
+
+! The second array of messages (to stack after the first one)
+  type(t_msg), dimension(:), intent(in) :: array2
+  
+! Local variables
+  integer :: count1, count2, countt
+  
+! Get the number of messages in each array
+  count1 = count(array1%get_code() /= 0)
+  count2 = count(array2%get_code() /= 0)
+  countt = count1 + count2
+  
+! Limit the number of messages to the maximum size
+  count2 = min(countt, messages_maximum_size) - count1
+
+! Stack the second array after the first one
+  if( count2 > 0 ) then
+    array1(count1+1:count1+count2) = array2(1:count2)
+  end if  
+  
+end subroutine stack_message_arrays
+
 
 end module m_messages

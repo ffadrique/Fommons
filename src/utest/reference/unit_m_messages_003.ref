@@ -1,0 +1,25 @@
+*** ERROR unit_m_messages::unit_m_messages_test_001 (003009) : Message error 3009
+*** ERROR unit_m_messages::unit_m_messages_test_001 (002009) : error 2009
+*** ERROR unit_m_messages::unit_m_messages_test_001 (001009) : Message 1009
+*** ERROR unit_m_messages::unit_m_messages_test_001 (000400) : Message error 400
+*** ERROR unit_m_messages::unit_m_messages_test_001 (000300) : Message error 300
+*** ERROR unit_m_messages::unit_m_messages_test_001 (000200) : error 200
+*** ERROR unit_m_messages::unit_m_messages_test_001 (000100) : Message 100
+*** WARNING unit_m_messages::unit_m_messages_test_001 (003009) : Message Warning 3009
+*** WARNING unit_m_messages::unit_m_messages_test_001 (002009) : Message Warning 2009
+*** WARNING unit_m_messages::unit_m_messages_test_001 (001009) : Message Warning 1009
+*** WARNING unit_m_messages::unit_m_messages_test_001 (000200) : Message Warning 200
+*** WARNING unit_m_messages::unit_m_messages_test_001 (000100) : Message Warning 100
+---
+*** ERROR unit_m_messages::unit_m_messages_test_001 (000400) : Message error 400
+*** ERROR unit_m_messages::unit_m_messages_test_001 (000300) : Message error 300
+*** ERROR unit_m_messages::unit_m_messages_test_001 (000200) : error 200
+*** ERROR unit_m_messages::unit_m_messages_test_001 (000100) : Message 100
+*** ERROR unit_m_messages::unit_m_messages_test_001 (003009) : Message error 3009
+*** ERROR unit_m_messages::unit_m_messages_test_001 (002009) : error 2009
+*** ERROR unit_m_messages::unit_m_messages_test_001 (001009) : Message 1009
+*** WARNING unit_m_messages::unit_m_messages_test_001 (000200) : Message Warning 200
+*** WARNING unit_m_messages::unit_m_messages_test_001 (000100) : Message Warning 100
+*** WARNING unit_m_messages::unit_m_messages_test_001 (003009) : Message Warning 3009
+*** WARNING unit_m_messages::unit_m_messages_test_001 (002009) : Message Warning 2009
+*** WARNING unit_m_messages::unit_m_messages_test_001 (001009) : Message Warning 1009

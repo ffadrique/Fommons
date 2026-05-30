@@ -81,8 +81,14 @@ program unit_m_messages
 
 ! Create test
   ut = xfunit_unit( name='unit_m_messages_test_003', &
-                    annotation='Message stack overflow (realloc)', &
+                    annotation='Message structure stacking', &
                     executer=unit_m_messages_test_003 )
+  call suite%add_unit_test( ut )
+
+! Create test
+  ut = xfunit_unit( name='unit_m_messages_test_004', &
+                    annotation='Message additional functionality', &
+                    executer=unit_m_messages_test_004 )
   call suite%add_unit_test( ut )
 
 ! Execute tests
