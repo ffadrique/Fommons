@@ -38,7 +38,7 @@
 			<Tool Name="VFPostBuildEventTool"/>
 			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
 		</Configuration>
-		<Configuration Name="Release|x64" UseCompiler="ifortCompiler">
+		<Configuration Name="Release|x64" UseCompiler="ifxCompiler">
 			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
 			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
 			<Tool Name="VFResourceCompilerTool"/>
@@ -56,12 +56,19 @@
 			<File RelativePath="..\m_messages.jxml"/>
 			<File RelativePath=".\unit_m_messages_001.out"/>
 			<File RelativePath="..\reference\unit_m_messages_001.ref"/>
-			<File RelativePath=".\unit_m_messages_002.out"/>
-			<File RelativePath="..\reference\unit_m_messages_002.ref"/>
+			<File RelativePath=".\unit_m_messages_002.out">
+			</File>
+			<File RelativePath="..\reference\unit_m_messages_002.ref">
+			</File>
+			<File RelativePath=".\unit_m_messages_003.out">
+			</File>
+			<File RelativePath="..\reference\unit_m_messages_003.ref"/>
 		</Filter>
 		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
-			<File RelativePath="..\unit_m_messages.f90"/>
-			<File RelativePath="..\unit_m_messages_tests.f90"/>
+			<File RelativePath="..\unit_m_messages.f90">
+			</File>
+			<File RelativePath="..\unit_m_messages_tests.f90">
+			</File>
 		</Filter>
 	</Files>
 	<Globals/>
