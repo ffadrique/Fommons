@@ -413,7 +413,7 @@ pure subroutine messages_stack( this, msgs, insert )
   class(t_messages), intent(inout) :: this
 
 ! The new messages to stack
-  class(t_messages), intent(in) :: msgs
+  class(t_messages), intent(inout) :: msgs
   
 ! Flag to insert the new messages before the existing ones (default: .false.)
   logical, optional, intent(in) :: insert
